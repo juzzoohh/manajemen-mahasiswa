@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700;800&family=JetBrains+Mono:wght@400;700&display=swap');
+
+.hidden {
+    display: none !important;
+}
+
+/* Memastikan layout grid tetap jalan meski CSS belum load sempurna */
+.grid {
+    display: grid;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: #020617; /* Slate 950 Base */
+    color: #e2e8f0; /* Slate 200 Text */
+    
+    /* Background Gradient: Emerald & Teal Nuance */
+    background-image: 
+        radial-gradient(at 0% 0%, hsla(158, 80%, 10%, 1) 0, transparent 50%), 
+        radial-gradient(at 50% 100%, hsla(175, 60%, 15%, 0.4) 0, transparent 50%), 
+        radial-gradient(at 100% 0%, hsla(140, 50%, 20%, 0.3) 0, transparent 50%);
+    
+    background-attachment: fixed; /* Agar background tidak ikut scroll */
+    min-height: 100vh;
+    overflow-x: hidden; /* Mencegah scroll samping */
+}
+
+/* Font Mono untuk Angka/NIM */
+.font-mono {
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.glass {
+    /* Efek Blur Kaca */
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    
+    /* Warna Dasar Transparan (Hijau Sangat Gelap) */
+    background: rgba(2, 44, 34, 0.4); 
+    
+    /* Border Tipis Hijau */
+    border: 1px solid rgba(52, 211, 153, 0.1); 
+    
+    /* Shadow Halus */
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+.input-modern {
+    transition: all 0.3s ease;
+    background: rgba(2, 6, 23, 0.6); /* Gelap transparan */
+    border: 1px solid rgba(52, 211, 153, 0.2); /* Border hijau pudar */
+    color: white;
+}
+
+.input-modern:focus {
+    border-color: #10b981; /* Emerald 500 */
+    box-shadow: 0 0 0 4px rgba(16, 185, 129, 0.1); /* Glow effect */
+    outline: none;
+}
+
+/* Pilihan di Select Option (Biar gak putih norak di browser tertentu) */
+option {
+    background-color: #020617;
+    color: white;
+}
+
+.hover-scale {
+    transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+    cursor: pointer;
+}
+
+.hover-scale:hover {
+    transform: scale(1.02);
+}
+
+.hover-scale:active {
+    transform: scale(0.98);
+}
+
+/* Animasi Floating (Untuk Logo di Landing Page) */
+@keyframes float { 
+    0%, 100% { transform: translateY(0); } 
+    50% { transform: translateY(-20px); } 
+}
+.animate-float { animation: float 6s ease-in-out infinite; }
+
+/* Animasi Pulse (Untuk Background Orbs) */
+@keyframes pulse-slow {
+    0%, 100% { opacity: 1; }
+    50% { opacity: .7; }
+}
+.animate-pulse-slow { animation: pulse-slow 4s cubic-bezier(0.4, 0, 0.6, 1) infinite; }
+
+/* Animasi Loading Bar */
+@keyframes loading { 
+    0% { transform: translateX(-100%); } 
+    100% { transform: translateX(300%); } 
+}
+
+
+dialog {
+    z-index: 9999 !important;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    background: transparent; /* Biar glass effect dari class .glass yang menang */
+    border: none;
+    outline: none;
+    overflow: visible;
+}
+
+dialog::backdrop {
+    background: rgba(0, 20, 10, 0.85); /* Latar belakang gelap hijau saat modal muncul */
+    backdrop-filter: blur(5px);
+    z-index: 9998 !important;
+}
+
+
+/* Lebar Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+/* Track (Jalur) */
+::-webkit-scrollbar-track {
+    background: #020617; 
+}
+
+/* Thumb (Batang Scroll) */
+::-webkit-scrollbar-thumb {
+    background: #059669; /* Emerald 600 */
+    border-radius: 4px;
+}
+
+/* Thumb saat di-hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #10b981; /* Emerald 500 */
+}
+
+/* Khusus Tabel agar scrollbarnya rapi */
+.custom-scrollbar::-webkit-scrollbar {
+    height: 6px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+    background: rgba(0,0,0,0.2);
+    border-radius: 4px;
+}
