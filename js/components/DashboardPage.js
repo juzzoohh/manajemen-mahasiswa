@@ -1,7 +1,7 @@
 export const renderDashboardPage = () => {
     return `
     <section id="view-dashboard" class="hidden min-h-screen w-full">
-        <div class="container mx-auto pt-32 px-6 pb-32 max-w-7xl">
+        <div class="container mx-auto pt-24 px-6 pb-32 max-w-7xl">
             
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
                 
