@@ -43,7 +43,6 @@ export class DataManager {
         localStorage.setItem(this.STORAGE_KEY, JSON.stringify(dataToSave));
     }
 
-    // --- FAKE DELAY (Biar terlihat seperti loading server) ---
     async fakeDelay() {
         const ms = 400 + Math.random() * 600; // Delay 0.4 - 1 detik
         return new Promise(resolve => setTimeout(resolve, ms));

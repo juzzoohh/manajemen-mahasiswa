@@ -3,52 +3,56 @@ import { Algorithms } from './modules/Algorithms.js';
 import { UIManager } from './modules/UIManager.js';
 import { switchView } from './utils.js';
 
-// COMPONENTS
+// IMPORT KOMPONEN UI 
 import { renderNavbar } from './components/Navbar.js';
 import { renderEditModal } from './components/EditModal.js';
 import { renderFooter } from './components/Footer.js';
-import { renderLandingPage } from './components/LandingPage.js';
 import { renderAuthPage } from './components/AuthPage.js';
 import { renderDashboardPage } from './components/DashboardPage.js';
 
-// --- RENDER APP ---
+// --- 1. FUNGSI RENDER APP ---
 function renderApp() {
     document.getElementById('app-navbar').innerHTML = renderNavbar();
     document.getElementById('app-modal').innerHTML = renderEditModal();
     document.getElementById('app-footer').innerHTML = renderFooter();
-    document.getElementById('app-root').innerHTML = `
-        ${renderLandingPage()}
+
+    // Inject Halaman Utama 
+    const root = document.getElementById('app-root');
+    root.innerHTML = `
         ${renderAuthPage()}
         ${renderDashboardPage()}
     `;
 }
+
 renderApp();
 
-// --- INIT LOGIC ---
+// --- 2. INISIALISASI LOGIC ---
 const db = new DataManager();
 const ui = new UIManager(db);
 
 document.addEventListener('DOMContentLoaded', async () => {
     await db.init();
 
-    // AUTH CHECK
+    // LOGIKA LOGIN 
     if (!localStorage.getItem('isLoggedIn')) {
-        const tl = gsap.timeline({ onComplete: () => switchView('view-auth') });
-        tl.to('.intro-el', { opacity: 1, y: 0, duration: 1.5, stagger: 0.2, ease: "power3.out" })
-          .to('.intro-el', { opacity: 0, scale: 0.95, duration: 1, stagger: 0.1, delay: 1.5, ease: "power2.in" });
+        // Belum Login -> Langsung ke Auth
+        switchView('view-auth');
     } else {
-        document.getElementById('view-landing').classList.add('hidden');
+        // Sudah Login -> Langsung ke Dashboard
         switchView('view-dashboard');
         ui.refreshDashboard();
     }
 
-    // --- EVENT LISTENERS ---
+    // ===============================================
+    // EVENT LISTENERS
+    // ===============================================
 
     // 1. LOGIN
     document.getElementById('form-login').addEventListener('submit', (e) => {
         e.preventDefault();
         const u = document.getElementById('login-user').value;
         const p = document.getElementById('login-pass').value;
+        
         if (u === 'admin' && p === 'admin123') {
             localStorage.setItem('isLoggedIn', 'true');
             switchView('view-dashboard');
@@ -60,13 +64,15 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     // 2. LOGOUT
     const btnLogout = document.getElementById('btn-logout');
-    if(btnLogout) btnLogout.addEventListener('click', () => {
-        localStorage.removeItem('isLoggedIn');
-        switchView('view-auth');
-        ui.showToast('Berhasil Logout', 'green');
-    });
+    if(btnLogout) {
+        btnLogout.addEventListener('click', () => {
+            localStorage.removeItem('isLoggedIn');
+            switchView('view-auth');
+            ui.showToast('Berhasil Logout', 'green');
+        });
+    }
 
-    // 3. LOGO REFRESH
+    // 3. LOGO CLICK
     const logoTrigger = document.querySelector('.logo-trigger');
     if(logoTrigger) logoTrigger.addEventListener('click', () => window.location.reload());
 
@@ -84,7 +90,36 @@ document.addEventListener('DOMContentLoaded', async () => {
         });
     }
 
-    // 5. ADD DATA (DENGAN REGEX & LOADING)
+    // 5. SORTING
+    const handleSort = (algo) => {
+        const key = document.getElementById('sort-key').value;
+        const order = document.getElementById('sort-order').value;
+        const start = performance.now();
+        let sortedData = (algo === 'bubble') 
+            ? Algorithms.bubbleSort(db.data, key, order) 
+            : Algorithms.shellSort(db.data, key, order);
+        const end = performance.now();
+        ui.renderTable(sortedData, end - start);
+    };
+
+    document.getElementById('btn-bubble').addEventListener('click', () => handleSort('bubble'));
+    document.getElementById('btn-shell').addEventListener('click', () => handleSort('shell'));
+
+    // 6. SEARCHING
+    document.getElementById('btn-search').addEventListener('click', () => {
+        const query = document.getElementById('search-input').value;
+        const algo = document.getElementById('search-algo').value;
+        const col = document.getElementById('search-column').value;
+        if(!query) { ui.refreshDashboard(); return; }
+        const start = performance.now();
+        let result = (algo === 'linear') 
+            ? Algorithms.linearSearch(db.data, col, query) 
+            : Algorithms.binarySearch(db.data, col, query);
+        const end = performance.now();
+        ui.renderTable(result, end - start);
+    });
+
+    // 7. ADD DATA
     document.getElementById('form-add').addEventListener('submit', async (e) => {
         e.preventDefault();
         
@@ -93,24 +128,14 @@ document.addEventListener('DOMContentLoaded', async () => {
         const jurusan = document.getElementById('add-jurusan').value;
         const ipk = document.getElementById('add-ipk').value;
 
-        // --- VALIDASI REGEX (SYARAT DOSEN) ---
-        if (!/^[0-9]+$/.test(nim)) {
-            ui.showToast('NIM harus berupa angka!', 'red');
-            return;
-        }
-        if (!/^[a-zA-Z\s\.]+$/.test(nama)) {
-            ui.showToast('Nama hanya boleh huruf!', 'red');
-            return;
-        }
-        if (parseFloat(ipk) < 0 || parseFloat(ipk) > 4.00) {
-            ui.showToast('IPK tidak valid (0-4.00)', 'red');
-            return;
-        }
+        // Validasi Regex
+        if (!/^[0-9]+$/.test(nim)) { ui.showToast('NIM harus angka!', 'red'); return; }
+        if (!/^[a-zA-Z\s\.]+$/.test(nama)) { ui.showToast('Nama harus huruf!', 'red'); return; }
+        if (parseFloat(ipk) < 0 || parseFloat(ipk) > 4.00) { ui.showToast('IPK tidak valid!', 'red'); return; }
 
-        // Loading UI
         const btn = e.target.querySelector('button');
         const originalText = btn.innerHTML;
-        btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Menyimpan...';
+        btn.innerHTML = 'Menyimpan...';
         btn.disabled = true;
         document.body.style.cursor = 'wait';
 
@@ -128,11 +153,9 @@ document.addEventListener('DOMContentLoaded', async () => {
         }
     });
 
-    // 6. EDIT DATA
+    // 8. EDIT DATA
     document.getElementById('form-edit').addEventListener('submit', async (e) => {
         e.preventDefault();
-        
-        // Loading UI
         const btn = e.target.querySelector('button');
         const originalText = btn.innerText;
         btn.innerText = "Updating...";
@@ -153,41 +176,12 @@ document.addEventListener('DOMContentLoaded', async () => {
         } else {
             ui.showToast('Gagal update data', 'red');
         }
-
         btn.innerText = originalText;
         btn.disabled = false;
         document.body.style.cursor = 'default';
     });
 
-    // 7. SORTING & SEARCHING
-    const handleSort = (algo) => {
-        const key = document.getElementById('sort-key').value;
-        const order = document.getElementById('sort-order').value;
-        const start = performance.now();
-        let sortedData = (algo === 'bubble') 
-            ? Algorithms.bubbleSort(db.data, key, order) 
-            : Algorithms.shellSort(db.data, key, order);
-        const end = performance.now();
-        ui.renderTable(sortedData, end - start);
-    };
-
-    document.getElementById('btn-bubble').addEventListener('click', () => handleSort('bubble'));
-    document.getElementById('btn-shell').addEventListener('click', () => handleSort('shell'));
-
-    document.getElementById('btn-search').addEventListener('click', () => {
-        const query = document.getElementById('search-input').value;
-        const algo = document.getElementById('search-algo').value;
-        const col = document.getElementById('search-column').value;
-        if(!query) { ui.refreshDashboard(); return; }
-        const start = performance.now();
-        let result = (algo === 'linear') 
-            ? Algorithms.linearSearch(db.data, col, query) 
-            : Algorithms.binarySearch(db.data, col, query);
-        const end = performance.now();
-        ui.renderTable(result, end - start);
-    });
-
-    // 8. OTHERS
+    // 9. OTHERS
     const btnReset = document.querySelector('.reset-table-trigger');
     if(btnReset) btnReset.addEventListener('click', () => ui.refreshDashboard());
 

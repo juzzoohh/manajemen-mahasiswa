@@ -14,7 +14,6 @@ body {
     background-color: #020617; /* Slate 950 Base */
     color: #e2e8f0; /* Slate 200 Text */
     
-    /* Background Gradient: Emerald & Teal Nuance */
     background-image: 
         radial-gradient(at 0% 0%, hsla(158, 80%, 10%, 1) 0, transparent 50%), 
         radial-gradient(at 50% 100%, hsla(175, 60%, 15%, 0.4) 0, transparent 50%), 
