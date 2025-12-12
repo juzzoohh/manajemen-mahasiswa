@@ -1,13 +1,13 @@
 export const renderDashboardPage = () => {
-  return `
+    return `
     <section id="view-dashboard" class="hidden min-h-screen w-full">
         <div class="container mx-auto pt-32 px-6 pb-32 max-w-7xl">
             
             <input type="file" id="json-upload" accept=".json" class="hidden">
 
-            <div class="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
+            <div class="grid grid-cols-1 md:grid-cols-5 gap-4 mb-8">
                 
-                <div class="glass p-6 rounded-[24px] flex items-center gap-4 relative overflow-hidden">
+                <div class="glass p-6 rounded-[24px] flex items-center gap-4 relative overflow-hidden md:col-span-1">
                     <div class="w-12 h-12 rounded-xl bg-teal-500/10 text-teal-500 flex items-center justify-center text-2xl">
                         <i class="fa-solid fa-users"></i>
                     </div>
@@ -17,7 +17,7 @@ export const renderDashboardPage = () => {
                     </div>
                 </div>
                 
-                <div class="glass p-6 rounded-[24px] flex items-center gap-4 relative overflow-hidden">
+                <div class="glass p-6 rounded-[24px] flex items-center gap-4 relative overflow-hidden md:col-span-1">
                     <div class="w-12 h-12 rounded-xl bg-lime-500/10 text-lime-500 flex items-center justify-center text-2xl">
                         <i class="fa-solid fa-stopwatch"></i>
                     </div>
@@ -27,19 +27,27 @@ export const renderDashboardPage = () => {
                     </div>
                 </div>
 
-                <div class="glass p-1 rounded-[24px] flex items-center justify-center relative overflow-hidden group cursor-pointer import-trigger hover:bg-cyan-500/10 transition">
+                <div class="glass p-1 rounded-[24px] flex items-center justify-center relative overflow-hidden group cursor-pointer import-trigger hover:bg-cyan-500/10 transition md:col-span-1">
                     <div class="flex flex-col items-center justify-center p-4 text-center z-10">
                         <i class="fa-solid fa-file-import text-xl text-cyan-500 mb-1 group-hover:scale-110 transition"></i>
                         <h3 class="font-bold text-xs text-cyan-50">Import JSON</h3>
-                        <p class="text-[8px] text-cyan-400/70">Upload File Lokal</p>
+                        <p class="text-[8px] text-cyan-400/70">Upload Database</p>
                     </div>
                 </div>
-
-                <div class="glass p-1 rounded-[24px] flex items-center justify-center relative overflow-hidden group cursor-pointer export-trigger hover:bg-blue-500/10 transition">
+                
+                <div class="glass p-1 rounded-[24px] flex items-center justify-center relative overflow-hidden group cursor-pointer export-json-trigger hover:bg-blue-500/10 transition md:col-span-1">
                     <div class="flex flex-col items-center justify-center p-4 text-center z-10">
                         <i class="fa-solid fa-file-export text-xl text-blue-500 mb-1 group-hover:scale-110 transition"></i>
                         <h3 class="font-bold text-xs text-blue-50">Export JSON</h3>
-                        <p class="text-[8px] text-blue-400/70">Download Backup</p>
+                        <p class="text-[8px] text-blue-400/70">Backup (JSON)</p>
+                    </div>
+                </div>
+
+                <div class="glass p-1 rounded-[24px] flex items-center justify-center relative overflow-hidden group cursor-pointer export-pdf-trigger hover:bg-red-500/10 transition md:col-span-1">
+                    <div class="flex flex-col items-center justify-center p-4 text-center z-10">
+                        <i class="fa-solid fa-file-pdf text-xl text-red-500 mb-1 group-hover:scale-110 transition"></i>
+                        <h3 class="font-bold text-xs text-red-500">Export PDF</h3>
+                        <p class="text-[8px] text-red-400/70">Laporan (A-Z)</p>
                     </div>
                 </div>
 
@@ -73,7 +81,8 @@ export const renderDashboardPage = () => {
                             <div class="grid grid-cols-2 gap-4">
                                 <select id="search-algo" class="input-modern w-full p-3 rounded-xl text-xs font-bold cursor-pointer">
                                     <option value="linear">Linear Search</option>
-                                    <option value="sequential">Sequential Search</option> <option value="binary">Binary Search</option>
+                                    <option value="sequential">Sequential Search</option>
+                                    <option value="binary">Binary Search</option>
                                 </select>
                                 <select id="search-column" class="input-modern w-full p-3 rounded-xl text-xs font-bold cursor-pointer">
                                     <option value="nama">Nama</option>

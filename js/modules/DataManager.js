@@ -22,6 +22,7 @@ export class DataManager {
         try {
             const response = await fetch('./database.json');
             if (!response.ok) throw new Error("Gagal koneksi ke database fisik");
+            
             const rawData = await response.json();
             this.data = rawData.map(d => new Mahasiswa(d.nama, d.nim, d.jurusan, d.ipk));
             this.save();
@@ -41,19 +42,16 @@ export class DataManager {
         return new Promise(resolve => setTimeout(resolve, ms));
     }
 
-    // --- FITUR BARU: EXPORT ---
-    exportData() {
+    // --- NEW FEATURE: EXPORT KE JSON ---
+    exportToJSON() {
         if(this.data.length === 0) throw new Error("Tidak ada data untuk diexport!");
         
-        // Convert data OOP ke JSON string
         const rawData = this.data.map(mhs => mhs.toJSON());
         const dataStr = JSON.stringify(rawData, null, 4);
         
-        // Bikin File Virtual
         const blob = new Blob([dataStr], { type: "application/json" });
         const url = URL.createObjectURL(blob);
         
-        // Auto Click Download
         const a = document.createElement('a');
         a.href = url;
         a.download = `backup_mahasiswa_${new Date().toISOString().slice(0,10)}.json`;
@@ -62,8 +60,55 @@ export class DataManager {
         document.body.removeChild(a);
         URL.revokeObjectURL(url);
     }
+    
+    // --- NEW FEATURE: EXPORT KE PDF (DENGAN SORTING NAMA A-Z) ---
+    exportToPDF() {
+        if (this.data.length === 0) throw new Error("Tidak ada data untuk diexport ke PDF!");
 
-    // --- FITUR BARU: IMPORT ---
+        // 1. Pengurutan A-Z berdasarkan Nama (Syarat Dosen)
+        const sortedData = [...this.data].sort((a, b) => {
+            if (a.nama < b.nama) return -1;
+            if (a.nama > b.nama) return 1;
+            return 0;
+        });
+
+        // 2. Persiapan Data untuk Tabel
+        const finalData = sortedData.map(mhs => [
+            mhs.nama,
+            mhs.nim,
+            mhs.jurusan,
+            mhs.ipk.toFixed(2)
+        ]);
+
+        // 3. Inisialisasi jsPDF
+        const { jsPDF } = window.jspdf;
+        const doc = new jsPDF();
+        
+        // 4. Header dan Judul
+        doc.setFontSize(18);
+        doc.text("Laporan Data Mahasiswa", 14, 22);
+        doc.setFontSize(10);
+        doc.text(`Total Data: ${this.data.length}`, 14, 28);
+        doc.text(`Waktu Laporan: ${new Date().toLocaleString('id-ID')}`, 14, 34);
+
+        // 5. Buat Tabel
+        doc.autoTable({
+            startY: 40,
+            head: [['NAMA LENGKAP', 'NIM', 'JURUSAN', 'IPK']],
+            body: finalData,
+            theme: 'striped',
+            headStyles: { 
+                fillColor: [16, 185, 129], // Emerald Hijau
+                textColor: 255 
+            },
+            styles: { fontSize: 8, cellPadding: 2 }
+        });
+
+        // 6. Download File
+        doc.save(`Laporan_Mahasiswa_Sorted_AZ.pdf`);
+    }
+
+    // --- IMPORT DATA ---
     importData(file) {
         return new Promise((resolve, reject) => {
             const reader = new FileReader();
@@ -71,15 +116,10 @@ export class DataManager {
             reader.onload = (e) => {
                 try {
                     const json = JSON.parse(e.target.result);
-                    
-                    // Validasi sederhana: Cek apakah array
                     if(!Array.isArray(json)) throw new Error("Format JSON salah (Harus Array)");
-
-                    // Convert ke OOP Mahasiswa
                     this.data = json.map(d => new Mahasiswa(d.nama, d.nim, d.jurusan, d.ipk));
-                    
-                    this.save(); // Simpan ke browser
-                    resolve(this.data.length); // Sukses
+                    this.save();
+                    resolve(this.data.length);
                 } catch (err) {
                     reject("File corrupt atau bukan format Database Mahasiswa!");
                 }

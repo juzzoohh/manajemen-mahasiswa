@@ -7,7 +7,7 @@ import { switchView } from './utils.js';
 import { renderNavbar } from './components/Navbar.js';
 import { renderEditModal } from './components/EditModal.js';
 import { renderFooter } from './components/Footer.js';
-import { renderAuthPage } from './components/AuthPage.js'; // Landing dihapus, Auth jadi utama
+import { renderAuthPage } from './components/AuthPage.js';
 import { renderDashboardPage } from './components/DashboardPage.js';
 
 // RENDER APP
@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     await db.init();
 
     if (!localStorage.getItem('isLoggedIn')) {
-        switchView('view-auth'); 
+        switchView('view-auth');
     } else {
         switchView('view-dashboard');
         ui.refreshDashboard();
@@ -38,20 +38,33 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     // --- EVENT LISTENERS ---
 
-    // 1. HANDLER EXPORT
-    const btnExport = document.querySelector('.export-trigger');
-    if(btnExport) {
-        btnExport.addEventListener('click', () => {
+    // 1. HANDLER EXPORT JSON
+    const btnExportJson = document.querySelector('.export-json-trigger');
+    if(btnExportJson) {
+        btnExportJson.addEventListener('click', () => {
             try {
-                db.exportData();
-                ui.showToast('Database berhasil diexport!', 'blue');
+                db.exportToJSON(); // Panggil fungsi JSON
+                ui.showToast('Database berhasil diexport (JSON)!', 'blue');
             } catch(e) {
                 ui.showToast(e.message, 'red');
             }
         });
     }
 
-    // 2. HANDLER IMPORT
+    // 2. HANDLER EXPORT PDF
+    const btnExportPdf = document.querySelector('.export-pdf-trigger');
+    if(btnExportPdf) {
+        btnExportPdf.addEventListener('click', () => {
+            try {
+                db.exportToPDF(); // Panggil fungsi PDF
+                ui.showToast('Laporan berhasil dicetak (PDF)!', 'red');
+            } catch(e) {
+                ui.showToast(e.message, 'red');
+            }
+        });
+    }
+
+    // 3. HANDLER IMPORT
     const btnImport = document.querySelector('.import-trigger');
     const fileInput = document.getElementById('json-upload'); 
 
@@ -75,7 +88,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             }
         });
     }
-
+    
     // LOGIN
     document.getElementById('form-login').addEventListener('submit', (e) => {
         e.preventDefault();
@@ -111,7 +124,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     document.getElementById('btn-bubble').addEventListener('click', () => handleSort('bubble'));
     document.getElementById('btn-shell').addEventListener('click', () => handleSort('shell'));
 
-    // SEARCH (UPDATED FOR SEQUENTIAL)
+    // SEARCH
     document.getElementById('btn-search').addEventListener('click', () => {
         const query = document.getElementById('search-input').value;
         const algo = document.getElementById('search-algo').value;
@@ -132,7 +145,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         ui.renderTable(result, end - start);
     });
 
-    // RESET TABLE
+    // RESET TABLE VIEW
     const btnReset = document.querySelector('.reset-table-trigger');
     if(btnReset) btnReset.addEventListener('click', () => ui.refreshDashboard());
 
