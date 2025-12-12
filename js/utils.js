@@ -1,5 +1,4 @@
 export const switchView = (viewName) => {
-    // HAPUS 'view-landing' DARI LIST INI
     const views = ['view-auth', 'view-dashboard'];
     
     views.forEach(id => {
@@ -15,11 +14,9 @@ export const switchView = (viewName) => {
     const target = document.getElementById(viewName);
     if(target) {
         target.classList.remove('hidden');
-        // Animasi Masuk Simple
         gsap.fromTo(target, {opacity: 0, y: 10}, {opacity: 1, y: 0, duration: 0.4, clearProps: "all"});
     }
 
-    // Khusus Dashboard: Munculkan Navbar
     if(viewName === 'view-dashboard' && navbar) {
         navbar.classList.remove('hidden');
         gsap.fromTo(navbar, {y: -50, opacity: 0}, {y: 0, opacity: 1, duration: 0.5, delay: 0.1, clearProps: "all"});

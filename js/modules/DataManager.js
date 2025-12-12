@@ -42,7 +42,7 @@ export class DataManager {
         return new Promise(resolve => setTimeout(resolve, ms));
     }
 
-    // --- NEW FEATURE: EXPORT KE JSON ---
+    // --- EXPORT KE JSON ---
     exportToJSON() {
         if(this.data.length === 0) throw new Error("Tidak ada data untuk diexport!");
         
@@ -61,7 +61,7 @@ export class DataManager {
         URL.revokeObjectURL(url);
     }
     
-    // --- NEW FEATURE: EXPORT KE PDF (DENGAN SORTING NAMA A-Z) ---
+    // --- EXPORT KE PDF (DENGAN SORTING NAMA A-Z) ---
     exportToPDF() {
         if (this.data.length === 0) throw new Error("Tidak ada data untuk diexport ke PDF!");
 

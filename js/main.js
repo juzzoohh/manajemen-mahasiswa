@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         btnExportPdf.addEventListener('click', () => {
             try {
                 db.exportToPDF(); // Panggil fungsi PDF
-                ui.showToast('Laporan berhasil dicetak (PDF)!', 'red');
+                ui.showToast('Laporan berhasil dicetak (PDF)!', 'green');
             } catch(e) {
                 ui.showToast(e.message, 'red');
             }
