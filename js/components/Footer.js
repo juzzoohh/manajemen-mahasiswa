@@ -12,7 +12,7 @@ export const renderFooter = () => {
 
             <div class="flex items-center gap-6">
                 
-                <a href="https://instagram.com/sanrozi" target="_blank" class="group flex items-center gap-2 text-slate-500 hover:text-pink-500 transition-all duration-300">
+                <a href="https://instagram.com/sanrozii" target="_blank" class="group flex items-center gap-2 text-slate-500 hover:text-pink-500 transition-all duration-300">
                     <i class="fa-brands fa-instagram text-lg group-hover:scale-110 group-hover:drop-shadow-[0_0_8px_rgba(236,72,153,0.5)] transition-transform"></i>
                     <span class="text-[10px] font-bold uppercase tracking-widest opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300 w-0 group-hover:w-auto overflow-hidden">Instagram</span>
                 </a>
