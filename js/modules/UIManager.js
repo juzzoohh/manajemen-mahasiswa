@@ -206,4 +206,41 @@ export class UIManager {
             gsap.to(div, {x: 200, opacity: 0, duration: 0.4, onComplete: () => div.remove()});
         }, 3000);
     }
+
+    toggleLoading(show, msg = 'Memproses...') {
+        let overlay = document.getElementById('loading-overlay');
+        
+        if (!overlay) {
+            overlay = document.createElement('div');
+            overlay.id = 'loading-overlay';
+            overlay.className = 'fixed inset-0 z-[99999] bg-black/60 backdrop-blur-sm flex flex-col items-center justify-center hidden opacity-0 transition-opacity duration-300';
+            overlay.innerHTML = `
+                <div class="glass p-8 rounded-3xl flex flex-col items-center gap-4 shadow-2xl scale-90 transition-transform duration-300 transform">
+                    <i class="fa-solid fa-circle-notch fa-spin text-4xl text-emerald-500"></i>
+                    <h3 class="font-bold text-lg tracking-wide" id="loading-text" style="color: var(--text-main);">Memproses...</h3>
+                </div>
+            `;
+            document.body.appendChild(overlay);
+        }
+
+        const textEl = document.getElementById('loading-text');
+        if (show) {
+            if(textEl) textEl.innerText = msg;
+            overlay.classList.remove('hidden');
+            // Little delay to allow display block to apply before opacity transition
+            requestAnimationFrame(() => {
+                overlay.classList.remove('opacity-0');
+                overlay.querySelector('div').classList.remove('scale-90');
+                overlay.querySelector('div').classList.add('scale-100');
+            });
+        } else {
+            overlay.classList.add('opacity-0');
+            overlay.querySelector('div').classList.add('scale-90');
+            overlay.querySelector('div').classList.remove('scale-100');
+            
+            setTimeout(() => {
+                overlay.classList.add('hidden');
+            }, 300);
+        }
+    }
 }

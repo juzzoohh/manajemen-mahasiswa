@@ -139,21 +139,29 @@ document.addEventListener('DOMContentLoaded', async () => {
     });
 
     // SORTING
-    const handleSort = (algo) => {
+    const handleSort = async (algo) => { 
         const key = document.getElementById('sort-key').value;
         const order = document.getElementById('sort-order').value;
+        
+        // Show Loading
+        ui.toggleLoading(true, 'Mengurutkan Data...');
+        
+        await new Promise(r => setTimeout(r, 600));
+
         const start = performance.now();
         let sortedData = (algo === 'bubble') 
             ? Algorithms.bubbleSort(db.data, key, order) 
             : Algorithms.shellSort(db.data, key, order);
         const end = performance.now();
         ui.renderTable(sortedData, end - start);
+        
+        ui.toggleLoading(false);
     };
     document.getElementById('btn-bubble').addEventListener('click', () => handleSort('bubble'));
     document.getElementById('btn-shell').addEventListener('click', () => handleSort('shell'));
 
     // SEARCH
-    document.getElementById('btn-search').addEventListener('click', () => {
+    document.getElementById('btn-search').addEventListener('click', async () => {
         const query = document.getElementById('search-input').value;
         const algo = document.getElementById('search-algo').value;
         const col = document.getElementById('search-column').value;
@@ -174,6 +182,10 @@ document.addEventListener('DOMContentLoaded', async () => {
         }
         // ---------------------------
 
+        // SHOW LOADING
+        ui.toggleLoading(true, 'Mencari Data...');
+        await new Promise(r => setTimeout(r, 600)); // UX Delay
+
         const start = performance.now();
         
         let result = [];
@@ -187,6 +199,8 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         const end = performance.now();
         ui.renderTable(result, end - start);
+
+        ui.toggleLoading(false);
     });
 
     // RESET TABLE VIEW
@@ -229,11 +243,13 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         const btn = e.target.querySelector('button');
         const originalText = btn.innerHTML;
-        btn.innerHTML = 'Menyimpan...';
         btn.disabled = true;
-        document.body.style.cursor = 'wait';
+        
+        // Show Global Loader
+        ui.toggleLoading(true, 'Menyimpan Data...');
 
         try {
+            await new Promise(r => setTimeout(r, 800)); // Simulate network delay
             await db.add({ nama, nim, jurusan, ipk });
             ui.showToast('Data berhasil disimpan ke Server', 'green');
             ui.refreshDashboard();
@@ -242,25 +258,54 @@ document.addEventListener('DOMContentLoaded', async () => {
         finally {
             btn.innerHTML = originalText;
             btn.disabled = false;
-            document.body.style.cursor = 'default';
+            ui.toggleLoading(false);
         }
     });
 
     document.getElementById('form-edit').addEventListener('submit', async (e) => {
         e.preventDefault();
+        
+        const namaBaru = document.getElementById('edit-nama').value;
+        const oldNim = document.getElementById('edit-old-nim').value;
+        const jurusanBaru = document.getElementById('edit-jurusan').value;
+        const ipkBaru = parseFloat(document.getElementById('edit-ipk').value);
+
+        // --- VALIDATION (SAMA SEPERTI ADD) ---
+        // 1. Check Name (letters, spaces, dots)
+        if (!/^[a-zA-Z\s\.]+$/.test(namaBaru)) { 
+            ui.showToast('Nama hanya boleh mengandung huruf, spasi, dan titik!', 'red'); 
+            return; 
+        }
+        
+        // 2. Check Name has at least 2 words
+        const words = namaBaru.trim().split(/\s+/).filter(word => word.length > 0);
+        if(words.length < 2) {
+            alert('Masukkan Nama Lengkap (Minimal 2 kata)!');
+            ui.showToast('Masukkan Nama Lengkap (Minimal 2 kata)!', 'red');
+            return;
+        }
+
+        // 3. Check IPK range
+        if (ipkBaru < 0 || ipkBaru > 4.00) { 
+            ui.showToast('IPK tidak valid (Max 4.00)!', 'red'); 
+            return; 
+        }
+        // -------------------------------------
+
         const btn = e.target.querySelector('button');
         const originalText = btn.innerText;
-        btn.innerText = "Updating...";
         btn.disabled = true;
-        document.body.style.cursor = 'wait';
+        
+        ui.toggleLoading(true, 'Mengupdate Data...');
 
-        const oldNim = document.getElementById('edit-old-nim').value;
         const newData = {
-            nama: document.getElementById('edit-nama').value,
-            jurusan: document.getElementById('edit-jurusan').value,
-            ipk: parseFloat(document.getElementById('edit-ipk').value)
+            nama: namaBaru,
+            jurusan: jurusanBaru,
+            ipk: ipkBaru
         };
         
+        await new Promise(r => setTimeout(r, 800)); 
+
         if(await db.update(oldNim, newData)) {
             ui.showToast('Data Berhasil Diupdate', 'green');
             ui.refreshDashboard();
@@ -270,7 +315,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         }
         btn.innerText = originalText;
         btn.disabled = false;
-        document.body.style.cursor = 'default';
+        ui.toggleLoading(false);
     });
 
     const btnCloseModal = document.getElementById('btn-close-modal');
