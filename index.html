@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manajemen Mahasiswa</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = { darkMode: 'class', theme: { extend: { colors: { primary: '#10b981', secondary: '#14b8a6', darkbg: '#020617' } } } }
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.29/jspdf.plugin.autotable.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="text-slate-200">
+    <div id="toast-container" class="fixed top-6 left-6 z-[10000]"></div>
+
+    <div id="app-navbar"></div>
+    
+    <main id="app-root">
+        </main>
+
+    <div id="app-modal"></div>
+
+    <div id="app-footer"></div>
+
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>

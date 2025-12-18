@@ -1,0 +1,6020 @@
+[
+    {
+        "nama": "Dewi Pratama",
+        "nim": "2410687368",
+        "jurusan": "Akuntansi",
+        "ipk": 2.8
+    },
+    {
+        "nama": "Nur Hidayat",
+        "nim": "2410890743",
+        "jurusan": "Sastra Inggris",
+        "ipk": 2.67
+    },
+    {
+        "nama": "Hana Susanti",
+        "nim": "241021284041",
+        "jurusan": "Manajemen",
+        "ipk": 3.93
+    },
+    {
+        "nama": "Xena Kurniawan",
+        "nim": "2410523510587",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.99
+    },
+    {
+        "nama": "Fajar Suharto",
+        "nim": "2410789178442",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.65
+    },
+    {
+        "nama": "Umar Kusuma",
+        "nim": "24106810828",
+        "jurusan": "Teknik Informatika",
+        "ipk": 2.76
+    },
+    {
+        "nama": "Adi Lestari",
+        "nim": "2410332127",
+        "jurusan": "Manajemen",
+        "ipk": 3.04
+    },
+    {
+        "nama": "Dinda Nugroho",
+        "nim": "241053008583",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.58
+    },
+    {
+        "nama": "Rina Permata",
+        "nim": "2410246859",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.1
+    },
+    {
+        "nama": "Rina Kusuma",
+        "nim": "2410091391636",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.54
+    },
+    {
+        "nama": "Lia Nugroho",
+        "nim": "241022181016",
+        "jurusan": "Akuntansi",
+        "ipk": 3.88
+    },
+    {
+        "nama": "Citra Yuliana",
+        "nim": "2410624149",
+        "jurusan": "Sistem Informasi",
+        "ipk": 2.67
+    },
+    {
+        "nama": "Made Putri",
+        "nim": "24101155806",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.98
+    },
+    {
+        "nama": "Opik Kusuma",
+        "nim": "241009383443",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.99
+    },
+    {
+        "nama": "Made Susanti",
+        "nim": "2410110786142",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.71
+    },
+    {
+        "nama": "Rina Putra",
+        "nim": "24105166299",
+        "jurusan": "Manajemen",
+        "ipk": 3.97
+    },
+    {
+        "nama": "Hana Sanjaya",
+        "nim": "2410322497054",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.15
+    },
+    {
+        "nama": "Bambang Putri",
+        "nim": "2410578508432",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.26
+    },
+    {
+        "nama": "Rina Permata",
+        "nim": "24106954945",
+        "jurusan": "Akuntansi",
+        "ipk": 2.74
+    },
+    {
+        "nama": "Opik Yuliana",
+        "nim": "24104355447",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.45
+    },
+    {
+        "nama": "Cahyo Sanjaya",
+        "nim": "24101600244",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.47
+    },
+    {
+        "nama": "Dewi Sanjaya",
+        "nim": "24100787138",
+        "jurusan": "Manajemen",
+        "ipk": 2.67
+    },
+    {
+        "nama": "Indra Permata",
+        "nim": "24100027547",
+        "jurusan": "Sastra Inggris",
+        "ipk": 2.71
+    },
+    {
+        "nama": "Hana Wibowo",
+        "nim": "2410430322259",
+        "jurusan": "Akuntansi",
+        "ipk": 2.62
+    },
+    {
+        "nama": "Nur Permata",
+        "nim": "24101023020",
+        "jurusan": "Teknik Elektro",
+        "ipk": 2.81
+    },
+    {
+        "nama": "Rina Santoso",
+        "nim": "2410548878",
+        "jurusan": "Teknik Informatika",
+        "ipk": 2.74
+    },
+    {
+        "nama": "Citra Wibowo",
+        "nim": "241008570428",
+        "jurusan": "Manajemen",
+        "ipk": 3.04
+    },
+    {
+        "nama": "Wawan Wulandari",
+        "nim": "2410838879673",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.14
+    },
+    {
+        "nama": "Made Setiawan",
+        "nim": "2410398788",
+        "jurusan": "Teknik Elektro",
+        "ipk": 2.76
+    },
+    {
+        "nama": "Indra Sanjaya",
+        "nim": "2410084502",
+        "jurusan": "Manajemen",
+        "ipk": 2.9
+    },
+    {
+        "nama": "Bambang Permata",
+        "nim": "2410705719735",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.11
+    },
+    {
+        "nama": "Dewi Santoso",
+        "nim": "2410435244",
+        "jurusan": "Sastra Inggris",
+        "ipk": 2.9
+    },
+    {
+        "nama": "Putri Yuliana",
+        "nim": "24106326830",
+        "jurusan": "Akuntansi",
+        "ipk": 3.91
+    },
+    {
+        "nama": "Agus Hidayat",
+        "nim": "24109290318",
+        "jurusan": "Teknik Elektro",
+        "ipk": 2.67
+    },
+    {
+        "nama": "Umar Wulandari",
+        "nim": "2410914046",
+        "jurusan": "Hukum",
+        "ipk": 2.81
+    },
+    {
+        "nama": "Putri Suharto",
+        "nim": "241027455445",
+        "jurusan": "Akuntansi",
+        "ipk": 3.17
+    },
+    {
+        "nama": "Nur Hidayat",
+        "nim": "241047533772",
+        "jurusan": "Manajemen",
+        "ipk": 2.55
+    },
+    {
+        "nama": "Lia Saputra",
+        "nim": "24103687979",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.79
+    },
+    {
+        "nama": "Made Susanti",
+        "nim": "2410384840",
+        "jurusan": "Akuntansi",
+        "ipk": 2.74
+    },
+    {
+        "nama": "Citra Putra",
+        "nim": "2410289507443",
+        "jurusan": "Hukum",
+        "ipk": 2.78
+    },
+    {
+        "nama": "Lia Sanjaya",
+        "nim": "241007053693",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.13
+    },
+    {
+        "nama": "Agus Wibowo",
+        "nim": "2410594006279",
+        "jurusan": "Manajemen",
+        "ipk": 3.06
+    },
+    {
+        "nama": "Umar Setiawan",
+        "nim": "2410825125",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.59
+    },
+    {
+        "nama": "Zainal Sanjaya",
+        "nim": "24100069377",
+        "jurusan": "Akuntansi",
+        "ipk": 3.14
+    },
+    {
+        "nama": "Opik Hidayat",
+        "nim": "24108102623",
+        "jurusan": "Manajemen",
+        "ipk": 2.84
+    },
+    {
+        "nama": "Nur Pratama",
+        "nim": "2410559426",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.77
+    },
+    {
+        "nama": "Vina Susanti",
+        "nim": "2410386128",
+        "jurusan": "Akuntansi",
+        "ipk": 3.93
+    },
+    {
+        "nama": "Dewi Hidayat",
+        "nim": "2410729420877",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.36
+    },
+    {
+        "nama": "Lia Hidayat",
+        "nim": "2410728419001",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.57
+    },
+    {
+        "nama": "Agus Setiawan",
+        "nim": "2410077722697",
+        "jurusan": "Akuntansi",
+        "ipk": 3.7
+    },
+    {
+        "nama": "Putri Setiawan",
+        "nim": "2410682231465",
+        "jurusan": "Manajemen",
+        "ipk": 3.96
+    },
+    {
+        "nama": "Qori Kurniawan",
+        "nim": "241010360265",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.29
+    },
+    {
+        "nama": "Citra Wibowo",
+        "nim": "2410776371",
+        "jurusan": "Manajemen",
+        "ipk": 3.48
+    },
+    {
+        "nama": "Opik Hidayat",
+        "nim": "2410064845460",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.35
+    },
+    {
+        "nama": "Qori Kusuma",
+        "nim": "241033405713",
+        "jurusan": "Hukum",
+        "ipk": 3.31
+    },
+    {
+        "nama": "Vina Wibowo",
+        "nim": "241021497687",
+        "jurusan": "Hukum",
+        "ipk": 2.77
+    },
+    {
+        "nama": "Vina Setiawan",
+        "nim": "2410884309556",
+        "jurusan": "Akuntansi",
+        "ipk": 3.69
+    },
+    {
+        "nama": "Joko Wijaya",
+        "nim": "2410067707673",
+        "jurusan": "Teknik Elektro",
+        "ipk": 2.74
+    },
+    {
+        "nama": "Zainal Yuliana",
+        "nim": "24106962460",
+        "jurusan": "Sistem Informasi",
+        "ipk": 2.93
+    },
+    {
+        "nama": "Tono Saputra",
+        "nim": "2410353094",
+        "jurusan": "Hukum",
+        "ipk": 2.8
+    },
+    {
+        "nama": "Wawan Rahmawati",
+        "nim": "241033551994",
+        "jurusan": "Sastra Inggris",
+        "ipk": 2.72
+    },
+    {
+        "nama": "Rina Putra",
+        "nim": "241088116055",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.14
+    },
+    {
+        "nama": "Budi Santoso",
+        "nim": "2410798175",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.51
+    },
+    {
+        "nama": "Putri Santoso",
+        "nim": "2410748368069",
+        "jurusan": "Manajemen",
+        "ipk": 2.84
+    },
+    {
+        "nama": "Adi Suharto",
+        "nim": "241031104538",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.94
+    },
+    {
+        "nama": "Kartika Nugroho",
+        "nim": "24100320480",
+        "jurusan": "Sistem Informasi",
+        "ipk": 2.56
+    },
+    {
+        "nama": "Made Yuliana",
+        "nim": "241060320919",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.26
+    },
+    {
+        "nama": "Dinda Putra",
+        "nim": "2410474725429",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.63
+    },
+    {
+        "nama": "Umar Susanti",
+        "nim": "241038963698",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.91
+    },
+    {
+        "nama": "Kartika Setiawan",
+        "nim": "2410797341",
+        "jurusan": "Sistem Informasi",
+        "ipk": 2.8
+    },
+    {
+        "nama": "Xena Saputra",
+        "nim": "2410121543",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.46
+    },
+    {
+        "nama": "Rina Wijaya",
+        "nim": "2410956522135",
+        "jurusan": "Teknik Elektro",
+        "ipk": 2.92
+    },
+    {
+        "nama": "Dewi Setiawan",
+        "nim": "2410386506979",
+        "jurusan": "Manajemen",
+        "ipk": 3.85
+    },
+    {
+        "nama": "Dewi Setiawan",
+        "nim": "24108697218",
+        "jurusan": "Manajemen",
+        "ipk": 3.51
+    },
+    {
+        "nama": "Eko Nugroho",
+        "nim": "2410900545",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.42
+    },
+    {
+        "nama": "Agus Saputra",
+        "nim": "241015045252",
+        "jurusan": "Sastra Inggris",
+        "ipk": 2.61
+    },
+    {
+        "nama": "Qori Putri",
+        "nim": "24103903824",
+        "jurusan": "Sastra Inggris",
+        "ipk": 2.97
+    },
+    {
+        "nama": "Citra Saputra",
+        "nim": "24101646637",
+        "jurusan": "Hukum",
+        "ipk": 2.63
+    },
+    {
+        "nama": "Xena Kusuma",
+        "nim": "241084236188",
+        "jurusan": "Manajemen",
+        "ipk": 3.53
+    },
+    {
+        "nama": "Dewi Putri",
+        "nim": "2410667784161",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.63
+    },
+    {
+        "nama": "Zainal Suharto",
+        "nim": "2410930262",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.2
+    },
+    {
+        "nama": "Joko Putri",
+        "nim": "2410421713553",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.93
+    },
+    {
+        "nama": "Citra Nugroho",
+        "nim": "2410804124",
+        "jurusan": "Akuntansi",
+        "ipk": 2.72
+    },
+    {
+        "nama": "Bambang Kusuma",
+        "nim": "2410662762",
+        "jurusan": "Hukum",
+        "ipk": 3.48
+    },
+    {
+        "nama": "Adi Santoso",
+        "nim": "2410257547105",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.67
+    },
+    {
+        "nama": "Adi Kurniawan",
+        "nim": "2410807257164",
+        "jurusan": "Manajemen",
+        "ipk": 3.09
+    },
+    {
+        "nama": "Adi Wibowo",
+        "nim": "2410848083",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.76
+    },
+    {
+        "nama": "Xena Saputra",
+        "nim": "241036171845",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.67
+    },
+    {
+        "nama": "Lia Putri",
+        "nim": "241055578237",
+        "jurusan": "Akuntansi",
+        "ipk": 3.29
+    },
+    {
+        "nama": "Fajar Kusuma",
+        "nim": "2410898950",
+        "jurusan": "Teknik Elektro",
+        "ipk": 2.84
+    },
+    {
+        "nama": "Joko Putri",
+        "nim": "24107858380",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.8
+    },
+    {
+        "nama": "Fajar Hidayat",
+        "nim": "24102038005",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.76
+    },
+    {
+        "nama": "Indra Kurniawan",
+        "nim": "2410518937496",
+        "jurusan": "Teknik Elektro",
+        "ipk": 2.59
+    },
+    {
+        "nama": "Wawan Susanti",
+        "nim": "2410328906769",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.28
+    },
+    {
+        "nama": "Dewi Rahmawati",
+        "nim": "2410525677834",
+        "jurusan": "Hukum",
+        "ipk": 3.76
+    },
+    {
+        "nama": "Lia Wulandari",
+        "nim": "241023001814",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.84
+    },
+    {
+        "nama": "Agus Lestari",
+        "nim": "24102058776",
+        "jurusan": "Sastra Inggris",
+        "ipk": 2.76
+    },
+    {
+        "nama": "Nur Wijaya",
+        "nim": "2410504651",
+        "jurusan": "Manajemen",
+        "ipk": 3.36
+    },
+    {
+        "nama": "Budi Sanjaya",
+        "nim": "2410360243321",
+        "jurusan": "Teknik Informatika",
+        "ipk": 2.91
+    },
+    {
+        "nama": "Xena Putra",
+        "nim": "2410247869516",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.84
+    },
+    {
+        "nama": "Made Wibowo",
+        "nim": "241068103340",
+        "jurusan": "Hukum",
+        "ipk": 2.9
+    },
+    {
+        "nama": "Dewi Hidayat",
+        "nim": "241045170807",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.98
+    },
+    {
+        "nama": "Bambang Kurniawan",
+        "nim": "2410131689",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.84
+    },
+    {
+        "nama": "Fajar Putri",
+        "nim": "241039094047",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.51
+    },
+    {
+        "nama": "Opik Wijaya",
+        "nim": "2410136342",
+        "jurusan": "Akuntansi",
+        "ipk": 2.91
+    },
+    {
+        "nama": "Rina Suharto",
+        "nim": "241057403311",
+        "jurusan": "Teknik Elektro",
+        "ipk": 2.7
+    },
+    {
+        "nama": "Vina Sanjaya",
+        "nim": "24109067447",
+        "jurusan": "Teknik Elektro",
+        "ipk": 2.85
+    },
+    {
+        "nama": "Vina Hidayat",
+        "nim": "2410157808502",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.36
+    },
+    {
+        "nama": "Yudi Hidayat",
+        "nim": "2410369424",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.25
+    },
+    {
+        "nama": "Vina Hidayat",
+        "nim": "241010714244",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.65
+    },
+    {
+        "nama": "Qori Lestari",
+        "nim": "24106553535",
+        "jurusan": "Manajemen",
+        "ipk": 3.52
+    },
+    {
+        "nama": "Opik Yuliana",
+        "nim": "241090830360",
+        "jurusan": "Sistem Informasi",
+        "ipk": 2.88
+    },
+    {
+        "nama": "Eko Wijaya",
+        "nim": "2410066999",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.27
+    },
+    {
+        "nama": "Tono Saputra",
+        "nim": "24109234781",
+        "jurusan": "Sistem Informasi",
+        "ipk": 2.65
+    },
+    {
+        "nama": "Tono Kurniawan",
+        "nim": "24106090486",
+        "jurusan": "Teknik Elektro",
+        "ipk": 2.57
+    },
+    {
+        "nama": "Eko Lestari",
+        "nim": "24109542681",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.25
+    },
+    {
+        "nama": "Bambang Hidayat",
+        "nim": "241065054017",
+        "jurusan": "Hukum",
+        "ipk": 3.93
+    },
+    {
+        "nama": "Budi Rahmawati",
+        "nim": "241092818358",
+        "jurusan": "Akuntansi",
+        "ipk": 3.41
+    },
+    {
+        "nama": "Gita Rahmawati",
+        "nim": "241051413238",
+        "jurusan": "Teknik Informatika",
+        "ipk": 2.87
+    },
+    {
+        "nama": "Putri Nugroho",
+        "nim": "24104066603",
+        "jurusan": "Teknik Informatika",
+        "ipk": 2.78
+    },
+    {
+        "nama": "Joko Putra",
+        "nim": "241044433531",
+        "jurusan": "Sastra Inggris",
+        "ipk": 2.61
+    },
+    {
+        "nama": "Eko Rahmawati",
+        "nim": "2410935373703",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.09
+    },
+    {
+        "nama": "Wawan Sanjaya",
+        "nim": "241002480671",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.01
+    },
+    {
+        "nama": "Bambang Pratama",
+        "nim": "241043722394",
+        "jurusan": "Hukum",
+        "ipk": 3.9
+    },
+    {
+        "nama": "Qori Rahmawati",
+        "nim": "24100966167",
+        "jurusan": "Teknik Informatika",
+        "ipk": 2.82
+    },
+    {
+        "nama": "Xena Susanti",
+        "nim": "2410971334134",
+        "jurusan": "Teknik Elektro",
+        "ipk": 2.61
+    },
+    {
+        "nama": "Lia Suharto",
+        "nim": "241032026628",
+        "jurusan": "Teknik Informatika",
+        "ipk": 2.75
+    },
+    {
+        "nama": "Qori Wibowo",
+        "nim": "2410322030",
+        "jurusan": "Teknik Elektro",
+        "ipk": 2.73
+    },
+    {
+        "nama": "Xena Saputra",
+        "nim": "24105974696",
+        "jurusan": "Sastra Inggris",
+        "ipk": 2.77
+    },
+    {
+        "nama": "Bambang Pratama",
+        "nim": "2410050330410",
+        "jurusan": "Teknik Informatika",
+        "ipk": 2.85
+    },
+    {
+        "nama": "Kartika Rahmawati",
+        "nim": "2410499729124",
+        "jurusan": "Hukum",
+        "ipk": 2.62
+    },
+    {
+        "nama": "Putri Kusuma",
+        "nim": "2410851070",
+        "jurusan": "Hukum",
+        "ipk": 2.86
+    },
+    {
+        "nama": "Budi Pratama",
+        "nim": "24106417922",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.43
+    },
+    {
+        "nama": "Rina Kurniawan",
+        "nim": "2410764355399",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.73
+    },
+    {
+        "nama": "Eko Kusuma",
+        "nim": "241066571845",
+        "jurusan": "Akuntansi",
+        "ipk": 3.32
+    },
+    {
+        "nama": "Umar Nugroho",
+        "nim": "241007207115",
+        "jurusan": "Sistem Informasi",
+        "ipk": 2.96
+    },
+    {
+        "nama": "Sari Saputra",
+        "nim": "2410301633",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.49
+    },
+    {
+        "nama": "Bambang Wulandari",
+        "nim": "24108124877",
+        "jurusan": "Manajemen",
+        "ipk": 3.57
+    },
+    {
+        "nama": "Lia Pratama",
+        "nim": "2410415172595",
+        "jurusan": "Akuntansi",
+        "ipk": 2.57
+    },
+    {
+        "nama": "Gita Kurniawan",
+        "nim": "2410940545",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.8
+    },
+    {
+        "nama": "Qori Saputra",
+        "nim": "2410678057",
+        "jurusan": "Sastra Inggris",
+        "ipk": 2.96
+    },
+    {
+        "nama": "Fajar Kurniawan",
+        "nim": "24103512537",
+        "jurusan": "Akuntansi",
+        "ipk": 3.65
+    },
+    {
+        "nama": "Zainal Kurniawan",
+        "nim": "241033871687",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.12
+    },
+    {
+        "nama": "Wawan Wijaya",
+        "nim": "2410032193277",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.59
+    },
+    {
+        "nama": "Putri Rahmawati",
+        "nim": "24100369605",
+        "jurusan": "Hukum",
+        "ipk": 3.03
+    },
+    {
+        "nama": "Gita Hidayat",
+        "nim": "2410126846436",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.71
+    },
+    {
+        "nama": "Hana Putra",
+        "nim": "2410293153785",
+        "jurusan": "Akuntansi",
+        "ipk": 3.58
+    },
+    {
+        "nama": "Agus Lestari",
+        "nim": "24105221193",
+        "jurusan": "Hukum",
+        "ipk": 3.12
+    },
+    {
+        "nama": "Indra Wulandari",
+        "nim": "2410740032372",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.09
+    },
+    {
+        "nama": "Budi Nugroho",
+        "nim": "241012189404",
+        "jurusan": "Sastra Inggris",
+        "ipk": 2.84
+    },
+    {
+        "nama": "Sari Putri",
+        "nim": "241020795406",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.61
+    },
+    {
+        "nama": "Agus Lestari",
+        "nim": "241092387011",
+        "jurusan": "Hukum",
+        "ipk": 3.65
+    },
+    {
+        "nama": "Budi Wibowo",
+        "nim": "24100496577",
+        "jurusan": "Hukum",
+        "ipk": 3.63
+    },
+    {
+        "nama": "Dewi Nugroho",
+        "nim": "24102741106",
+        "jurusan": "Manajemen",
+        "ipk": 3.31
+    },
+    {
+        "nama": "Opik Wulandari",
+        "nim": "2410053255",
+        "jurusan": "Manajemen",
+        "ipk": 2.51
+    },
+    {
+        "nama": "Xena Kurniawan",
+        "nim": "24106100839",
+        "jurusan": "Hukum",
+        "ipk": 3.47
+    },
+    {
+        "nama": "Nur Hidayat",
+        "nim": "2410570027",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.98
+    },
+    {
+        "nama": "Sari Nugroho",
+        "nim": "241062770237",
+        "jurusan": "Hukum",
+        "ipk": 3.67
+    },
+    {
+        "nama": "Zainal Yuliana",
+        "nim": "2410015643939",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.23
+    },
+    {
+        "nama": "Agus Yuliana",
+        "nim": "2410303682",
+        "jurusan": "Hukum",
+        "ipk": 3.08
+    },
+    {
+        "nama": "Bambang Pratama",
+        "nim": "24109380938",
+        "jurusan": "Akuntansi",
+        "ipk": 2.52
+    },
+    {
+        "nama": "Putri Permata",
+        "nim": "24109690679",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.25
+    },
+    {
+        "nama": "Sari Santoso",
+        "nim": "241079396418",
+        "jurusan": "Akuntansi",
+        "ipk": 2.59
+    },
+    {
+        "nama": "Joko Kurniawan",
+        "nim": "24102921525",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.65
+    },
+    {
+        "nama": "Kartika Putra",
+        "nim": "241076672103",
+        "jurusan": "Manajemen",
+        "ipk": 3.09
+    },
+    {
+        "nama": "Yudi Pratama",
+        "nim": "241063428097",
+        "jurusan": "Akuntansi",
+        "ipk": 3.03
+    },
+    {
+        "nama": "Gita Putra",
+        "nim": "2410390599747",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.24
+    },
+    {
+        "nama": "Vina Pratama",
+        "nim": "2410954836",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.36
+    },
+    {
+        "nama": "Wawan Sanjaya",
+        "nim": "2410066176960",
+        "jurusan": "Sastra Inggris",
+        "ipk": 2.74
+    },
+    {
+        "nama": "Sari Hidayat",
+        "nim": "24105967807",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.69
+    },
+    {
+        "nama": "Lia Saputra",
+        "nim": "24106333524",
+        "jurusan": "Manajemen",
+        "ipk": 2.6
+    },
+    {
+        "nama": "Zainal Saputra",
+        "nim": "2410078421",
+        "jurusan": "Teknik Informatika",
+        "ipk": 2.52
+    },
+    {
+        "nama": "Rina Wijaya",
+        "nim": "2410595103490",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.69
+    },
+    {
+        "nama": "Opik Yuliana",
+        "nim": "2410474215915",
+        "jurusan": "Hukum",
+        "ipk": 3.42
+    },
+    {
+        "nama": "Vina Saputra",
+        "nim": "2410284194518",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.52
+    },
+    {
+        "nama": "Opik Permata",
+        "nim": "241011573974",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.34
+    },
+    {
+        "nama": "Made Hidayat",
+        "nim": "2410055747283",
+        "jurusan": "Akuntansi",
+        "ipk": 3.76
+    },
+    {
+        "nama": "Nur Wibowo",
+        "nim": "2410070408",
+        "jurusan": "Teknik Informatika",
+        "ipk": 2.6
+    },
+    {
+        "nama": "Hana Susanti",
+        "nim": "241035343302",
+        "jurusan": "Manajemen",
+        "ipk": 2.7
+    },
+    {
+        "nama": "Dinda Wulandari",
+        "nim": "2410427210",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.2
+    },
+    {
+        "nama": "Sari Kusuma",
+        "nim": "2410940059415",
+        "jurusan": "Akuntansi",
+        "ipk": 2.6
+    },
+    {
+        "nama": "Cahyo Sanjaya",
+        "nim": "2410431763636",
+        "jurusan": "Teknik Elektro",
+        "ipk": 2.66
+    },
+    {
+        "nama": "Hana Putra",
+        "nim": "241066100275",
+        "jurusan": "Teknik Elektro",
+        "ipk": 2.7
+    },
+    {
+        "nama": "Fajar Wulandari",
+        "nim": "2410667587",
+        "jurusan": "Akuntansi",
+        "ipk": 2.89
+    },
+    {
+        "nama": "Tono Permata",
+        "nim": "2410033122",
+        "jurusan": "Sistem Informasi",
+        "ipk": 2.9
+    },
+    {
+        "nama": "Opik Putri",
+        "nim": "2410831488",
+        "jurusan": "Sistem Informasi",
+        "ipk": 2.72
+    },
+    {
+        "nama": "Sari Saputra",
+        "nim": "2410048526",
+        "jurusan": "Manajemen",
+        "ipk": 3.86
+    },
+    {
+        "nama": "Dinda Wulandari",
+        "nim": "241032237493",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.8
+    },
+    {
+        "nama": "Adi Lestari",
+        "nim": "241036028994",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.5
+    },
+    {
+        "nama": "Cahyo Putra",
+        "nim": "24100055067",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.47
+    },
+    {
+        "nama": "Kartika Kurniawan",
+        "nim": "241092605146",
+        "jurusan": "Manajemen",
+        "ipk": 3.08
+    },
+    {
+        "nama": "Indra Wulandari",
+        "nim": "24107809149",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.91
+    },
+    {
+        "nama": "Made Putri",
+        "nim": "241070593693",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.14
+    },
+    {
+        "nama": "Budi Sanjaya",
+        "nim": "2410874987",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.17
+    },
+    {
+        "nama": "Adi Putra",
+        "nim": "2410718974693",
+        "jurusan": "Sastra Inggris",
+        "ipk": 2.7
+    },
+    {
+        "nama": "Putri Wibowo",
+        "nim": "241051996858",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.77
+    },
+    {
+        "nama": "Putri Sanjaya",
+        "nim": "2410619533",
+        "jurusan": "Hukum",
+        "ipk": 3.46
+    },
+    {
+        "nama": "Budi Saputra",
+        "nim": "24109986044",
+        "jurusan": "Manajemen",
+        "ipk": 3.75
+    },
+    {
+        "nama": "Kartika Rahmawati",
+        "nim": "2410655065050",
+        "jurusan": "Manajemen",
+        "ipk": 2.89
+    },
+    {
+        "nama": "Fajar Wijaya",
+        "nim": "241061691070",
+        "jurusan": "Manajemen",
+        "ipk": 2.97
+    },
+    {
+        "nama": "Yudi Sanjaya",
+        "nim": "24101833126",
+        "jurusan": "Akuntansi",
+        "ipk": 3.16
+    },
+    {
+        "nama": "Opik Putra",
+        "nim": "24102652481",
+        "jurusan": "Akuntansi",
+        "ipk": 3.96
+    },
+    {
+        "nama": "Fajar Suharto",
+        "nim": "2410233600954",
+        "jurusan": "Hukum",
+        "ipk": 3.35
+    },
+    {
+        "nama": "Hana Kusuma",
+        "nim": "2410550480",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.83
+    },
+    {
+        "nama": "Hana Suharto",
+        "nim": "2410274993",
+        "jurusan": "Teknik Elektro",
+        "ipk": 2.52
+    },
+    {
+        "nama": "Rina Kusuma",
+        "nim": "2410803262948",
+        "jurusan": "Teknik Elektro",
+        "ipk": 2.73
+    },
+    {
+        "nama": "Eko Kurniawan",
+        "nim": "2410785611",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.18
+    },
+    {
+        "nama": "Lia Wijaya",
+        "nim": "241090936381",
+        "jurusan": "Akuntansi",
+        "ipk": 3.54
+    },
+    {
+        "nama": "Yudi Saputra",
+        "nim": "24102132277",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.33
+    },
+    {
+        "nama": "Gita Sanjaya",
+        "nim": "241018063782",
+        "jurusan": "Manajemen",
+        "ipk": 3.96
+    },
+    {
+        "nama": "Kartika Suharto",
+        "nim": "24108902838",
+        "jurusan": "Manajemen",
+        "ipk": 3.21
+    },
+    {
+        "nama": "Cahyo Saputra",
+        "nim": "24105437089",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.01
+    },
+    {
+        "nama": "Agus Kusuma",
+        "nim": "241028726162",
+        "jurusan": "Akuntansi",
+        "ipk": 3.41
+    },
+    {
+        "nama": "Fajar Lestari",
+        "nim": "2410935326",
+        "jurusan": "Hukum",
+        "ipk": 3.72
+    },
+    {
+        "nama": "Opik Wibowo",
+        "nim": "2410703181",
+        "jurusan": "Sistem Informasi",
+        "ipk": 2.51
+    },
+    {
+        "nama": "Bambang Putra",
+        "nim": "2410992128",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.81
+    },
+    {
+        "nama": "Kartika Lestari",
+        "nim": "2410764900318",
+        "jurusan": "Hukum",
+        "ipk": 3.03
+    },
+    {
+        "nama": "Indra Putra",
+        "nim": "2410060607",
+        "jurusan": "Manajemen",
+        "ipk": 2.88
+    },
+    {
+        "nama": "Xena Wijaya",
+        "nim": "24106582548",
+        "jurusan": "Manajemen",
+        "ipk": 2.82
+    },
+    {
+        "nama": "Opik Santoso",
+        "nim": "2410268474",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.26
+    },
+    {
+        "nama": "Dinda Sanjaya",
+        "nim": "241066246703",
+        "jurusan": "Hukum",
+        "ipk": 3.91
+    },
+    {
+        "nama": "Agus Wijaya",
+        "nim": "24105425354",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3
+    },
+    {
+        "nama": "Umar Kurniawan",
+        "nim": "2410839023994",
+        "jurusan": "Teknik Informatika",
+        "ipk": 2.88
+    },
+    {
+        "nama": "Sari Pratama",
+        "nim": "2410965871908",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.64
+    },
+    {
+        "nama": "Joko Rahmawati",
+        "nim": "241092743490",
+        "jurusan": "Manajemen",
+        "ipk": 3.08
+    },
+    {
+        "nama": "Rina Santoso",
+        "nim": "241006078575",
+        "jurusan": "Akuntansi",
+        "ipk": 3.73
+    },
+    {
+        "nama": "Umar Pratama",
+        "nim": "24107992751",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.62
+    },
+    {
+        "nama": "Umar Suharto",
+        "nim": "24108388449",
+        "jurusan": "Hukum",
+        "ipk": 3.35
+    },
+    {
+        "nama": "Kartika Saputra",
+        "nim": "241013919381",
+        "jurusan": "Sastra Inggris",
+        "ipk": 2.5
+    },
+    {
+        "nama": "Bambang Sanjaya",
+        "nim": "241050860309",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.39
+    },
+    {
+        "nama": "Sari Wulandari",
+        "nim": "24109295559",
+        "jurusan": "Manajemen",
+        "ipk": 3.09
+    },
+    {
+        "nama": "Hana Yuliana",
+        "nim": "24105640982",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.23
+    },
+    {
+        "nama": "Wawan Yuliana",
+        "nim": "2410459615687",
+        "jurusan": "Sastra Inggris",
+        "ipk": 2.98
+    },
+    {
+        "nama": "Kartika Nugroho",
+        "nim": "2410293560",
+        "jurusan": "Akuntansi",
+        "ipk": 3.79
+    },
+    {
+        "nama": "Eko Saputra",
+        "nim": "241025515358",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.94
+    },
+    {
+        "nama": "Nur Kusuma",
+        "nim": "2410517626",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.67
+    },
+    {
+        "nama": "Indra Nugroho",
+        "nim": "241058634974",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.97
+    },
+    {
+        "nama": "Adi Santoso",
+        "nim": "24103487105",
+        "jurusan": "Manajemen",
+        "ipk": 2.55
+    },
+    {
+        "nama": "Putri Santoso",
+        "nim": "241029014961",
+        "jurusan": "Teknik Informatika",
+        "ipk": 2.84
+    },
+    {
+        "nama": "Xena Kusuma",
+        "nim": "2410582125",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.96
+    },
+    {
+        "nama": "Qori Rahmawati",
+        "nim": "24101526633",
+        "jurusan": "Hukum",
+        "ipk": 2.82
+    },
+    {
+        "nama": "Zainal Rahmawati",
+        "nim": "2410497458605",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.47
+    },
+    {
+        "nama": "Bambang Putri",
+        "nim": "2410668059",
+        "jurusan": "Manajemen",
+        "ipk": 2.73
+    },
+    {
+        "nama": "Wawan Pratama",
+        "nim": "241096601135",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.42
+    },
+    {
+        "nama": "Tono Kusuma",
+        "nim": "241011868344",
+        "jurusan": "Hukum",
+        "ipk": 2.94
+    },
+    {
+        "nama": "Bambang Kurniawan",
+        "nim": "241091225355",
+        "jurusan": "Manajemen",
+        "ipk": 3.22
+    },
+    {
+        "nama": "Cahyo Saputra",
+        "nim": "24100964720",
+        "jurusan": "Manajemen",
+        "ipk": 2.59
+    },
+    {
+        "nama": "Kartika Wibowo",
+        "nim": "241067281190",
+        "jurusan": "Sistem Informasi",
+        "ipk": 2.73
+    },
+    {
+        "nama": "Umar Putri",
+        "nim": "241031274606",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.26
+    },
+    {
+        "nama": "Wawan Lestari",
+        "nim": "24102599188",
+        "jurusan": "Hukum",
+        "ipk": 2.94
+    },
+    {
+        "nama": "Dewi Kurniawan",
+        "nim": "24100390924",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.2
+    },
+    {
+        "nama": "Sari Permata",
+        "nim": "24107589101",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.02
+    },
+    {
+        "nama": "Rina Putra",
+        "nim": "24104131311",
+        "jurusan": "Hukum",
+        "ipk": 3.18
+    },
+    {
+        "nama": "Xena Kusuma",
+        "nim": "2410089567527",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.96
+    },
+    {
+        "nama": "Budi Rahmawati",
+        "nim": "2410281923",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.36
+    },
+    {
+        "nama": "Dinda Wibowo",
+        "nim": "24107886982",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.24
+    },
+    {
+        "nama": "Dewi Putri",
+        "nim": "241004465473",
+        "jurusan": "Akuntansi",
+        "ipk": 3.84
+    },
+    {
+        "nama": "Vina Kusuma",
+        "nim": "241064112886",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.39
+    },
+    {
+        "nama": "Sari Rahmawati",
+        "nim": "2410974100",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.27
+    },
+    {
+        "nama": "Qori Putra",
+        "nim": "24103109175",
+        "jurusan": "Akuntansi",
+        "ipk": 2.85
+    },
+    {
+        "nama": "Budi Lestari",
+        "nim": "24101028190",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.7
+    },
+    {
+        "nama": "Tono Kurniawan",
+        "nim": "2410617137283",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.95
+    },
+    {
+        "nama": "Zainal Suharto",
+        "nim": "2410490219",
+        "jurusan": "Hukum",
+        "ipk": 3.81
+    },
+    {
+        "nama": "Dinda Permata",
+        "nim": "241094377017",
+        "jurusan": "Manajemen",
+        "ipk": 3.76
+    },
+    {
+        "nama": "Putri Wibowo",
+        "nim": "241079427309",
+        "jurusan": "Hukum",
+        "ipk": 3.02
+    },
+    {
+        "nama": "Citra Nugroho",
+        "nim": "2410539910",
+        "jurusan": "Sastra Inggris",
+        "ipk": 2.94
+    },
+    {
+        "nama": "Made Putri",
+        "nim": "2410899036339",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.38
+    },
+    {
+        "nama": "Indra Nugroho",
+        "nim": "2410866361",
+        "jurusan": "Teknik Informatika",
+        "ipk": 2.53
+    },
+    {
+        "nama": "Adi Suharto",
+        "nim": "2410837511",
+        "jurusan": "Akuntansi",
+        "ipk": 2.98
+    },
+    {
+        "nama": "Opik Hidayat",
+        "nim": "2410167665014",
+        "jurusan": "Manajemen",
+        "ipk": 3.13
+    },
+    {
+        "nama": "Sari Permata",
+        "nim": "241079157542",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.05
+    },
+    {
+        "nama": "Adi Rahmawati",
+        "nim": "2410142500528",
+        "jurusan": "Teknik Informatika",
+        "ipk": 2.61
+    },
+    {
+        "nama": "Wawan Susanti",
+        "nim": "24107668963",
+        "jurusan": "Sastra Inggris",
+        "ipk": 2.58
+    },
+    {
+        "nama": "Sari Saputra",
+        "nim": "2410061900",
+        "jurusan": "Sastra Inggris",
+        "ipk": 2.75
+    },
+    {
+        "nama": "Sari Suharto",
+        "nim": "241032044148",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.99
+    },
+    {
+        "nama": "Eko Kusuma",
+        "nim": "241047777162",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.12
+    },
+    {
+        "nama": "Budi Setiawan",
+        "nim": "2410237862881",
+        "jurusan": "Teknik Elektro",
+        "ipk": 2.79
+    },
+    {
+        "nama": "Zainal Putri",
+        "nim": "24100718208",
+        "jurusan": "Teknik Elektro",
+        "ipk": 2.74
+    },
+    {
+        "nama": "Opik Suharto",
+        "nim": "241068546162",
+        "jurusan": "Hukum",
+        "ipk": 3.72
+    },
+    {
+        "nama": "Budi Pratama",
+        "nim": "241071482413",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.01
+    },
+    {
+        "nama": "Joko Lestari",
+        "nim": "2410264332",
+        "jurusan": "Akuntansi",
+        "ipk": 3.69
+    },
+    {
+        "nama": "Citra Hidayat",
+        "nim": "2410064179",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.04
+    },
+    {
+        "nama": "Dinda Pratama",
+        "nim": "24100336254",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.95
+    },
+    {
+        "nama": "Wawan Wijaya",
+        "nim": "241074909172",
+        "jurusan": "Teknik Informatika",
+        "ipk": 2.95
+    },
+    {
+        "nama": "Joko Nugroho",
+        "nim": "24109896886",
+        "jurusan": "Manajemen",
+        "ipk": 3.32
+    },
+    {
+        "nama": "Eko Saputra",
+        "nim": "24102476239",
+        "jurusan": "Hukum",
+        "ipk": 3.45
+    },
+    {
+        "nama": "Umar Putri",
+        "nim": "24101131972",
+        "jurusan": "Manajemen",
+        "ipk": 2.87
+    },
+    {
+        "nama": "Adi Yuliana",
+        "nim": "2410876227",
+        "jurusan": "Sastra Inggris",
+        "ipk": 2.67
+    },
+    {
+        "nama": "Budi Putri",
+        "nim": "24107796972",
+        "jurusan": "Teknik Informatika",
+        "ipk": 2.7
+    },
+    {
+        "nama": "Made Sanjaya",
+        "nim": "24107308593",
+        "jurusan": "Hukum",
+        "ipk": 3.32
+    },
+    {
+        "nama": "Made Permata",
+        "nim": "24109266919",
+        "jurusan": "Akuntansi",
+        "ipk": 2.86
+    },
+    {
+        "nama": "Fajar Putri",
+        "nim": "241060828829",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.37
+    },
+    {
+        "nama": "Kartika Lestari",
+        "nim": "2410930741398",
+        "jurusan": "Manajemen",
+        "ipk": 3.88
+    },
+    {
+        "nama": "Vina Putri",
+        "nim": "241078093665",
+        "jurusan": "Teknik Informatika",
+        "ipk": 2.6
+    },
+    {
+        "nama": "Citra Kusuma",
+        "nim": "24105597408",
+        "jurusan": "Sistem Informasi",
+        "ipk": 2.63
+    },
+    {
+        "nama": "Agus Wulandari",
+        "nim": "24104269869",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.87
+    },
+    {
+        "nama": "Yudi Kurniawan",
+        "nim": "2410410840",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.52
+    },
+    {
+        "nama": "Sari Nugroho",
+        "nim": "2410400984",
+        "jurusan": "Hukum",
+        "ipk": 3.55
+    },
+    {
+        "nama": "Yudi Susanti",
+        "nim": "2410546811",
+        "jurusan": "Sastra Inggris",
+        "ipk": 2.99
+    },
+    {
+        "nama": "Umar Lestari",
+        "nim": "24104223933",
+        "jurusan": "Manajemen",
+        "ipk": 3.94
+    },
+    {
+        "nama": "Indra Putra",
+        "nim": "2410670144625",
+        "jurusan": "Hukum",
+        "ipk": 3.49
+    },
+    {
+        "nama": "Made Yuliana",
+        "nim": "2410508182",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.97
+    },
+    {
+        "nama": "Rina Setiawan",
+        "nim": "241027083521",
+        "jurusan": "Manajemen",
+        "ipk": 2.68
+    },
+    {
+        "nama": "Sari Putra",
+        "nim": "24108623181",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.43
+    },
+    {
+        "nama": "Vina Lestari",
+        "nim": "24102483185",
+        "jurusan": "Sistem Informasi",
+        "ipk": 2.61
+    },
+    {
+        "nama": "Made Kusuma",
+        "nim": "2410807000446",
+        "jurusan": "Teknik Elektro",
+        "ipk": 2.73
+    },
+    {
+        "nama": "Cahyo Nugroho",
+        "nim": "24104901953",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.63
+    },
+    {
+        "nama": "Opik Kurniawan",
+        "nim": "2410038476749",
+        "jurusan": "Teknik Elektro",
+        "ipk": 2.55
+    },
+    {
+        "nama": "Zainal Suharto",
+        "nim": "241064470612",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.14
+    },
+    {
+        "nama": "Indra Santoso",
+        "nim": "241086548950",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.6
+    },
+    {
+        "nama": "Dinda Putra",
+        "nim": "24108720484",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.14
+    },
+    {
+        "nama": "Vina Nugroho",
+        "nim": "241044178516",
+        "jurusan": "Sastra Inggris",
+        "ipk": 2.76
+    },
+    {
+        "nama": "Umar Pratama",
+        "nim": "241018565952",
+        "jurusan": "Teknik Elektro",
+        "ipk": 2.76
+    },
+    {
+        "nama": "Putri Yuliana",
+        "nim": "2410382549468",
+        "jurusan": "Manajemen",
+        "ipk": 3.87
+    },
+    {
+        "nama": "Joko Lestari",
+        "nim": "2410642269354",
+        "jurusan": "Hukum",
+        "ipk": 3.88
+    },
+    {
+        "nama": "Adi Pratama",
+        "nim": "2410670047173",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.19
+    },
+    {
+        "nama": "Yudi Permata",
+        "nim": "241030601488",
+        "jurusan": "Akuntansi",
+        "ipk": 3.11
+    },
+    {
+        "nama": "Wawan Hidayat",
+        "nim": "2410763896572",
+        "jurusan": "Hukum",
+        "ipk": 3.55
+    },
+    {
+        "nama": "Zainal Wijaya",
+        "nim": "241056656581",
+        "jurusan": "Manajemen",
+        "ipk": 3.46
+    },
+    {
+        "nama": "Nur Wibowo",
+        "nim": "2410769607",
+        "jurusan": "Akuntansi",
+        "ipk": 3.54
+    },
+    {
+        "nama": "Rina Rahmawati",
+        "nim": "2410666785",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.36
+    },
+    {
+        "nama": "Vina Wijaya",
+        "nim": "24104835240",
+        "jurusan": "Teknik Informatika",
+        "ipk": 2.59
+    },
+    {
+        "nama": "Umar Yuliana",
+        "nim": "241005933561",
+        "jurusan": "Teknik Informatika",
+        "ipk": 2.93
+    },
+    {
+        "nama": "Sari Nugroho",
+        "nim": "2410368222",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.54
+    },
+    {
+        "nama": "Nur Santoso",
+        "nim": "24102367874",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.54
+    },
+    {
+        "nama": "Putri Susanti",
+        "nim": "241073100788",
+        "jurusan": "Akuntansi",
+        "ipk": 3.81
+    },
+    {
+        "nama": "Gita Wijaya",
+        "nim": "241089610110",
+        "jurusan": "Manajemen",
+        "ipk": 3.76
+    },
+    {
+        "nama": "Kartika Wijaya",
+        "nim": "2410829242",
+        "jurusan": "Manajemen",
+        "ipk": 3.72
+    },
+    {
+        "nama": "Joko Santoso",
+        "nim": "2410371112",
+        "jurusan": "Manajemen",
+        "ipk": 3.7
+    },
+    {
+        "nama": "Indra Rahmawati",
+        "nim": "2410188628",
+        "jurusan": "Hukum",
+        "ipk": 3.68
+    },
+    {
+        "nama": "Kartika Wulandari",
+        "nim": "2410258214",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.13
+    },
+    {
+        "nama": "Sari Setiawan",
+        "nim": "2410213876",
+        "jurusan": "Sistem Informasi",
+        "ipk": 2.94
+    },
+    {
+        "nama": "Adi Hidayat",
+        "nim": "2410273014",
+        "jurusan": "Akuntansi",
+        "ipk": 3.6
+    },
+    {
+        "nama": "Zainal Sanjaya",
+        "nim": "2410547802",
+        "jurusan": "Akuntansi",
+        "ipk": 3.51
+    },
+    {
+        "nama": "Nur Saputra",
+        "nim": "24108328337",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.07
+    },
+    {
+        "nama": "Fajar Nugroho",
+        "nim": "2410787551",
+        "jurusan": "Teknik Informatika",
+        "ipk": 2.66
+    },
+    {
+        "nama": "Agus Wijaya",
+        "nim": "2410133376785",
+        "jurusan": "Akuntansi",
+        "ipk": 3.02
+    },
+    {
+        "nama": "Qori Lestari",
+        "nim": "2410782899634",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.06
+    },
+    {
+        "nama": "Opik Sanjaya",
+        "nim": "241006893770",
+        "jurusan": "Sastra Inggris",
+        "ipk": 2.74
+    },
+    {
+        "nama": "Sari Rahmawati",
+        "nim": "2410797346",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.6
+    },
+    {
+        "nama": "Qori Kurniawan",
+        "nim": "2410447613",
+        "jurusan": "Teknik Elektro",
+        "ipk": 2.84
+    },
+    {
+        "nama": "Lia Wijaya",
+        "nim": "241039360942",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.27
+    },
+    {
+        "nama": "Indra Wulandari",
+        "nim": "241061018315",
+        "jurusan": "Hukum",
+        "ipk": 3.38
+    },
+    {
+        "nama": "Sari Rahmawati",
+        "nim": "2410029367544",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.07
+    },
+    {
+        "nama": "Made Saputra",
+        "nim": "2410102671",
+        "jurusan": "Teknik Informatika",
+        "ipk": 2.66
+    },
+    {
+        "nama": "Bambang Sanjaya",
+        "nim": "241042789064",
+        "jurusan": "Teknik Informatika",
+        "ipk": 2.68
+    },
+    {
+        "nama": "Zainal Wijaya",
+        "nim": "24104477480",
+        "jurusan": "Teknik Informatika",
+        "ipk": 2.83
+    },
+    {
+        "nama": "Qori Sanjaya",
+        "nim": "2410528326640",
+        "jurusan": "Sistem Informasi",
+        "ipk": 2.9
+    },
+    {
+        "nama": "Wawan Setiawan",
+        "nim": "2410226933",
+        "jurusan": "Hukum",
+        "ipk": 3.17
+    },
+    {
+        "nama": "Xena Nugroho",
+        "nim": "2410473771",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.63
+    },
+    {
+        "nama": "Budi Suharto",
+        "nim": "2410097829590",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.88
+    },
+    {
+        "nama": "Sari Yuliana",
+        "nim": "241056530979",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.48
+    },
+    {
+        "nama": "Citra Putri",
+        "nim": "2410507828209",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.68
+    },
+    {
+        "nama": "Budi Saputra",
+        "nim": "241049456794",
+        "jurusan": "Akuntansi",
+        "ipk": 3.16
+    },
+    {
+        "nama": "Cahyo Susanti",
+        "nim": "2410608512482",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.8
+    },
+    {
+        "nama": "Lia Setiawan",
+        "nim": "2410378636150",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.49
+    },
+    {
+        "nama": "Citra Putra",
+        "nim": "24109087017",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.44
+    },
+    {
+        "nama": "Putri Setiawan",
+        "nim": "2410533044",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.21
+    },
+    {
+        "nama": "Agus Putri",
+        "nim": "2410027473931",
+        "jurusan": "Sistem Informasi",
+        "ipk": 2.58
+    },
+    {
+        "nama": "Nur Putri",
+        "nim": "24100658221",
+        "jurusan": "Hukum",
+        "ipk": 3.91
+    },
+    {
+        "nama": "Kartika Wijaya",
+        "nim": "241060441335",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.68
+    },
+    {
+        "nama": "Bambang Setiawan",
+        "nim": "2410345393213",
+        "jurusan": "Manajemen",
+        "ipk": 3.32
+    },
+    {
+        "nama": "Rina Sanjaya",
+        "nim": "24102218881",
+        "jurusan": "Sastra Inggris",
+        "ipk": 2.57
+    },
+    {
+        "nama": "Rina Saputra",
+        "nim": "24107968895",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.02
+    },
+    {
+        "nama": "Sari Wibowo",
+        "nim": "2410201668905",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.47
+    },
+    {
+        "nama": "Nur Santoso",
+        "nim": "2410209039",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.43
+    },
+    {
+        "nama": "Tono Pratama",
+        "nim": "24106743812",
+        "jurusan": "Manajemen",
+        "ipk": 3.35
+    },
+    {
+        "nama": "Sari Permata",
+        "nim": "24108315641",
+        "jurusan": "Sistem Informasi",
+        "ipk": 2.63
+    },
+    {
+        "nama": "Sari Setiawan",
+        "nim": "24102023485",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.01
+    },
+    {
+        "nama": "Budi Setiawan",
+        "nim": "24108738918",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.99
+    },
+    {
+        "nama": "Gita Saputra",
+        "nim": "24105136613",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.36
+    },
+    {
+        "nama": "Nur Putri",
+        "nim": "2410714254035",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.07
+    },
+    {
+        "nama": "Dinda Kurniawan",
+        "nim": "241080477252",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.55
+    },
+    {
+        "nama": "Adi Rahmawati",
+        "nim": "2410799386661",
+        "jurusan": "Hukum",
+        "ipk": 2.68
+    },
+    {
+        "nama": "Eko Suharto",
+        "nim": "2410044256513",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.28
+    },
+    {
+        "nama": "Putri Pratama",
+        "nim": "2410719290",
+        "jurusan": "Akuntansi",
+        "ipk": 2.58
+    },
+    {
+        "nama": "Gita Santoso",
+        "nim": "2410376245143",
+        "jurusan": "Manajemen",
+        "ipk": 3.83
+    },
+    {
+        "nama": "Hana Permata",
+        "nim": "24108702752",
+        "jurusan": "Akuntansi",
+        "ipk": 3.27
+    },
+    {
+        "nama": "Xena Setiawan",
+        "nim": "241096088125",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.28
+    },
+    {
+        "nama": "Opik Nugroho",
+        "nim": "24106996431",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.17
+    },
+    {
+        "nama": "Kartika Suharto",
+        "nim": "241014096050",
+        "jurusan": "Akuntansi",
+        "ipk": 3.31
+    },
+    {
+        "nama": "Dinda Putri",
+        "nim": "241058672930",
+        "jurusan": "Teknik Informatika",
+        "ipk": 2.71
+    },
+    {
+        "nama": "Sari Putri",
+        "nim": "24108850623",
+        "jurusan": "Manajemen",
+        "ipk": 3.84
+    },
+    {
+        "nama": "Dewi Sanjaya",
+        "nim": "2410750499138",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.26
+    },
+    {
+        "nama": "Cahyo Setiawan",
+        "nim": "2410225690",
+        "jurusan": "Akuntansi",
+        "ipk": 3.82
+    },
+    {
+        "nama": "Putri Permata",
+        "nim": "241087751023",
+        "jurusan": "Manajemen",
+        "ipk": 2.9
+    },
+    {
+        "nama": "Qori Rahmawati",
+        "nim": "2410655412",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.44
+    },
+    {
+        "nama": "Wawan Sanjaya",
+        "nim": "2410653096",
+        "jurusan": "Manajemen",
+        "ipk": 3.3
+    },
+    {
+        "nama": "Zainal Putri",
+        "nim": "24108033030",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.36
+    },
+    {
+        "nama": "Fajar Pratama",
+        "nim": "2410430893588",
+        "jurusan": "Sastra Inggris",
+        "ipk": 2.92
+    },
+    {
+        "nama": "Cahyo Saputra",
+        "nim": "241034387810",
+        "jurusan": "Sistem Informasi",
+        "ipk": 2.95
+    },
+    {
+        "nama": "Lia Yuliana",
+        "nim": "24100628343",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.58
+    },
+    {
+        "nama": "Lia Permata",
+        "nim": "24103106000",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.14
+    },
+    {
+        "nama": "Nur Hidayat",
+        "nim": "2410371216573",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.02
+    },
+    {
+        "nama": "Lia Putra",
+        "nim": "2410949111260",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.08
+    },
+    {
+        "nama": "Kartika Rahmawati",
+        "nim": "2410650213",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.9
+    },
+    {
+        "nama": "Wawan Hidayat",
+        "nim": "24108532392",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.17
+    },
+    {
+        "nama": "Wawan Santoso",
+        "nim": "241069695101",
+        "jurusan": "Sistem Informasi",
+        "ipk": 2.96
+    },
+    {
+        "nama": "Yudi Susanti",
+        "nim": "2410717913",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.24
+    },
+    {
+        "nama": "Umar Saputra",
+        "nim": "24104204705",
+        "jurusan": "Hukum",
+        "ipk": 3.18
+    },
+    {
+        "nama": "Opik Suharto",
+        "nim": "2410072373",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.65
+    },
+    {
+        "nama": "Wawan Lestari",
+        "nim": "241039127287",
+        "jurusan": "Teknik Informatika",
+        "ipk": 2.77
+    },
+    {
+        "nama": "Agus Lestari",
+        "nim": "2410333709304",
+        "jurusan": "Akuntansi",
+        "ipk": 3.01
+    },
+    {
+        "nama": "Vina Setiawan",
+        "nim": "2410090253",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.01
+    },
+    {
+        "nama": "Citra Setiawan",
+        "nim": "24109473430",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.01
+    },
+    {
+        "nama": "Wawan Rahmawati",
+        "nim": "24104898978",
+        "jurusan": "Manajemen",
+        "ipk": 3.98
+    },
+    {
+        "nama": "Qori Putri",
+        "nim": "241070172415",
+        "jurusan": "Akuntansi",
+        "ipk": 3.29
+    },
+    {
+        "nama": "Putri Susanti",
+        "nim": "241030227606",
+        "jurusan": "Teknik Informatika",
+        "ipk": 2.9
+    },
+    {
+        "nama": "Vina Putra",
+        "nim": "2410837428",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.53
+    },
+    {
+        "nama": "Nur Susanti",
+        "nim": "2410875969",
+        "jurusan": "Hukum",
+        "ipk": 3.77
+    },
+    {
+        "nama": "Zainal Rahmawati",
+        "nim": "2410408397657",
+        "jurusan": "Akuntansi",
+        "ipk": 4
+    },
+    {
+        "nama": "Indra Wijaya",
+        "nim": "241066850453",
+        "jurusan": "Akuntansi",
+        "ipk": 3.81
+    },
+    {
+        "nama": "Opik Nugroho",
+        "nim": "2410542692",
+        "jurusan": "Hukum",
+        "ipk": 2.91
+    },
+    {
+        "nama": "Made Susanti",
+        "nim": "2410389917",
+        "jurusan": "Hukum",
+        "ipk": 3.27
+    },
+    {
+        "nama": "Opik Hidayat",
+        "nim": "2410101106759",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.58
+    },
+    {
+        "nama": "Vina Sanjaya",
+        "nim": "2410833814722",
+        "jurusan": "Manajemen",
+        "ipk": 3.79
+    },
+    {
+        "nama": "Putri Wijaya",
+        "nim": "24105955138",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.82
+    },
+    {
+        "nama": "Agus Permata",
+        "nim": "241054853099",
+        "jurusan": "Sastra Inggris",
+        "ipk": 2.82
+    },
+    {
+        "nama": "Xena Permata",
+        "nim": "2410793729",
+        "jurusan": "Hukum",
+        "ipk": 2.57
+    },
+    {
+        "nama": "Umar Setiawan",
+        "nim": "2410538145721",
+        "jurusan": "Sistem Informasi",
+        "ipk": 2.89
+    },
+    {
+        "nama": "Nur Setiawan",
+        "nim": "241082438244",
+        "jurusan": "Sistem Informasi",
+        "ipk": 2.77
+    },
+    {
+        "nama": "Cahyo Permata",
+        "nim": "2410590647",
+        "jurusan": "Teknik Informatika",
+        "ipk": 2.69
+    },
+    {
+        "nama": "Zainal Putra",
+        "nim": "241014315588",
+        "jurusan": "Hukum",
+        "ipk": 3.9
+    },
+    {
+        "nama": "Eko Suharto",
+        "nim": "24109897617",
+        "jurusan": "Sistem Informasi",
+        "ipk": 2.71
+    },
+    {
+        "nama": "Vina Wulandari",
+        "nim": "241001741290",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.5
+    },
+    {
+        "nama": "Vina Kusuma",
+        "nim": "2410693476",
+        "jurusan": "Hukum",
+        "ipk": 3.7
+    },
+    {
+        "nama": "Vina Kusuma",
+        "nim": "241078385994",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.4
+    },
+    {
+        "nama": "Bambang Permata",
+        "nim": "2410701105",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.7
+    },
+    {
+        "nama": "Rina Nugroho",
+        "nim": "241046673608",
+        "jurusan": "Sistem Informasi",
+        "ipk": 2.97
+    },
+    {
+        "nama": "Tono Permata",
+        "nim": "2410259873295",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.33
+    },
+    {
+        "nama": "Opik Sanjaya",
+        "nim": "241005842695",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.16
+    },
+    {
+        "nama": "Agus Yuliana",
+        "nim": "2410948848",
+        "jurusan": "Teknik Informatika",
+        "ipk": 2.55
+    },
+    {
+        "nama": "Bambang Saputra",
+        "nim": "24104736073",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.19
+    },
+    {
+        "nama": "Dinda Wibowo",
+        "nim": "241036356398",
+        "jurusan": "Sistem Informasi",
+        "ipk": 2.97
+    },
+    {
+        "nama": "Adi Hidayat",
+        "nim": "2410324286",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.96
+    },
+    {
+        "nama": "Yudi Yuliana",
+        "nim": "2410871985",
+        "jurusan": "Manajemen",
+        "ipk": 2.56
+    },
+    {
+        "nama": "Xena Saputra",
+        "nim": "2410448517357",
+        "jurusan": "Akuntansi",
+        "ipk": 2.61
+    },
+    {
+        "nama": "Indra Nugroho",
+        "nim": "24101925867",
+        "jurusan": "Hukum",
+        "ipk": 3.81
+    },
+    {
+        "nama": "Vina Suharto",
+        "nim": "2410339467",
+        "jurusan": "Sistem Informasi",
+        "ipk": 2.96
+    },
+    {
+        "nama": "Qori Putri",
+        "nim": "24103765504",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.76
+    },
+    {
+        "nama": "Yudi Sanjaya",
+        "nim": "2410561945572",
+        "jurusan": "Manajemen",
+        "ipk": 3.76
+    },
+    {
+        "nama": "Hana Setiawan",
+        "nim": "2410205415",
+        "jurusan": "Hukum",
+        "ipk": 3.89
+    },
+    {
+        "nama": "Zainal Rahmawati",
+        "nim": "2410817124201",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.58
+    },
+    {
+        "nama": "Umar Pratama",
+        "nim": "2410858258919",
+        "jurusan": "Hukum",
+        "ipk": 2.55
+    },
+    {
+        "nama": "Rina Sanjaya",
+        "nim": "2410895772295",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.21
+    },
+    {
+        "nama": "Citra Hidayat",
+        "nim": "241004542535",
+        "jurusan": "Teknik Informatika",
+        "ipk": 2.51
+    },
+    {
+        "nama": "Dinda Setiawan",
+        "nim": "24106021523",
+        "jurusan": "Hukum",
+        "ipk": 2.75
+    },
+    {
+        "nama": "Indra Putri",
+        "nim": "2410738368",
+        "jurusan": "Hukum",
+        "ipk": 2.78
+    },
+    {
+        "nama": "Bambang Saputra",
+        "nim": "2410217283925",
+        "jurusan": "Hukum",
+        "ipk": 3.35
+    },
+    {
+        "nama": "Tono Sanjaya",
+        "nim": "2410573705288",
+        "jurusan": "Hukum",
+        "ipk": 3.78
+    },
+    {
+        "nama": "Zainal Nugroho",
+        "nim": "24103889852",
+        "jurusan": "Manajemen",
+        "ipk": 2.97
+    },
+    {
+        "nama": "Nur Pratama",
+        "nim": "2410397583095",
+        "jurusan": "Hukum",
+        "ipk": 3.48
+    },
+    {
+        "nama": "Budi Suharto",
+        "nim": "2410354124",
+        "jurusan": "Sistem Informasi",
+        "ipk": 2.97
+    },
+    {
+        "nama": "Kartika Rahmawati",
+        "nim": "24102871990",
+        "jurusan": "Sastra Inggris",
+        "ipk": 2.58
+    },
+    {
+        "nama": "Joko Kusuma",
+        "nim": "24107625383",
+        "jurusan": "Hukum",
+        "ipk": 3.03
+    },
+    {
+        "nama": "Bambang Setiawan",
+        "nim": "241035325147",
+        "jurusan": "Akuntansi",
+        "ipk": 2.76
+    },
+    {
+        "nama": "Vina Wijaya",
+        "nim": "241047290288",
+        "jurusan": "Akuntansi",
+        "ipk": 3.66
+    },
+    {
+        "nama": "Bambang Putra",
+        "nim": "2410029283155",
+        "jurusan": "Manajemen",
+        "ipk": 2.86
+    },
+    {
+        "nama": "Wawan Wibowo",
+        "nim": "2410290482",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.32
+    },
+    {
+        "nama": "Xena Santoso",
+        "nim": "2410536891",
+        "jurusan": "Akuntansi",
+        "ipk": 2.54
+    },
+    {
+        "nama": "Agus Sanjaya",
+        "nim": "2410303209415",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.39
+    },
+    {
+        "nama": "Dewi Kusuma",
+        "nim": "2410067750123",
+        "jurusan": "Manajemen",
+        "ipk": 2.74
+    },
+    {
+        "nama": "Sari Wibowo",
+        "nim": "2410291247",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.34
+    },
+    {
+        "nama": "Kartika Hidayat",
+        "nim": "2410472159201",
+        "jurusan": "Manajemen",
+        "ipk": 3.56
+    },
+    {
+        "nama": "Agus Putri",
+        "nim": "241058143766",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.01
+    },
+    {
+        "nama": "Hana Saputra",
+        "nim": "2410713042024",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.45
+    },
+    {
+        "nama": "Rina Lestari",
+        "nim": "2410610261287",
+        "jurusan": "Akuntansi",
+        "ipk": 3.75
+    },
+    {
+        "nama": "Fajar Suharto",
+        "nim": "2410207641",
+        "jurusan": "Teknik Elektro",
+        "ipk": 2.6
+    },
+    {
+        "nama": "Hana Saputra",
+        "nim": "24104505654",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.69
+    },
+    {
+        "nama": "Made Pratama",
+        "nim": "241053863138",
+        "jurusan": "Sistem Informasi",
+        "ipk": 2.73
+    },
+    {
+        "nama": "Budi Kurniawan",
+        "nim": "241071575139",
+        "jurusan": "Akuntansi",
+        "ipk": 3.91
+    },
+    {
+        "nama": "Eko Kurniawan",
+        "nim": "2410448983531",
+        "jurusan": "Akuntansi",
+        "ipk": 2.63
+    },
+    {
+        "nama": "Xena Setiawan",
+        "nim": "2410390608102",
+        "jurusan": "Teknik Informatika",
+        "ipk": 2.62
+    },
+    {
+        "nama": "Made Susanti",
+        "nim": "2410056621073",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.02
+    },
+    {
+        "nama": "Sari Putra",
+        "nim": "2410226814",
+        "jurusan": "Manajemen",
+        "ipk": 2.7
+    },
+    {
+        "nama": "Kartika Kurniawan",
+        "nim": "2410136211",
+        "jurusan": "Sistem Informasi",
+        "ipk": 2.66
+    },
+    {
+        "nama": "Lia Wulandari",
+        "nim": "24107086382",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.93
+    },
+    {
+        "nama": "Nur Wijaya",
+        "nim": "2410875468",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.45
+    },
+    {
+        "nama": "Agus Susanti",
+        "nim": "2410938211",
+        "jurusan": "Hukum",
+        "ipk": 2.65
+    },
+    {
+        "nama": "Rina Kusuma",
+        "nim": "2410210052",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.43
+    },
+    {
+        "nama": "Cahyo Santoso",
+        "nim": "2410506138",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.65
+    },
+    {
+        "nama": "Kartika Saputra",
+        "nim": "2410232335",
+        "jurusan": "Akuntansi",
+        "ipk": 3.31
+    },
+    {
+        "nama": "Fajar Santoso",
+        "nim": "2410294769",
+        "jurusan": "Sastra Inggris",
+        "ipk": 2.55
+    },
+    {
+        "nama": "Dinda Yuliana",
+        "nim": "2410544783",
+        "jurusan": "Akuntansi",
+        "ipk": 2.59
+    },
+    {
+        "nama": "Sari Putra",
+        "nim": "2410751242",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.97
+    },
+    {
+        "nama": "Nur Setiawan",
+        "nim": "24101552410",
+        "jurusan": "Akuntansi",
+        "ipk": 2.71
+    },
+    {
+        "nama": "Kartika Permata",
+        "nim": "241019805164",
+        "jurusan": "Teknik Informatika",
+        "ipk": 2.92
+    },
+    {
+        "nama": "Agus Wulandari",
+        "nim": "241090669751",
+        "jurusan": "Hukum",
+        "ipk": 3.09
+    },
+    {
+        "nama": "Made Putri",
+        "nim": "2410978275",
+        "jurusan": "Hukum",
+        "ipk": 3.96
+    },
+    {
+        "nama": "Budi Saputra",
+        "nim": "24100312673",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.96
+    },
+    {
+        "nama": "Qori Pratama",
+        "nim": "24107922291",
+        "jurusan": "Akuntansi",
+        "ipk": 3.36
+    },
+    {
+        "nama": "Umar Permata",
+        "nim": "24108877236",
+        "jurusan": "Akuntansi",
+        "ipk": 2.54
+    },
+    {
+        "nama": "Dinda Susanti",
+        "nim": "24109109835",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.4
+    },
+    {
+        "nama": "Dinda Wulandari",
+        "nim": "2410204390",
+        "jurusan": "Sastra Inggris",
+        "ipk": 2.84
+    },
+    {
+        "nama": "Zainal Setiawan",
+        "nim": "2410947132842",
+        "jurusan": "Teknik Informatika",
+        "ipk": 2.9
+    },
+    {
+        "nama": "Agus Saputra",
+        "nim": "24105978683",
+        "jurusan": "Sistem Informasi",
+        "ipk": 2.61
+    },
+    {
+        "nama": "Opik Sanjaya",
+        "nim": "241003786194",
+        "jurusan": "Manajemen",
+        "ipk": 2.79
+    },
+    {
+        "nama": "Kartika Susanti",
+        "nim": "2410072579",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.85
+    },
+    {
+        "nama": "Vina Nugroho",
+        "nim": "241058937907",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.97
+    },
+    {
+        "nama": "Cahyo Rahmawati",
+        "nim": "241040010528",
+        "jurusan": "Manajemen",
+        "ipk": 3.29
+    },
+    {
+        "nama": "Rina Setiawan",
+        "nim": "241043053075",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.79
+    },
+    {
+        "nama": "Agus Pratama",
+        "nim": "24107097839",
+        "jurusan": "Sistem Informasi",
+        "ipk": 2.96
+    },
+    {
+        "nama": "Made Wulandari",
+        "nim": "2410111505574",
+        "jurusan": "Manajemen",
+        "ipk": 3.63
+    },
+    {
+        "nama": "Fajar Wulandari",
+        "nim": "241037170791",
+        "jurusan": "Manajemen",
+        "ipk": 3.31
+    },
+    {
+        "nama": "Citra Wibowo",
+        "nim": "2410783514",
+        "jurusan": "Sistem Informasi",
+        "ipk": 2.61
+    },
+    {
+        "nama": "Lia Yuliana",
+        "nim": "2410547595",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.89
+    },
+    {
+        "nama": "Lia Wulandari",
+        "nim": "2410569028589",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.31
+    },
+    {
+        "nama": "Opik Wibowo",
+        "nim": "241077166921",
+        "jurusan": "Sistem Informasi",
+        "ipk": 2.95
+    },
+    {
+        "nama": "Agus Saputra",
+        "nim": "241085984731",
+        "jurusan": "Sistem Informasi",
+        "ipk": 2.94
+    },
+    {
+        "nama": "Rina Hidayat",
+        "nim": "241010560117",
+        "jurusan": "Teknik Elektro",
+        "ipk": 2.66
+    },
+    {
+        "nama": "Opik Wibowo",
+        "nim": "2410106754415",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.08
+    },
+    {
+        "nama": "Dinda Yuliana",
+        "nim": "2410447237883",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.38
+    },
+    {
+        "nama": "Hana Susanti",
+        "nim": "24104037821",
+        "jurusan": "Hukum",
+        "ipk": 3.15
+    },
+    {
+        "nama": "Joko Rahmawati",
+        "nim": "2410287192316",
+        "jurusan": "Manajemen",
+        "ipk": 3.53
+    },
+    {
+        "nama": "Qori Susanti",
+        "nim": "2410010628364",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.7
+    },
+    {
+        "nama": "Yudi Santoso",
+        "nim": "24104955690",
+        "jurusan": "Manajemen",
+        "ipk": 3.4
+    },
+    {
+        "nama": "Kartika Saputra",
+        "nim": "241014652201",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.63
+    },
+    {
+        "nama": "Dewi Wijaya",
+        "nim": "241058107724",
+        "jurusan": "Hukum",
+        "ipk": 3.39
+    },
+    {
+        "nama": "Dewi Kurniawan",
+        "nim": "2410957251312",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.01
+    },
+    {
+        "nama": "Adi Yuliana",
+        "nim": "2410616146",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.32
+    },
+    {
+        "nama": "Yudi Setiawan",
+        "nim": "2410194154263",
+        "jurusan": "Akuntansi",
+        "ipk": 2.85
+    },
+    {
+        "nama": "Kartika Wijaya",
+        "nim": "2410189666454",
+        "jurusan": "Teknik Informatika",
+        "ipk": 2.62
+    },
+    {
+        "nama": "Budi Nugroho",
+        "nim": "2410248721162",
+        "jurusan": "Manajemen",
+        "ipk": 3.62
+    },
+    {
+        "nama": "Sari Suharto",
+        "nim": "241058596643",
+        "jurusan": "Sastra Inggris",
+        "ipk": 2.71
+    },
+    {
+        "nama": "Agus Kusuma",
+        "nim": "2410994066364",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.67
+    },
+    {
+        "nama": "Dewi Permata",
+        "nim": "2410800993900",
+        "jurusan": "Manajemen",
+        "ipk": 3.36
+    },
+    {
+        "nama": "Vina Susanti",
+        "nim": "241032835062",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.28
+    },
+    {
+        "nama": "Umar Wijaya",
+        "nim": "241005516084",
+        "jurusan": "Manajemen",
+        "ipk": 2.55
+    },
+    {
+        "nama": "Umar Wulandari",
+        "nim": "24108831201",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.7
+    },
+    {
+        "nama": "Budi Sanjaya",
+        "nim": "2410001476",
+        "jurusan": "Akuntansi",
+        "ipk": 2.63
+    },
+    {
+        "nama": "Budi Susanti",
+        "nim": "2410736793",
+        "jurusan": "Teknik Elektro",
+        "ipk": 2.59
+    },
+    {
+        "nama": "Adi Putra",
+        "nim": "241022296563",
+        "jurusan": "Manajemen",
+        "ipk": 3.23
+    },
+    {
+        "nama": "Nur Yuliana",
+        "nim": "24107800944",
+        "jurusan": "Akuntansi",
+        "ipk": 3.35
+    },
+    {
+        "nama": "Adi Sanjaya",
+        "nim": "24107671968",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3
+    },
+    {
+        "nama": "Qori Rahmawati",
+        "nim": "2410921028688",
+        "jurusan": "Akuntansi",
+        "ipk": 2.59
+    },
+    {
+        "nama": "Rina Susanti",
+        "nim": "2410839067691",
+        "jurusan": "Akuntansi",
+        "ipk": 3.68
+    },
+    {
+        "nama": "Hana Suharto",
+        "nim": "2410208770749",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.32
+    },
+    {
+        "nama": "Dinda Rahmawati",
+        "nim": "241078182756",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.45
+    },
+    {
+        "nama": "Tono Pratama",
+        "nim": "241052183885",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.79
+    },
+    {
+        "nama": "Yudi Wulandari",
+        "nim": "24101245823",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.16
+    },
+    {
+        "nama": "Vina Putra",
+        "nim": "2410543005",
+        "jurusan": "Akuntansi",
+        "ipk": 2.71
+    },
+    {
+        "nama": "Opik Saputra",
+        "nim": "2410944436",
+        "jurusan": "Hukum",
+        "ipk": 2.71
+    },
+    {
+        "nama": "Eko Sanjaya",
+        "nim": "24102586313",
+        "jurusan": "Manajemen",
+        "ipk": 3.45
+    },
+    {
+        "nama": "Putri Putra",
+        "nim": "2410305406",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.14
+    },
+    {
+        "nama": "Wawan Yuliana",
+        "nim": "2410002733",
+        "jurusan": "Akuntansi",
+        "ipk": 3.29
+    },
+    {
+        "nama": "Made Sanjaya",
+        "nim": "2410562269",
+        "jurusan": "Hukum",
+        "ipk": 2.86
+    },
+    {
+        "nama": "Zainal Yuliana",
+        "nim": "2410331553769",
+        "jurusan": "Manajemen",
+        "ipk": 3.58
+    },
+    {
+        "nama": "Bambang Suharto",
+        "nim": "24105941995",
+        "jurusan": "Manajemen",
+        "ipk": 3.51
+    },
+    {
+        "nama": "Opik Kusuma",
+        "nim": "2410293680275",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.8
+    },
+    {
+        "nama": "Hana Kurniawan",
+        "nim": "241067940701",
+        "jurusan": "Manajemen",
+        "ipk": 2.77
+    },
+    {
+        "nama": "Bambang Lestari",
+        "nim": "2410814941",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.25
+    },
+    {
+        "nama": "Nur Kurniawan",
+        "nim": "24109840830",
+        "jurusan": "Sastra Inggris",
+        "ipk": 2.83
+    },
+    {
+        "nama": "Tono Suharto",
+        "nim": "241061339011",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.58
+    },
+    {
+        "nama": "Opik Hidayat",
+        "nim": "2410476891862",
+        "jurusan": "Hukum",
+        "ipk": 3.45
+    },
+    {
+        "nama": "Lia Kusuma",
+        "nim": "2410723872097",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.03
+    },
+    {
+        "nama": "Lia Sanjaya",
+        "nim": "2410919537042",
+        "jurusan": "Teknik Elektro",
+        "ipk": 2.92
+    },
+    {
+        "nama": "Adi Setiawan",
+        "nim": "2410923271",
+        "jurusan": "Akuntansi",
+        "ipk": 3.99
+    },
+    {
+        "nama": "Dewi Wulandari",
+        "nim": "24108418166",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.76
+    },
+    {
+        "nama": "Fajar Kurniawan",
+        "nim": "2410555437",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.55
+    },
+    {
+        "nama": "Gita Hidayat",
+        "nim": "2410029039727",
+        "jurusan": "Manajemen",
+        "ipk": 3.97
+    },
+    {
+        "nama": "Vina Wibowo",
+        "nim": "241041759350",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.58
+    },
+    {
+        "nama": "Kartika Lestari",
+        "nim": "241009043547",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.33
+    },
+    {
+        "nama": "Umar Yuliana",
+        "nim": "2410979025",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.45
+    },
+    {
+        "nama": "Tono Permata",
+        "nim": "241026648051",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.24
+    },
+    {
+        "nama": "Rina Wulandari",
+        "nim": "2410867646",
+        "jurusan": "Akuntansi",
+        "ipk": 3.72
+    },
+    {
+        "nama": "Wawan Suharto",
+        "nim": "24101989861",
+        "jurusan": "Manajemen",
+        "ipk": 3.22
+    },
+    {
+        "nama": "Fajar Kusuma",
+        "nim": "241072951511",
+        "jurusan": "Hukum",
+        "ipk": 2.74
+    },
+    {
+        "nama": "Nur Wijaya",
+        "nim": "2410210409542",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.94
+    },
+    {
+        "nama": "Lia Sanjaya",
+        "nim": "2410699760",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.92
+    },
+    {
+        "nama": "Nur Setiawan",
+        "nim": "2410647613237",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.79
+    },
+    {
+        "nama": "Nur Putri",
+        "nim": "241036720116",
+        "jurusan": "Hukum",
+        "ipk": 3.31
+    },
+    {
+        "nama": "Wawan Wulandari",
+        "nim": "241021646643",
+        "jurusan": "Manajemen",
+        "ipk": 3.72
+    },
+    {
+        "nama": "Citra Suharto",
+        "nim": "24101415807",
+        "jurusan": "Manajemen",
+        "ipk": 3.78
+    },
+    {
+        "nama": "Nur Santoso",
+        "nim": "24105919144",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.59
+    },
+    {
+        "nama": "Made Sanjaya",
+        "nim": "241053134713",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.57
+    },
+    {
+        "nama": "Bambang Wijaya",
+        "nim": "241017578383",
+        "jurusan": "Akuntansi",
+        "ipk": 2.96
+    },
+    {
+        "nama": "Gita Sanjaya",
+        "nim": "241088486535",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.84
+    },
+    {
+        "nama": "Kartika Yuliana",
+        "nim": "2410725486132",
+        "jurusan": "Hukum",
+        "ipk": 2.94
+    },
+    {
+        "nama": "Eko Wulandari",
+        "nim": "241034619981",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.63
+    },
+    {
+        "nama": "Vina Santoso",
+        "nim": "24104338087",
+        "jurusan": "Akuntansi",
+        "ipk": 2.5
+    },
+    {
+        "nama": "Zainal Kurniawan",
+        "nim": "2410759239281",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.62
+    },
+    {
+        "nama": "Cahyo Wibowo",
+        "nim": "24100785641",
+        "jurusan": "Akuntansi",
+        "ipk": 3.72
+    },
+    {
+        "nama": "Qori Rahmawati",
+        "nim": "2410526975",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.2
+    },
+    {
+        "nama": "Dinda Saputra",
+        "nim": "2410088265",
+        "jurusan": "Hukum",
+        "ipk": 3.49
+    },
+    {
+        "nama": "Yudi Kurniawan",
+        "nim": "24109703220",
+        "jurusan": "Hukum",
+        "ipk": 2.79
+    },
+    {
+        "nama": "Indra Permata",
+        "nim": "2410646026",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.05
+    },
+    {
+        "nama": "Kartika Kusuma",
+        "nim": "2410577266",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.45
+    },
+    {
+        "nama": "Made Hidayat",
+        "nim": "241066581107",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.68
+    },
+    {
+        "nama": "Fajar Santoso",
+        "nim": "241072329619",
+        "jurusan": "Manajemen",
+        "ipk": 3.58
+    },
+    {
+        "nama": "Citra Suharto",
+        "nim": "241088990705",
+        "jurusan": "Akuntansi",
+        "ipk": 3.18
+    },
+    {
+        "nama": "Fajar Santoso",
+        "nim": "2410422911114",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.5
+    },
+    {
+        "nama": "Adi Putri",
+        "nim": "241009793814",
+        "jurusan": "Hukum",
+        "ipk": 2.92
+    },
+    {
+        "nama": "Putri Saputra",
+        "nim": "2410598165",
+        "jurusan": "Sistem Informasi",
+        "ipk": 2.72
+    },
+    {
+        "nama": "Agus Nugroho",
+        "nim": "24106970305",
+        "jurusan": "Akuntansi",
+        "ipk": 3.89
+    },
+    {
+        "nama": "Sari Kusuma",
+        "nim": "2410598382",
+        "jurusan": "Sistem Informasi",
+        "ipk": 2.68
+    },
+    {
+        "nama": "Adi Putra",
+        "nim": "24108444805",
+        "jurusan": "Teknik Elektro",
+        "ipk": 2.62
+    },
+    {
+        "nama": "Rina Nugroho",
+        "nim": "24105140225",
+        "jurusan": "Manajemen",
+        "ipk": 3.31
+    },
+    {
+        "nama": "Rina Putri",
+        "nim": "2410941644",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.11
+    },
+    {
+        "nama": "Vina Kurniawan",
+        "nim": "2410985130905",
+        "jurusan": "Hukum",
+        "ipk": 2.56
+    },
+    {
+        "nama": "Bambang Yuliana",
+        "nim": "2410573681252",
+        "jurusan": "Akuntansi",
+        "ipk": 3.42
+    },
+    {
+        "nama": "Qori Suharto",
+        "nim": "2410373871",
+        "jurusan": "Manajemen",
+        "ipk": 3.16
+    },
+    {
+        "nama": "Gita Hidayat",
+        "nim": "24107170257",
+        "jurusan": "Manajemen",
+        "ipk": 3.15
+    },
+    {
+        "nama": "Lia Sanjaya",
+        "nim": "241012093010",
+        "jurusan": "Teknik Elektro",
+        "ipk": 2.65
+    },
+    {
+        "nama": "Fajar Kurniawan",
+        "nim": "24107449981",
+        "jurusan": "Sastra Inggris",
+        "ipk": 2.95
+    },
+    {
+        "nama": "Qori Suharto",
+        "nim": "2410384553691",
+        "jurusan": "Akuntansi",
+        "ipk": 2.76
+    },
+    {
+        "nama": "Budi Sanjaya",
+        "nim": "2410686989405",
+        "jurusan": "Akuntansi",
+        "ipk": 3.21
+    },
+    {
+        "nama": "Opik Kusuma",
+        "nim": "2410802487",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.71
+    },
+    {
+        "nama": "Joko Pratama",
+        "nim": "241072016120",
+        "jurusan": "Hukum",
+        "ipk": 3.77
+    },
+    {
+        "nama": "Made Lestari",
+        "nim": "2410624047",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.91
+    },
+    {
+        "nama": "Indra Suharto",
+        "nim": "2410042994",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.47
+    },
+    {
+        "nama": "Putri Sanjaya",
+        "nim": "2410946237",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.36
+    },
+    {
+        "nama": "Vina Wijaya",
+        "nim": "2410770727403",
+        "jurusan": "Teknik Elektro",
+        "ipk": 2.71
+    },
+    {
+        "nama": "Eko Putri",
+        "nim": "24108267821",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.93
+    },
+    {
+        "nama": "Gita Wibowo",
+        "nim": "24106763594",
+        "jurusan": "Manajemen",
+        "ipk": 3.74
+    },
+    {
+        "nama": "Umar Yuliana",
+        "nim": "2410837865",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.61
+    },
+    {
+        "nama": "Fajar Susanti",
+        "nim": "24106758663",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.78
+    },
+    {
+        "nama": "Dewi Putri",
+        "nim": "2410338269488",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.52
+    },
+    {
+        "nama": "Dinda Rahmawati",
+        "nim": "24101999807",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.55
+    },
+    {
+        "nama": "Qori Rahmawati",
+        "nim": "24107866467",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.07
+    },
+    {
+        "nama": "Adi Yuliana",
+        "nim": "24104863101",
+        "jurusan": "Akuntansi",
+        "ipk": 3.67
+    },
+    {
+        "nama": "Vina Putri",
+        "nim": "2410672084827",
+        "jurusan": "Hukum",
+        "ipk": 2.65
+    },
+    {
+        "nama": "Nur Sanjaya",
+        "nim": "24103779198",
+        "jurusan": "Hukum",
+        "ipk": 3.28
+    },
+    {
+        "nama": "Agus Kurniawan",
+        "nim": "241066719028",
+        "jurusan": "Sastra Inggris",
+        "ipk": 2.96
+    },
+    {
+        "nama": "Putri Wijaya",
+        "nim": "241023810626",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.88
+    },
+    {
+        "nama": "Vina Suharto",
+        "nim": "2410870259",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.55
+    },
+    {
+        "nama": "Xena Yuliana",
+        "nim": "24101858280",
+        "jurusan": "Manajemen",
+        "ipk": 2.71
+    },
+    {
+        "nama": "Nur Putri",
+        "nim": "2410169692945",
+        "jurusan": "Akuntansi",
+        "ipk": 2.95
+    },
+    {
+        "nama": "Tono Santoso",
+        "nim": "2410507390",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.98
+    },
+    {
+        "nama": "Cahyo Setiawan",
+        "nim": "24102014688",
+        "jurusan": "Akuntansi",
+        "ipk": 3.27
+    },
+    {
+        "nama": "Zainal Santoso",
+        "nim": "24103936372",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.06
+    },
+    {
+        "nama": "Tono Wibowo",
+        "nim": "2410061202",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.09
+    },
+    {
+        "nama": "Made Yuliana",
+        "nim": "241097388371",
+        "jurusan": "Sastra Inggris",
+        "ipk": 2.85
+    },
+    {
+        "nama": "Fajar Nugroho",
+        "nim": "24109629284",
+        "jurusan": "Manajemen",
+        "ipk": 3.71
+    },
+    {
+        "nama": "Citra Yuliana",
+        "nim": "241032965719",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.62
+    },
+    {
+        "nama": "Lia Setiawan",
+        "nim": "2410461233",
+        "jurusan": "Akuntansi",
+        "ipk": 3.24
+    },
+    {
+        "nama": "Opik Setiawan",
+        "nim": "2410832596",
+        "jurusan": "Akuntansi",
+        "ipk": 3.73
+    },
+    {
+        "nama": "Putri Kurniawan",
+        "nim": "241015760199",
+        "jurusan": "Manajemen",
+        "ipk": 2.79
+    },
+    {
+        "nama": "Made Permata",
+        "nim": "241048024332",
+        "jurusan": "Hukum",
+        "ipk": 2.72
+    },
+    {
+        "nama": "Tono Yuliana",
+        "nim": "241012001440",
+        "jurusan": "Akuntansi",
+        "ipk": 3.46
+    },
+    {
+        "nama": "Dewi Putri",
+        "nim": "2410750521",
+        "jurusan": "Akuntansi",
+        "ipk": 2.66
+    },
+    {
+        "nama": "Rina Pratama",
+        "nim": "2410671065568",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.41
+    },
+    {
+        "nama": "Lia Wijaya",
+        "nim": "241062697999",
+        "jurusan": "Teknik Informatika",
+        "ipk": 2.87
+    },
+    {
+        "nama": "Vina Nugroho",
+        "nim": "2410147329",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.11
+    },
+    {
+        "nama": "Wawan Wijaya",
+        "nim": "2410317405613",
+        "jurusan": "Manajemen",
+        "ipk": 3.42
+    },
+    {
+        "nama": "Rina Wijaya",
+        "nim": "241012028736",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.91
+    },
+    {
+        "nama": "Bambang Kusuma",
+        "nim": "241053099489",
+        "jurusan": "Teknik Elektro",
+        "ipk": 2.7
+    },
+    {
+        "nama": "Tono Susanti",
+        "nim": "2410295230",
+        "jurusan": "Manajemen",
+        "ipk": 3.48
+    },
+    {
+        "nama": "Nur Sanjaya",
+        "nim": "2410143792",
+        "jurusan": "Hukum",
+        "ipk": 3.8
+    },
+    {
+        "nama": "Nur Kurniawan",
+        "nim": "2410858291",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.47
+    },
+    {
+        "nama": "Eko Kurniawan",
+        "nim": "241015534770",
+        "jurusan": "Hukum",
+        "ipk": 3.4
+    },
+    {
+        "nama": "Rina Saputra",
+        "nim": "241086411235",
+        "jurusan": "Akuntansi",
+        "ipk": 3.17
+    },
+    {
+        "nama": "Opik Nugroho",
+        "nim": "24109739750",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.46
+    },
+    {
+        "nama": "Hana Permata",
+        "nim": "24100450850",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.24
+    },
+    {
+        "nama": "Citra Wibowo",
+        "nim": "24105822540",
+        "jurusan": "Manajemen",
+        "ipk": 2.88
+    },
+    {
+        "nama": "Dinda Setiawan",
+        "nim": "241060714774",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.67
+    },
+    {
+        "nama": "Budi Permata",
+        "nim": "2410919295",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.31
+    },
+    {
+        "nama": "Opik Santoso",
+        "nim": "24101026147",
+        "jurusan": "Manajemen",
+        "ipk": 3.86
+    },
+    {
+        "nama": "Agus Hidayat",
+        "nim": "241083052490",
+        "jurusan": "Teknik Elektro",
+        "ipk": 2.93
+    },
+    {
+        "nama": "Bambang Rahmawati",
+        "nim": "2410979586",
+        "jurusan": "Akuntansi",
+        "ipk": 3.16
+    },
+    {
+        "nama": "Wawan Putra",
+        "nim": "2410413906",
+        "jurusan": "Teknik Informatika",
+        "ipk": 2.55
+    },
+    {
+        "nama": "Umar Rahmawati",
+        "nim": "24103716220",
+        "jurusan": "Akuntansi",
+        "ipk": 3.96
+    },
+    {
+        "nama": "Hana Wulandari",
+        "nim": "2410964477085",
+        "jurusan": "Manajemen",
+        "ipk": 3.12
+    },
+    {
+        "nama": "Qori Setiawan",
+        "nim": "2410058869582",
+        "jurusan": "Teknik Informatika",
+        "ipk": 2.65
+    },
+    {
+        "nama": "Rina Susanti",
+        "nim": "24105030695",
+        "jurusan": "Manajemen",
+        "ipk": 3.17
+    },
+    {
+        "nama": "Wawan Kusuma",
+        "nim": "2410038324",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.77
+    },
+    {
+        "nama": "Budi Saputra",
+        "nim": "241074091451",
+        "jurusan": "Manajemen",
+        "ipk": 3.58
+    },
+    {
+        "nama": "Cahyo Susanti",
+        "nim": "241094291856",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.73
+    },
+    {
+        "nama": "Agus Suharto",
+        "nim": "2410823327",
+        "jurusan": "Teknik Informatika",
+        "ipk": 2.91
+    },
+    {
+        "nama": "Nur Wibowo",
+        "nim": "24100861026",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.7
+    },
+    {
+        "nama": "Gita Yuliana",
+        "nim": "2410905318",
+        "jurusan": "Hukum",
+        "ipk": 3.18
+    },
+    {
+        "nama": "Putri Putra",
+        "nim": "2410399302036",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.18
+    },
+    {
+        "nama": "Made Permata",
+        "nim": "2410634074",
+        "jurusan": "Manajemen",
+        "ipk": 3.05
+    },
+    {
+        "nama": "Tono Saputra",
+        "nim": "2410268572055",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.16
+    },
+    {
+        "nama": "Citra Kusuma",
+        "nim": "241001642241",
+        "jurusan": "Manajemen",
+        "ipk": 2.63
+    },
+    {
+        "nama": "Made Nugroho",
+        "nim": "24101935517",
+        "jurusan": "Akuntansi",
+        "ipk": 2.86
+    },
+    {
+        "nama": "Rina Pratama",
+        "nim": "24104443090",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.64
+    },
+    {
+        "nama": "Putri Nugroho",
+        "nim": "2410027917",
+        "jurusan": "Akuntansi",
+        "ipk": 2.65
+    },
+    {
+        "nama": "Cahyo Rahmawati",
+        "nim": "2410821110",
+        "jurusan": "Akuntansi",
+        "ipk": 3.55
+    },
+    {
+        "nama": "Sari Putri",
+        "nim": "2410811552",
+        "jurusan": "Akuntansi",
+        "ipk": 2.59
+    },
+    {
+        "nama": "Made Susanti",
+        "nim": "241058589930",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.69
+    },
+    {
+        "nama": "Yudi Putri",
+        "nim": "241001784784",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.94
+    },
+    {
+        "nama": "Fajar Putri",
+        "nim": "24106655194",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.94
+    },
+    {
+        "nama": "Sari Pratama",
+        "nim": "2410507759536",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.84
+    },
+    {
+        "nama": "Dewi Saputra",
+        "nim": "24100559104",
+        "jurusan": "Hukum",
+        "ipk": 3.1
+    },
+    {
+        "nama": "Budi Lestari",
+        "nim": "2410372929",
+        "jurusan": "Hukum",
+        "ipk": 2.95
+    },
+    {
+        "nama": "Bambang Suharto",
+        "nim": "2410514552995",
+        "jurusan": "Teknik Elektro",
+        "ipk": 2.97
+    },
+    {
+        "nama": "Opik Sanjaya",
+        "nim": "2410601502",
+        "jurusan": "Sistem Informasi",
+        "ipk": 2.86
+    },
+    {
+        "nama": "Made Suharto",
+        "nim": "241071716815",
+        "jurusan": "Hukum",
+        "ipk": 3.74
+    },
+    {
+        "nama": "Eko Saputra",
+        "nim": "24103602429",
+        "jurusan": "Sistem Informasi",
+        "ipk": 2.95
+    },
+    {
+        "nama": "Joko Setiawan",
+        "nim": "2410758925",
+        "jurusan": "Teknik Informatika",
+        "ipk": 2.99
+    },
+    {
+        "nama": "Kartika Putra",
+        "nim": "241028223243",
+        "jurusan": "Manajemen",
+        "ipk": 3.4
+    },
+    {
+        "nama": "Bambang Sanjaya",
+        "nim": "2410650909",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.42
+    },
+    {
+        "nama": "Wawan Lestari",
+        "nim": "2410308356",
+        "jurusan": "Akuntansi",
+        "ipk": 2.55
+    },
+    {
+        "nama": "Bambang Kusuma",
+        "nim": "24103328475",
+        "jurusan": "Teknik Elektro",
+        "ipk": 2.64
+    },
+    {
+        "nama": "Budi Lestari",
+        "nim": "241026531967",
+        "jurusan": "Akuntansi",
+        "ipk": 3.99
+    },
+    {
+        "nama": "Hana Yuliana",
+        "nim": "2410556213435",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.26
+    },
+    {
+        "nama": "Putri Saputra",
+        "nim": "24103816907",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.09
+    },
+    {
+        "nama": "Vina Wibowo",
+        "nim": "241093345369",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.09
+    },
+    {
+        "nama": "Hana Sanjaya",
+        "nim": "24106761605",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.45
+    },
+    {
+        "nama": "Tono Putra",
+        "nim": "2410196714831",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.29
+    },
+    {
+        "nama": "Adi Santoso",
+        "nim": "24100186876",
+        "jurusan": "Akuntansi",
+        "ipk": 2.61
+    },
+    {
+        "nama": "Eko Putra",
+        "nim": "2410046538",
+        "jurusan": "Akuntansi",
+        "ipk": 3.62
+    },
+    {
+        "nama": "Joko Rahmawati",
+        "nim": "241032528530",
+        "jurusan": "Manajemen",
+        "ipk": 3.42
+    },
+    {
+        "nama": "Bambang Suharto",
+        "nim": "2410607807",
+        "jurusan": "Akuntansi",
+        "ipk": 3.4
+    },
+    {
+        "nama": "Hana Kusuma",
+        "nim": "24109484689",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.33
+    },
+    {
+        "nama": "Zainal Putra",
+        "nim": "24108487581",
+        "jurusan": "Akuntansi",
+        "ipk": 2.55
+    },
+    {
+        "nama": "Yudi Putri",
+        "nim": "2410458628059",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.98
+    },
+    {
+        "nama": "Lia Hidayat",
+        "nim": "2410267354",
+        "jurusan": "Hukum",
+        "ipk": 2.72
+    },
+    {
+        "nama": "Qori Yuliana",
+        "nim": "24104022733",
+        "jurusan": "Sistem Informasi",
+        "ipk": 2.71
+    },
+    {
+        "nama": "Gita Kusuma",
+        "nim": "24106192901",
+        "jurusan": "Akuntansi",
+        "ipk": 3.5
+    },
+    {
+        "nama": "Citra Suharto",
+        "nim": "2410033734097",
+        "jurusan": "Sistem Informasi",
+        "ipk": 2.77
+    },
+    {
+        "nama": "Zainal Saputra",
+        "nim": "2410106334",
+        "jurusan": "Manajemen",
+        "ipk": 2.79
+    },
+    {
+        "nama": "Indra Kusuma",
+        "nim": "24102285378",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.88
+    },
+    {
+        "nama": "Gita Suharto",
+        "nim": "2410514118",
+        "jurusan": "Teknik Informatika",
+        "ipk": 2.8
+    },
+    {
+        "nama": "Opik Kusuma",
+        "nim": "2410973757",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.12
+    },
+    {
+        "nama": "Citra Nugroho",
+        "nim": "2410245025",
+        "jurusan": "Sistem Informasi",
+        "ipk": 2.55
+    },
+    {
+        "nama": "Made Putri",
+        "nim": "241024752101",
+        "jurusan": "Teknik Elektro",
+        "ipk": 2.52
+    },
+    {
+        "nama": "Eko Wijaya",
+        "nim": "241002121544",
+        "jurusan": "Manajemen",
+        "ipk": 4
+    },
+    {
+        "nama": "Sari Santoso",
+        "nim": "24107049544",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.99
+    },
+    {
+        "nama": "Rina Lestari",
+        "nim": "2410156085598",
+        "jurusan": "Teknik Informatika",
+        "ipk": 2.79
+    },
+    {
+        "nama": "Nur Susanti",
+        "nim": "24107915888",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.99
+    },
+    {
+        "nama": "Joko Wijaya",
+        "nim": "241091475897",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.43
+    },
+    {
+        "nama": "Bambang Santoso",
+        "nim": "24106300736",
+        "jurusan": "Akuntansi",
+        "ipk": 2.78
+    },
+    {
+        "nama": "Yudi Kusuma",
+        "nim": "2410775474",
+        "jurusan": "Akuntansi",
+        "ipk": 2.7
+    },
+    {
+        "nama": "Tono Susanti",
+        "nim": "241044244686",
+        "jurusan": "Hukum",
+        "ipk": 3.12
+    },
+    {
+        "nama": "Nur Pratama",
+        "nim": "2410514007878",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.83
+    },
+    {
+        "nama": "Umar Hidayat",
+        "nim": "24102343435",
+        "jurusan": "Sistem Informasi",
+        "ipk": 2.98
+    },
+    {
+        "nama": "Budi Wibowo",
+        "nim": "2410887517",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.23
+    },
+    {
+        "nama": "Dewi Suharto",
+        "nim": "2410318146111",
+        "jurusan": "Sistem Informasi",
+        "ipk": 2.51
+    },
+    {
+        "nama": "Rina Wibowo",
+        "nim": "24105577380",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.49
+    },
+    {
+        "nama": "Eko Hidayat",
+        "nim": "2410851738",
+        "jurusan": "Teknik Informatika",
+        "ipk": 2.77
+    },
+    {
+        "nama": "Rina Wibowo",
+        "nim": "241083325526",
+        "jurusan": "Hukum",
+        "ipk": 3.67
+    },
+    {
+        "nama": "Qori Susanti",
+        "nim": "241067221858",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.99
+    },
+    {
+        "nama": "Indra Yuliana",
+        "nim": "2410487716",
+        "jurusan": "Sistem Informasi",
+        "ipk": 2.65
+    },
+    {
+        "nama": "Citra Permata",
+        "nim": "2410838974",
+        "jurusan": "Sistem Informasi",
+        "ipk": 2.62
+    },
+    {
+        "nama": "Indra Putra",
+        "nim": "241019208664",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.66
+    },
+    {
+        "nama": "Opik Setiawan",
+        "nim": "2410442703",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.77
+    },
+    {
+        "nama": "Bambang Wibowo",
+        "nim": "24105687970",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.88
+    },
+    {
+        "nama": "Wawan Putri",
+        "nim": "241085526949",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.76
+    },
+    {
+        "nama": "Umar Setiawan",
+        "nim": "2410771973951",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.15
+    },
+    {
+        "nama": "Indra Kusuma",
+        "nim": "24107362374",
+        "jurusan": "Manajemen",
+        "ipk": 3.4
+    },
+    {
+        "nama": "Qori Saputra",
+        "nim": "2410685171",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.68
+    },
+    {
+        "nama": "Dewi Wijaya",
+        "nim": "2410482214",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.47
+    },
+    {
+        "nama": "Joko Sanjaya",
+        "nim": "241038866914",
+        "jurusan": "Manajemen",
+        "ipk": 2.51
+    },
+    {
+        "nama": "Sari Saputra",
+        "nim": "241023095812",
+        "jurusan": "Sastra Inggris",
+        "ipk": 2.85
+    },
+    {
+        "nama": "Yudi Permata",
+        "nim": "2410825553",
+        "jurusan": "Sastra Inggris",
+        "ipk": 2.89
+    },
+    {
+        "nama": "Fajar Putra",
+        "nim": "241006728894",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.53
+    },
+    {
+        "nama": "Opik Saputra",
+        "nim": "2410783965",
+        "jurusan": "Manajemen",
+        "ipk": 2.94
+    },
+    {
+        "nama": "Nur Permata",
+        "nim": "2410722941784",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.24
+    },
+    {
+        "nama": "Qori Setiawan",
+        "nim": "2410632045091",
+        "jurusan": "Akuntansi",
+        "ipk": 3.63
+    },
+    {
+        "nama": "Fajar Putra",
+        "nim": "2410011188691",
+        "jurusan": "Hukum",
+        "ipk": 3.86
+    },
+    {
+        "nama": "Budi Wulandari",
+        "nim": "2410904791",
+        "jurusan": "Manajemen",
+        "ipk": 3.27
+    },
+    {
+        "nama": "Hana Pratama",
+        "nim": "2410389872",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.98
+    },
+    {
+        "nama": "Wawan Setiawan",
+        "nim": "2410660399",
+        "jurusan": "Akuntansi",
+        "ipk": 3.44
+    },
+    {
+        "nama": "Opik Kurniawan",
+        "nim": "241088781812",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.36
+    },
+    {
+        "nama": "Dewi Putri",
+        "nim": "2410675412266",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.26
+    },
+    {
+        "nama": "Budi Setiawan",
+        "nim": "24108431456",
+        "jurusan": "Sistem Informasi",
+        "ipk": 2.71
+    },
+    {
+        "nama": "Xena Santoso",
+        "nim": "2410859741",
+        "jurusan": "Manajemen",
+        "ipk": 3.14
+    },
+    {
+        "nama": "Vina Nugroho",
+        "nim": "2410353199",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.89
+    },
+    {
+        "nama": "Indra Putri",
+        "nim": "2410316556",
+        "jurusan": "Hukum",
+        "ipk": 3.01
+    },
+    {
+        "nama": "Budi Nugroho",
+        "nim": "241020098437",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.28
+    },
+    {
+        "nama": "Dinda Sanjaya",
+        "nim": "24108235758",
+        "jurusan": "Teknik Elektro",
+        "ipk": 2.69
+    },
+    {
+        "nama": "Wawan Lestari",
+        "nim": "241040562397",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.66
+    },
+    {
+        "nama": "Indra Suharto",
+        "nim": "2410249542919",
+        "jurusan": "Hukum",
+        "ipk": 3.89
+    },
+    {
+        "nama": "Made Hidayat",
+        "nim": "2410517188322",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.88
+    },
+    {
+        "nama": "Nur Lestari",
+        "nim": "241067053608",
+        "jurusan": "Akuntansi",
+        "ipk": 3.03
+    },
+    {
+        "nama": "Eko Sanjaya",
+        "nim": "24102654482",
+        "jurusan": "Sistem Informasi",
+        "ipk": 2.78
+    },
+    {
+        "nama": "Lia Permata",
+        "nim": "241042756761",
+        "jurusan": "Akuntansi",
+        "ipk": 3.25
+    },
+    {
+        "nama": "Yudi Santoso",
+        "nim": "2410850897853",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.36
+    },
+    {
+        "nama": "Yudi Rahmawati",
+        "nim": "2410372650975",
+        "jurusan": "Akuntansi",
+        "ipk": 3.93
+    },
+    {
+        "nama": "Umar Santoso",
+        "nim": "2410770577",
+        "jurusan": "Hukum",
+        "ipk": 2.77
+    },
+    {
+        "nama": "Zainal Kurniawan",
+        "nim": "241084154603",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.8
+    },
+    {
+        "nama": "Kartika Saputra",
+        "nim": "2410251298",
+        "jurusan": "Teknik Elektro",
+        "ipk": 2.85
+    },
+    {
+        "nama": "Zainal Hidayat",
+        "nim": "24102111765",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.12
+    },
+    {
+        "nama": "Made Putri",
+        "nim": "24109901927",
+        "jurusan": "Sastra Inggris",
+        "ipk": 2.71
+    },
+    {
+        "nama": "Yudi Wibowo",
+        "nim": "241062005749",
+        "jurusan": "Manajemen",
+        "ipk": 2.72
+    },
+    {
+        "nama": "Bambang Yuliana",
+        "nim": "241053586696",
+        "jurusan": "Manajemen",
+        "ipk": 3.41
+    },
+    {
+        "nama": "Qori Wibowo",
+        "nim": "2410298443",
+        "jurusan": "Hukum",
+        "ipk": 3.52
+    },
+    {
+        "nama": "Nur Lestari",
+        "nim": "241058067834",
+        "jurusan": "Manajemen",
+        "ipk": 2.95
+    },
+    {
+        "nama": "Citra Kurniawan",
+        "nim": "2410536342",
+        "jurusan": "Hukum",
+        "ipk": 3.6
+    },
+    {
+        "nama": "Joko Saputra",
+        "nim": "2410845857631",
+        "jurusan": "Hukum",
+        "ipk": 3.62
+    },
+    {
+        "nama": "Kartika Wijaya",
+        "nim": "2410645931",
+        "jurusan": "Akuntansi",
+        "ipk": 3.26
+    },
+    {
+        "nama": "Joko Saputra",
+        "nim": "2410335098",
+        "jurusan": "Manajemen",
+        "ipk": 2.94
+    },
+    {
+        "nama": "Indra Yuliana",
+        "nim": "2410768690995",
+        "jurusan": "Hukum",
+        "ipk": 2.54
+    },
+    {
+        "nama": "Sari Wibowo",
+        "nim": "241049237580",
+        "jurusan": "Hukum",
+        "ipk": 2.71
+    },
+    {
+        "nama": "Putri Wibowo",
+        "nim": "2410479610705",
+        "jurusan": "Sastra Inggris",
+        "ipk": 2.61
+    },
+    {
+        "nama": "Fajar Susanti",
+        "nim": "2410896828472",
+        "jurusan": "Manajemen",
+        "ipk": 3.77
+    },
+    {
+        "nama": "Vina Putra",
+        "nim": "2410598178648",
+        "jurusan": "Teknik Informatika",
+        "ipk": 2.66
+    },
+    {
+        "nama": "Tono Saputra",
+        "nim": "241034151527",
+        "jurusan": "Sistem Informasi",
+        "ipk": 2.92
+    },
+    {
+        "nama": "Putri Lestari",
+        "nim": "241038366075",
+        "jurusan": "Sistem Informasi",
+        "ipk": 2.57
+    },
+    {
+        "nama": "Cahyo Wulandari",
+        "nim": "2410346718",
+        "jurusan": "Akuntansi",
+        "ipk": 3.56
+    },
+    {
+        "nama": "Vina Saputra",
+        "nim": "241058133722",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.13
+    },
+    {
+        "nama": "Eko Saputra",
+        "nim": "241027880200",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.35
+    },
+    {
+        "nama": "Umar Wijaya",
+        "nim": "24102809272",
+        "jurusan": "Teknik Elektro",
+        "ipk": 2.98
+    },
+    {
+        "nama": "Gita Sanjaya",
+        "nim": "241060411985",
+        "jurusan": "Manajemen",
+        "ipk": 2.52
+    },
+    {
+        "nama": "Hana Santoso",
+        "nim": "24109084070",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.18
+    },
+    {
+        "nama": "Bambang Sanjaya",
+        "nim": "241034008787",
+        "jurusan": "Akuntansi",
+        "ipk": 2.61
+    },
+    {
+        "nama": "Cahyo Suharto",
+        "nim": "2410395872579",
+        "jurusan": "Manajemen",
+        "ipk": 2.76
+    },
+    {
+        "nama": "Tono Saputra",
+        "nim": "241047146625",
+        "jurusan": "Manajemen",
+        "ipk": 2.98
+    },
+    {
+        "nama": "Nur Yuliana",
+        "nim": "2410224404",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.79
+    },
+    {
+        "nama": "Xena Suharto",
+        "nim": "2410983509066",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.69
+    },
+    {
+        "nama": "Hana Kurniawan",
+        "nim": "2410686056943",
+        "jurusan": "Hukum",
+        "ipk": 3.12
+    },
+    {
+        "nama": "Joko Hidayat",
+        "nim": "2410546821",
+        "jurusan": "Manajemen",
+        "ipk": 3.92
+    },
+    {
+        "nama": "Fajar Santoso",
+        "nim": "2410899058149",
+        "jurusan": "Akuntansi",
+        "ipk": 3.65
+    },
+    {
+        "nama": "Nur Kusuma",
+        "nim": "2410248822",
+        "jurusan": "Akuntansi",
+        "ipk": 2.95
+    },
+    {
+        "nama": "Wawan Rahmawati",
+        "nim": "241084097862",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.33
+    },
+    {
+        "nama": "Qori Wijaya",
+        "nim": "241008514356",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.97
+    },
+    {
+        "nama": "Eko Santoso",
+        "nim": "2410630516294",
+        "jurusan": "Akuntansi",
+        "ipk": 3.35
+    },
+    {
+        "nama": "Cahyo Hidayat",
+        "nim": "241007582226",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.08
+    },
+    {
+        "nama": "Hana Suharto",
+        "nim": "2410735785",
+        "jurusan": "Hukum",
+        "ipk": 2.99
+    },
+    {
+        "nama": "Gita Santoso",
+        "nim": "241013727540",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.69
+    },
+    {
+        "nama": "Putri Kusuma",
+        "nim": "2410429875487",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.94
+    },
+    {
+        "nama": "Fajar Susanti",
+        "nim": "241005276412",
+        "jurusan": "Sastra Inggris",
+        "ipk": 2.71
+    },
+    {
+        "nama": "Putri Wibowo",
+        "nim": "24101494656",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.51
+    },
+    {
+        "nama": "Made Santoso",
+        "nim": "2410696684",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.58
+    },
+    {
+        "nama": "Budi Putri",
+        "nim": "2410344945",
+        "jurusan": "Teknik Elektro",
+        "ipk": 2.93
+    },
+    {
+        "nama": "Citra Permata",
+        "nim": "2410627280996",
+        "jurusan": "Sastra Inggris",
+        "ipk": 2.81
+    },
+    {
+        "nama": "Agus Susanti",
+        "nim": "241091802240",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.47
+    },
+    {
+        "nama": "Wawan Rahmawati",
+        "nim": "241003044230",
+        "jurusan": "Akuntansi",
+        "ipk": 2.55
+    },
+    {
+        "nama": "Adi Saputra",
+        "nim": "241062998553",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.49
+    },
+    {
+        "nama": "Wawan Lestari",
+        "nim": "2410341776902",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.31
+    },
+    {
+        "nama": "Sari Wibowo",
+        "nim": "2410830255933",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.71
+    },
+    {
+        "nama": "Opik Pratama",
+        "nim": "24104924767",
+        "jurusan": "Sastra Inggris",
+        "ipk": 2.75
+    },
+    {
+        "nama": "Budi Nugroho",
+        "nim": "2410917655311",
+        "jurusan": "Sistem Informasi",
+        "ipk": 2.61
+    },
+    {
+        "nama": "Umar Rahmawati",
+        "nim": "2410237235",
+        "jurusan": "Hukum",
+        "ipk": 3.72
+    },
+    {
+        "nama": "Eko Kurniawan",
+        "nim": "2410162904576",
+        "jurusan": "Akuntansi",
+        "ipk": 3.34
+    },
+    {
+        "nama": "Bambang Pratama",
+        "nim": "241073540170",
+        "jurusan": "Sistem Informasi",
+        "ipk": 2.77
+    },
+    {
+        "nama": "Vina Wijaya",
+        "nim": "2410922283071",
+        "jurusan": "Teknik Elektro",
+        "ipk": 2.79
+    },
+    {
+        "nama": "Yudi Putra",
+        "nim": "2410170704",
+        "jurusan": "Akuntansi",
+        "ipk": 2.57
+    },
+    {
+        "nama": "Qori Wulandari",
+        "nim": "2410691754813",
+        "jurusan": "Hukum",
+        "ipk": 2.71
+    },
+    {
+        "nama": "Eko Santoso",
+        "nim": "241045791746",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.29
+    },
+    {
+        "nama": "Vina Sanjaya",
+        "nim": "241087880459",
+        "jurusan": "Manajemen",
+        "ipk": 3.83
+    },
+    {
+        "nama": "Umar Putri",
+        "nim": "241055784148",
+        "jurusan": "Sistem Informasi",
+        "ipk": 2.63
+    },
+    {
+        "nama": "Hana Susanti",
+        "nim": "24105441906",
+        "jurusan": "Manajemen",
+        "ipk": 3.21
+    },
+    {
+        "nama": "Indra Yuliana",
+        "nim": "241048979798",
+        "jurusan": "Akuntansi",
+        "ipk": 2.66
+    },
+    {
+        "nama": "Eko Santoso",
+        "nim": "241088368871",
+        "jurusan": "Manajemen",
+        "ipk": 3.88
+    },
+    {
+        "nama": "Budi Saputra",
+        "nim": "2410128578",
+        "jurusan": "Akuntansi",
+        "ipk": 2.5
+    },
+    {
+        "nama": "Zainal Permata",
+        "nim": "24104662631",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.44
+    },
+    {
+        "nama": "Adi Wijaya",
+        "nim": "24109163857",
+        "jurusan": "Akuntansi",
+        "ipk": 3.28
+    },
+    {
+        "nama": "Umar Wibowo",
+        "nim": "2410320642",
+        "jurusan": "Hukum",
+        "ipk": 3.87
+    },
+    {
+        "nama": "Opik Putri",
+        "nim": "2410017892135",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.27
+    },
+    {
+        "nama": "Yudi Permata",
+        "nim": "24105272820",
+        "jurusan": "Sastra Inggris",
+        "ipk": 2.87
+    },
+    {
+        "nama": "Eko Pratama",
+        "nim": "2410058787",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.91
+    },
+    {
+        "nama": "Dewi Putra",
+        "nim": "2410202342472",
+        "jurusan": "Manajemen",
+        "ipk": 3.07
+    },
+    {
+        "nama": "Opik Saputra",
+        "nim": "2410420860",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.84
+    },
+    {
+        "nama": "Indra Hidayat",
+        "nim": "241060558075",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.89
+    },
+    {
+        "nama": "Dinda Rahmawati",
+        "nim": "24103090395",
+        "jurusan": "Sistem Informasi",
+        "ipk": 2.78
+    },
+    {
+        "nama": "Opik Wulandari",
+        "nim": "241040860115",
+        "jurusan": "Manajemen",
+        "ipk": 3.31
+    },
+    {
+        "nama": "Gita Hidayat",
+        "nim": "2410187253874",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.64
+    },
+    {
+        "nama": "Citra Yuliana",
+        "nim": "2410339935208",
+        "jurusan": "Manajemen",
+        "ipk": 2.8
+    },
+    {
+        "nama": "Umar Saputra",
+        "nim": "2410810659",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.03
+    },
+    {
+        "nama": "Hana Wibowo",
+        "nim": "2410479529104",
+        "jurusan": "Sastra Inggris",
+        "ipk": 2.94
+    },
+    {
+        "nama": "Citra Suharto",
+        "nim": "2410470661398",
+        "jurusan": "Hukum",
+        "ipk": 2.93
+    },
+    {
+        "nama": "Yudi Rahmawati",
+        "nim": "2410408540",
+        "jurusan": "Sistem Informasi",
+        "ipk": 2.67
+    },
+    {
+        "nama": "Yudi Putra",
+        "nim": "241091191500",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.41
+    },
+    {
+        "nama": "Vina Hidayat",
+        "nim": "2410856987739",
+        "jurusan": "Teknik Elektro",
+        "ipk": 2.55
+    },
+    {
+        "nama": "Vina Wulandari",
+        "nim": "24101185536",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.79
+    },
+    {
+        "nama": "Gita Permata",
+        "nim": "241099935033",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.56
+    },
+    {
+        "nama": "Sari Setiawan",
+        "nim": "24107896057",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.61
+    },
+    {
+        "nama": "Putri Suharto",
+        "nim": "2410590087495",
+        "jurusan": "Akuntansi",
+        "ipk": 3.68
+    },
+    {
+        "nama": "Cahyo Wibowo",
+        "nim": "24101217838",
+        "jurusan": "Sistem Informasi",
+        "ipk": 2.61
+    },
+    {
+        "nama": "Opik Susanti",
+        "nim": "24102376634",
+        "jurusan": "Manajemen",
+        "ipk": 3.41
+    },
+    {
+        "nama": "Wawan Hidayat",
+        "nim": "241017875804",
+        "jurusan": "Akuntansi",
+        "ipk": 3.88
+    },
+    {
+        "nama": "Lia Santoso",
+        "nim": "24104838080",
+        "jurusan": "Sastra Inggris",
+        "ipk": 2.53
+    },
+    {
+        "nama": "Indra Kusuma",
+        "nim": "241004481106",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.05
+    },
+    {
+        "nama": "Bambang Saputra",
+        "nim": "2410269820629",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.94
+    },
+    {
+        "nama": "Agus Sanjaya",
+        "nim": "2410055753036",
+        "jurusan": "Manajemen",
+        "ipk": 2.97
+    },
+    {
+        "nama": "Cahyo Putra",
+        "nim": "24107232802",
+        "jurusan": "Hukum",
+        "ipk": 3.42
+    },
+    {
+        "nama": "Cahyo Putra",
+        "nim": "2410593495182",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.23
+    },
+    {
+        "nama": "Cahyo Permata",
+        "nim": "241010857121",
+        "jurusan": "Sastra Inggris",
+        "ipk": 2.77
+    },
+    {
+        "nama": "Cahyo Santoso",
+        "nim": "241065971345",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.13
+    },
+    {
+        "nama": "Dewi Santoso",
+        "nim": "2410389956",
+        "jurusan": "Sistem Informasi",
+        "ipk": 2.83
+    },
+    {
+        "nama": "Nur Wibowo",
+        "nim": "2410497738",
+        "jurusan": "Teknik Elektro",
+        "ipk": 2.87
+    },
+    {
+        "nama": "Vina Putra",
+        "nim": "24100511116",
+        "jurusan": "Sastra Inggris",
+        "ipk": 2.54
+    },
+    {
+        "nama": "Hana Setiawan",
+        "nim": "2410300813",
+        "jurusan": "Hukum",
+        "ipk": 2.86
+    },
+    {
+        "nama": "Dinda Wibowo",
+        "nim": "2410267768221",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.84
+    },
+    {
+        "nama": "Yudi Permata",
+        "nim": "24102197408",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.29
+    },
+    {
+        "nama": "Hana Nugroho",
+        "nim": "2410620144",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.83
+    },
+    {
+        "nama": "Putri Wulandari",
+        "nim": "2410732746431",
+        "jurusan": "Akuntansi",
+        "ipk": 3.97
+    },
+    {
+        "nama": "Nur Kurniawan",
+        "nim": "241013215010",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.49
+    },
+    {
+        "nama": "Putri Susanti",
+        "nim": "24109401774",
+        "jurusan": "Manajemen",
+        "ipk": 3.68
+    },
+    {
+        "nama": "Vina Putra",
+        "nim": "2410041853",
+        "jurusan": "Teknik Elektro",
+        "ipk": 2.54
+    },
+    {
+        "nama": "Made Wibowo",
+        "nim": "24103437622",
+        "jurusan": "Sastra Inggris",
+        "ipk": 2.59
+    },
+    {
+        "nama": "Dinda Wijaya",
+        "nim": "24107175796",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.98
+    },
+    {
+        "nama": "Bambang Rahmawati",
+        "nim": "241073328524",
+        "jurusan": "Manajemen",
+        "ipk": 2.51
+    },
+    {
+        "nama": "Budi Sanjaya",
+        "nim": "24106971344",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.38
+    },
+    {
+        "nama": "Umar Putri",
+        "nim": "2410517388",
+        "jurusan": "Teknik Elektro",
+        "ipk": 2.92
+    },
+    {
+        "nama": "Made Hidayat",
+        "nim": "2410009221",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.75
+    },
+    {
+        "nama": "Lia Lestari",
+        "nim": "241047502299",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.59
+    },
+    {
+        "nama": "Budi Pratama",
+        "nim": "2410722870",
+        "jurusan": "Hukum",
+        "ipk": 3.01
+    },
+    {
+        "nama": "Lia Nugroho",
+        "nim": "24102910903",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.45
+    },
+    {
+        "nama": "Kartika Yuliana",
+        "nim": "241005224669",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.92
+    },
+    {
+        "nama": "Zainal Putra",
+        "nim": "241056809437",
+        "jurusan": "Hukum",
+        "ipk": 3.58
+    },
+    {
+        "nama": "Tono Hidayat",
+        "nim": "2410071340",
+        "jurusan": "Teknik Informatika",
+        "ipk": 2.62
+    },
+    {
+        "nama": "Yudi Kurniawan",
+        "nim": "2410977684210",
+        "jurusan": "Akuntansi",
+        "ipk": 2.62
+    },
+    {
+        "nama": "Adi Pratama",
+        "nim": "241086499675",
+        "jurusan": "Hukum",
+        "ipk": 3.01
+    },
+    {
+        "nama": "Made Wibowo",
+        "nim": "2410442800",
+        "jurusan": "Hukum",
+        "ipk": 3.11
+    },
+    {
+        "nama": "Sari Lestari",
+        "nim": "24107990380",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.49
+    },
+    {
+        "nama": "Xena Setiawan",
+        "nim": "24107093558",
+        "jurusan": "Hukum",
+        "ipk": 3.3
+    },
+    {
+        "nama": "Made Putra",
+        "nim": "2410958272",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.21
+    },
+    {
+        "nama": "Adi Wibowo",
+        "nim": "24108615982",
+        "jurusan": "Manajemen",
+        "ipk": 3.72
+    },
+    {
+        "nama": "Nur Hidayat",
+        "nim": "24105615534",
+        "jurusan": "Akuntansi",
+        "ipk": 2.69
+    },
+    {
+        "nama": "Rina Saputra",
+        "nim": "24109599271",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.87
+    },
+    {
+        "nama": "Yudi Santoso",
+        "nim": "2410914741",
+        "jurusan": "Manajemen",
+        "ipk": 3.91
+    },
+    {
+        "nama": "Umar Suharto",
+        "nim": "241047069669",
+        "jurusan": "Manajemen",
+        "ipk": 3.64
+    },
+    {
+        "nama": "Budi Suharto",
+        "nim": "2410617690",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.74
+    },
+    {
+        "nama": "Wawan Nugroho",
+        "nim": "2410487706",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.62
+    },
+    {
+        "nama": "Adi Susanti",
+        "nim": "24104715297",
+        "jurusan": "Akuntansi",
+        "ipk": 2.63
+    },
+    {
+        "nama": "Kartika Hidayat",
+        "nim": "2410656317",
+        "jurusan": "Hukum",
+        "ipk": 3.99
+    },
+    {
+        "nama": "Qori Permata",
+        "nim": "2410137365",
+        "jurusan": "Manajemen",
+        "ipk": 3.96
+    },
+    {
+        "nama": "Agus Nugroho",
+        "nim": "2410513114890",
+        "jurusan": "Akuntansi",
+        "ipk": 3.63
+    },
+    {
+        "nama": "Xena Lestari",
+        "nim": "24102170946",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.63
+    },
+    {
+        "nama": "Dewi Hidayat",
+        "nim": "2410026763548",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.82
+    },
+    {
+        "nama": "Qori Nugroho",
+        "nim": "241054761611",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.5
+    },
+    {
+        "nama": "Rina Yuliana",
+        "nim": "2410703162194",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.38
+    },
+    {
+        "nama": "Rina Suharto",
+        "nim": "24105708694",
+        "jurusan": "Manajemen",
+        "ipk": 3.54
+    },
+    {
+        "nama": "Putri Wulandari",
+        "nim": "24100306201",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.73
+    },
+    {
+        "nama": "Dewi Lestari",
+        "nim": "2410573664678",
+        "jurusan": "Akuntansi",
+        "ipk": 3.11
+    },
+    {
+        "nama": "Dewi Saputra",
+        "nim": "24102017732",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.98
+    },
+    {
+        "nama": "Indra Yuliana",
+        "nim": "2410974260",
+        "jurusan": "Akuntansi",
+        "ipk": 3.49
+    },
+    {
+        "nama": "Dewi Santoso",
+        "nim": "24106000391",
+        "jurusan": "Manajemen",
+        "ipk": 3.98
+    },
+    {
+        "nama": "Lia Suharto",
+        "nim": "2410611114",
+        "jurusan": "Hukum",
+        "ipk": 2.85
+    },
+    {
+        "nama": "Agus Kurniawan",
+        "nim": "241099173809",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.88
+    },
+    {
+        "nama": "Indra Kusuma",
+        "nim": "24104161200",
+        "jurusan": "Hukum",
+        "ipk": 3.16
+    },
+    {
+        "nama": "Umar Saputra",
+        "nim": "24104311161",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.24
+    },
+    {
+        "nama": "Rina Permata",
+        "nim": "241096708959",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.86
+    },
+    {
+        "nama": "Zainal Yuliana",
+        "nim": "2410235998597",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.15
+    },
+    {
+        "nama": "Gita Susanti",
+        "nim": "2410820368",
+        "jurusan": "Teknik Elektro",
+        "ipk": 2.96
+    },
+    {
+        "nama": "Putri Putri",
+        "nim": "24106210434",
+        "jurusan": "Hukum",
+        "ipk": 2.73
+    },
+    {
+        "nama": "Indra Wulandari",
+        "nim": "2410064793046",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.13
+    },
+    {
+        "nama": "Lia Hidayat",
+        "nim": "24101473297",
+        "jurusan": "Manajemen",
+        "ipk": 3.45
+    },
+    {
+        "nama": "Cahyo Hidayat",
+        "nim": "241079309673",
+        "jurusan": "Akuntansi",
+        "ipk": 2.94
+    },
+    {
+        "nama": "Wawan Rahmawati",
+        "nim": "2410802508",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.69
+    },
+    {
+        "nama": "Cahyo Sanjaya",
+        "nim": "2410154851149",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.66
+    },
+    {
+        "nama": "Putri Nugroho",
+        "nim": "2410094003",
+        "jurusan": "Sistem Informasi",
+        "ipk": 2.6
+    },
+    {
+        "nama": "Fajar Kusuma",
+        "nim": "2410099406610",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.53
+    },
+    {
+        "nama": "Budi Santoso",
+        "nim": "24100410045",
+        "jurusan": "Manajemen",
+        "ipk": 3.31
+    },
+    {
+        "nama": "Made Putri",
+        "nim": "2410184748",
+        "jurusan": "Akuntansi",
+        "ipk": 3.3
+    },
+    {
+        "nama": "Putri Rahmawati",
+        "nim": "2410862120",
+        "jurusan": "Hukum",
+        "ipk": 3.4
+    },
+    {
+        "nama": "Dinda Putri",
+        "nim": "241092104858",
+        "jurusan": "Teknik Elektro",
+        "ipk": 2.54
+    },
+    {
+        "nama": "Dinda Wibowo",
+        "nim": "24108114296",
+        "jurusan": "Sastra Inggris",
+        "ipk": 2.9
+    },
+    {
+        "nama": "Hana Kusuma",
+        "nim": "2410306653",
+        "jurusan": "Sistem Informasi",
+        "ipk": 2.61
+    },
+    {
+        "nama": "Eko Permata",
+        "nim": "241070273114",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.3
+    },
+    {
+        "nama": "Eko Hidayat",
+        "nim": "241064334931",
+        "jurusan": "Teknik Elektro",
+        "ipk": 2.8
+    },
+    {
+        "nama": "Nur Sanjaya",
+        "nim": "2410933885043",
+        "jurusan": "Akuntansi",
+        "ipk": 3.76
+    },
+    {
+        "nama": "Putri Hidayat",
+        "nim": "241092625633",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.26
+    },
+    {
+        "nama": "Budi Lestari",
+        "nim": "2410527278",
+        "jurusan": "Manajemen",
+        "ipk": 3.97
+    },
+    {
+        "nama": "Agus Lestari",
+        "nim": "2410233067747",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.37
+    },
+    {
+        "nama": "Citra Wijaya",
+        "nim": "24106551325",
+        "jurusan": "Manajemen",
+        "ipk": 3.01
+    },
+    {
+        "nama": "Rina Hidayat",
+        "nim": "2410141892",
+        "jurusan": "Sistem Informasi",
+        "ipk": 2.97
+    },
+    {
+        "nama": "Zainal Rahmawati",
+        "nim": "241069019869",
+        "jurusan": "Akuntansi",
+        "ipk": 3.25
+    },
+    {
+        "nama": "Opik Sanjaya",
+        "nim": "2410530479286",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.17
+    },
+    {
+        "nama": "Sari Wulandari",
+        "nim": "2410203501807",
+        "jurusan": "Sistem Informasi",
+        "ipk": 2.85
+    },
+    {
+        "nama": "Eko Rahmawati",
+        "nim": "2410032897",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.03
+    },
+    {
+        "nama": "Lia Susanti",
+        "nim": "241011306412",
+        "jurusan": "Manajemen",
+        "ipk": 3.28
+    },
+    {
+        "nama": "Tono Pratama",
+        "nim": "2410224084378",
+        "jurusan": "Hukum",
+        "ipk": 3.36
+    },
+    {
+        "nama": "Dinda Nugroho",
+        "nim": "2410833634452",
+        "jurusan": "Manajemen",
+        "ipk": 3
+    },
+    {
+        "nama": "Agus Rahmawati",
+        "nim": "24108720233",
+        "jurusan": "Manajemen",
+        "ipk": 3.7
+    },
+    {
+        "nama": "Opik Permata",
+        "nim": "2410806909645",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.27
+    },
+    {
+        "nama": "Rina Kurniawan",
+        "nim": "2410397943",
+        "jurusan": "Hukum",
+        "ipk": 3.81
+    },
+    {
+        "nama": "Dewi Suharto",
+        "nim": "2410957781864",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.55
+    },
+    {
+        "nama": "Lia Yuliana",
+        "nim": "2410950969975",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.03
+    },
+    {
+        "nama": "Xena Yuliana",
+        "nim": "2410737750485",
+        "jurusan": "Hukum",
+        "ipk": 3.93
+    },
+    {
+        "nama": "Qori Nugroho",
+        "nim": "24103598770",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.01
+    },
+    {
+        "nama": "Umar Hidayat",
+        "nim": "24103791158",
+        "jurusan": "Teknik Elektro",
+        "ipk": 2.56
+    },
+    {
+        "nama": "Gita Sanjaya",
+        "nim": "2410581601",
+        "jurusan": "Sistem Informasi",
+        "ipk": 2.8
+    },
+    {
+        "nama": "Nur Wijaya",
+        "nim": "241007122193",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.74
+    },
+    {
+        "nama": "Indra Lestari",
+        "nim": "2410432955658",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.31
+    },
+    {
+        "nama": "Kartika Wijaya",
+        "nim": "24103755385",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.11
+    },
+    {
+        "nama": "Joko Rahmawati",
+        "nim": "24108993129",
+        "jurusan": "Manajemen",
+        "ipk": 3.22
+    },
+    {
+        "nama": "Wawan Rahmawati",
+        "nim": "2410165407479",
+        "jurusan": "Manajemen",
+        "ipk": 3.38
+    },
+    {
+        "nama": "Agus Sanjaya",
+        "nim": "2410109369",
+        "jurusan": "Akuntansi",
+        "ipk": 2.88
+    },
+    {
+        "nama": "Agus Kurniawan",
+        "nim": "2410808273",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.05
+    },
+    {
+        "nama": "Gita Putri",
+        "nim": "2410519101",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.83
+    },
+    {
+        "nama": "Dinda Permata",
+        "nim": "2410701958",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.97
+    },
+    {
+        "nama": "Bambang Sanjaya",
+        "nim": "241045190960",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.09
+    },
+    {
+        "nama": "Qori Lestari",
+        "nim": "2410757061657",
+        "jurusan": "Manajemen",
+        "ipk": 2.64
+    },
+    {
+        "nama": "Fajar Nugroho",
+        "nim": "2410940644",
+        "jurusan": "Teknik Elektro",
+        "ipk": 2.65
+    },
+    {
+        "nama": "Budi Permata",
+        "nim": "24104613155",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.24
+    },
+    {
+        "nama": "Budi Kurniawan",
+        "nim": "241003468984",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.22
+    },
+    {
+        "nama": "Xena Susanti",
+        "nim": "2410092099289",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.04
+    },
+    {
+        "nama": "Sari Putri",
+        "nim": "241028748366",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.68
+    },
+    {
+        "nama": "Agus Santoso",
+        "nim": "2410933176",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.6
+    },
+    {
+        "nama": "Citra Nugroho",
+        "nim": "24109389696",
+        "jurusan": "Manajemen",
+        "ipk": 2.65
+    },
+    {
+        "nama": "Budi Santoso",
+        "nim": "2410835956671",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.05
+    },
+    {
+        "nama": "Joko Susanti",
+        "nim": "24109773133",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.92
+    },
+    {
+        "nama": "Qori Santoso",
+        "nim": "2410430203114",
+        "jurusan": "Sistem Informasi",
+        "ipk": 2.56
+    },
+    {
+        "nama": "Nur Nugroho",
+        "nim": "241094204294",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.94
+    },
+    {
+        "nama": "Gita Nugroho",
+        "nim": "2410409088677",
+        "jurusan": "Teknik Informatika",
+        "ipk": 3.67
+    },
+    {
+        "nama": "Zainal Permata",
+        "nim": "24101641198",
+        "jurusan": "Hukum",
+        "ipk": 2.8
+    },
+    {
+        "nama": "Agus Wulandari",
+        "nim": "2410260493",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.58
+    },
+    {
+        "nama": "Cahyo Wulandari",
+        "nim": "2410780331781",
+        "jurusan": "Hukum",
+        "ipk": 3.51
+    },
+    {
+        "nama": "Xena Yuliana",
+        "nim": "241050477639",
+        "jurusan": "Akuntansi",
+        "ipk": 2.98
+    },
+    {
+        "nama": "Dewi Sanjaya",
+        "nim": "241093817007",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.73
+    },
+    {
+        "nama": "Putri Wijaya",
+        "nim": "241045798531",
+        "jurusan": "Manajemen",
+        "ipk": 3.4
+    },
+    {
+        "nama": "Yudi Wijaya",
+        "nim": "2410906565040",
+        "jurusan": "Hukum",
+        "ipk": 3.2
+    },
+    {
+        "nama": "Kartika Suharto",
+        "nim": "2410732395",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.79
+    },
+    {
+        "nama": "Sari Saputra",
+        "nim": "2410337504",
+        "jurusan": "Manajemen",
+        "ipk": 3.06
+    },
+    {
+        "nama": "Joko Saputra",
+        "nim": "24108118924",
+        "jurusan": "Sastra Inggris",
+        "ipk": 3.54
+    },
+    {
+        "nama": "Nur Wibowo",
+        "nim": "24101247960",
+        "jurusan": "Sistem Informasi",
+        "ipk": 3.02
+    },
+    {
+        "nama": "Bambang Hidayat",
+        "nim": "2410978990",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.29
+    },
+    {
+        "nama": "Joko Susanti",
+        "nim": "24109836370",
+        "jurusan": "Teknik Elektro",
+        "ipk": 3.51
+    },
+    {
+        "nama": "Lia Wibowo",
+        "nim": "24104594693",
+        "jurusan": "Manajemen",
+        "ipk": 3.26
+    }
+]
