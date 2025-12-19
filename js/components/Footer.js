@@ -5,7 +5,7 @@ export const renderFooter = () => {
         <div class="container mx-auto px-6 py-6 flex flex-col md:flex-row justify-between items-center gap-4">
             
             <div class="text-xs font-medium text-slate-500 text-center md:text-left">
-                &copy; 2025 <span class="text-emerald-500 font-bold tracking-wide">Portal Akademik</span>. 
+                &copy; 2025 <span class="text-emerald-500 font-bold tracking-wide">Academic Central</span>. 
                 <span class="hidden sm:inline text-slate-600">|</span> 
                 <span class="text-slate-600">Built with Vanilla JS Modular</span>
             </div>

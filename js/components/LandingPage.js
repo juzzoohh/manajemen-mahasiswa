@@ -9,7 +9,7 @@ export const renderLandingPage = () => {
                 <i class="fa-solid fa-cube text-4xl text-white animate-float"></i>
             </div>
         </div>
-        <div class="text-5xl md:text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-white to-emerald-200 mb-4 opacity-0 intro-el transform translate-y-10 text-center">PORTAL AKADEMIK</div>
+        <div class="text-5xl md:text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-white to-emerald-200 mb-4 opacity-0 intro-el transform translate-y-10 text-center">ACADEMIC CENTRAL</div>
         <div class="text-lg md:text-xl font-mono text-emerald-400 opacity-0 intro-el tracking-[0.3em] uppercase text-center">Data Structure & Algorithm</div>
         
         <div class="mt-16 w-64 h-1 bg-slate-800 rounded-full overflow-hidden intro-el opacity-0">

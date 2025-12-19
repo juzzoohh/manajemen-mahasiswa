@@ -8,7 +8,7 @@ export const renderNavbar = () => {
                 </div>
                 <div>
                     <h1 class="font-bold text-lg text-slate-100 leading-none" style="color: var(--text-main);">
-                        Portal<span class="text-emerald-400" style="color: var(--primary);">Akademik</span>
+                        Academic<span class="text-emerald-400" style="color: var(--primary);">Central</span>
                     </h1>
                     <span class="text-[10px] font-bold tracking-[0.2em] text-emerald-300/60 uppercase">Manajemen Mahasiswa</span>
                 </div>
