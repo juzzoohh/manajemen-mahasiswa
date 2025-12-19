@@ -1,4 +1,4 @@
-# 🎓 Portal Akademik - Manajemen Mahasiswa
+# 🎓 Academic Central - Manajemen Mahasiswa
 
 ![Project Status](https://img.shields.io/badge/status-active-success)
 ![License](https://img.shields.io/badge/license-MIT-blue)
@@ -58,25 +58,33 @@ Struktur folder dirancang agar *scalable* dan mudah dipelihara (Maintainable):
 ```text
 /project-root
 │
-├── index.html           # Entry Point (Skeleton)
-├── css/
-│    └── style.css       # Custom CSS (Glassmorphism & Overrides)
+├── assets/
+│   └── Dashboard.png        # Aset statis (gambar preview/dokumentasi)
 │
-└── js/
-     ├── main.js         # Main Logic & Event Listeners
-     ├── utils.js        # Helper Functions
-     ├── modules/        # Business Logic (Non-UI)
-     │    ├── DataManager.js  # CRUD & LocalStorage Logic
-     │    ├── Algorithms.js   # Bubble/Shell Sort & Search Logic
-     │    └── UIManager.js    # DOM Manipulation & Rendering
-     │
-     └── components/     # HTML Components (String Templates)
-          ├── Navbar.js
-          ├── LandingPage.js
-          ├── AuthPage.js
-          ├── DashboardPage.js
-          ├── EditModal.js
-          └── Footer.js
+├── css/
+│   └── style.css            # Styling utama (Layout, Colors, Glassmorphism)
+│
+├── js/
+│   ├── components/          # Komponen UI (Modular HTML Strings)
+│   │   ├── AuthPage.js      # Halaman Login/Register
+│   │   ├── DashboardPage.js # Halaman Utama Dashboard
+│   │   ├── EditModal.js     # Pop-up form edit data
+│   │   ├── Footer.js        # Bagian kaki website
+│   │   ├── LandingPage.js   # Halaman depan sebelum login
+│   │   └── Navbar.js        # Navigasi utama
+│   │
+│   ├── modules/             # Business Logic (Otak dari aplikasi)
+│   │   ├── Algorithms.js    # Logika Sorting (Bubble/Shell) & Searching
+│   │   ├── DataManager.js   # CRUD Logic & manajemen LocalStorage/JSON
+│   │   ├── Person.js        # Class/Model definition (Schema Data)
+│   │   └── UIManager.js     # Jembatan antara Logic dan manipulasi DOM
+│   │
+│   ├── main.js              # Entry Point (Inisialisasi & Event Listeners)
+│   └── utils.js             # Fungsi pembantu (Helper functions)
+│
+├── database.json            # Mock Data / Sumber data awal
+├── index.html               # Entry Point HTML (Skeleton)
+└── README.md                # Dokumentasi Proyek
 ````
 
 -----
@@ -97,13 +105,13 @@ Anda harus menjalankannya menggunakan **Local Server**.
 1.  **Clone Repositori ini**
 
     ```bash
-    git clone [https://github.com/username-anda/portal-akademik-js.git](https://github.com/username-anda/portal-akademik-js.git)
+    git clone [https://github.com/username-anda/portal-akademik-js.git](https://github.com/username-anda/academic-central-js.git)
     ```
 
 2.  **Buka di VS Code**
 
     ```bash
-    cd portal-akademik-js
+    cd academic-central-js
     code .
     ```
 
