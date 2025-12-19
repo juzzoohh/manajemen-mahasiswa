@@ -166,17 +166,20 @@ document.addEventListener('DOMContentLoaded', async () => {
         const algo = document.getElementById('search-algo').value;
         const col = document.getElementById('search-column').value;
 
-        if(!query) { ui.refreshDashboard(); return; }
-        
         // --- VALIDATION REFINED ---
-        if(query.length < 4) {
-            ui.showToast('Minimal kata kunci 4 karakter!', 'red');
+        if (!query) {
+            ui.showToast('Data tidak boleh kosong!', 'red');
             return;
         }
 
-        if(col === 'nim') {
-            if(!/^[0-9]+$/.test(query)) {
-                ui.showToast('Untuk kategori NIM, input harus berupa angka!', 'red');
+        if (col === 'nama') {
+            if (query.length < 4) {
+                ui.showToast('Data harus string minimal 4 karakter', 'red');
+                return;
+            }
+        } else if (col === 'nim') {
+            if (!/^[0-9]+$/.test(query) || query.length < 4) {
+                ui.showToast('Data harus integer minimal 4 angka', 'red');
                 return;
             }
         }
