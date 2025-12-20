@@ -1,5 +1,5 @@
 // --- HELPER COMPONENT: HALAMAN LOGIN ---
-// Ini function buat ngerender HTML halaman login ya.
+// Ini function buat ngerender HTML halaman login.
 // Isinya form login biasa, ada input username & password.
 export const renderAuthPage = () => {
     return `
