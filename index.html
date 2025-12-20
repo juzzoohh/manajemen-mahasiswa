@@ -4,28 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Manajemen Mahasiswa</title>
+    
+    <!-- pake Tailwind CSS buat styling  -->
     <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Config tailwindnya , mode dark sama warna-warna custom  -->
     <script>
         tailwind.config = { darkMode: 'class', theme: { extend: { colors: { primary: '#10b981', secondary: '#14b8a6', darkbg: '#020617' } } } }
     </script>
+
+    <!-- Library buat export ke PDF -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.29/jspdf.plugin.autotable.min.js"></script>
+    
+    <!-- Font Awesome buat ikon-ikon lucu -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- GSAP buat animasi yang smooth banget -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    
+    <!-- Style tambahan  -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="text-slate-200">
+    <!-- Tempat muncullin notifikasi/toast, posisinya fixed di pojok kiri atas -->
     <div id="toast-container" class="fixed top-6 left-6 z-[10000]"></div>
 
+    <!-- Container buat Navbar -->
     <div id="app-navbar"></div>
     
+    <!-- Ini konten utama bakal dirender di sini -->
     <main id="app-root">
-        </main>
+    </main>
 
+    <!-- Container buat Modal (kayak popup edit/tambah) -->
     <div id="app-modal"></div>
 
+    <!-- Container buat Footer -->
     <div id="app-footer"></div>
 
+    <!-- Script utama -->
     <script type="module" src="js/main.js"></script>
 </body>
 </html>

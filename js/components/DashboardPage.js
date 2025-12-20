@@ -1,12 +1,18 @@
+// --- HELPER COMPONENT: HALAMAN DASHBOARD ---
+// Ini komponen paling gede, isinya semua fitur utama:
+// Stats, Import/Export, Sorting, Searching, Form Tambah Data, dan Tabel Data.
 export const renderDashboardPage = () => {
     return `
     <section id="view-dashboard" class="hidden min-h-screen w-full">
         <div class="container mx-auto pt-32 px-6 pb-32 max-w-7xl">
             
+            <!-- Input file tersembunyi buat fitur Import JSON -->
             <input type="file" id="json-upload" accept=".json" class="hidden">
 
+            <!-- Grid buat Statistik & Tombol Aksi (Import/Export) -->
             <div class="grid grid-cols-1 md:grid-cols-5 gap-4 mb-8">
                 
+                <!-- Kartu Total Data -->
                 <div class="glass p-6 rounded-[24px] flex items-center gap-4 relative overflow-hidden md:col-span-1">
                     <div class="w-12 h-12 rounded-xl bg-teal-500/10 text-teal-500 flex items-center justify-center text-2xl">
                         <i class="fa-solid fa-users"></i>
@@ -17,6 +23,7 @@ export const renderDashboardPage = () => {
                     </div>
                 </div>
                 
+                <!-- Kartu Execution Time (buat pamer kecepatan algo) -->
                 <div class="glass p-6 rounded-[24px] flex items-center gap-4 relative overflow-hidden md:col-span-1">
                     <div class="w-12 h-12 rounded-xl bg-lime-500/10 text-lime-500 flex items-center justify-center text-2xl">
                         <i class="fa-solid fa-stopwatch"></i>
@@ -27,6 +34,7 @@ export const renderDashboardPage = () => {
                     </div>
                 </div>
 
+                <!-- Tombol Import JSON -->
                 <div class="glass p-1 rounded-[24px] flex items-center justify-center relative overflow-hidden group cursor-pointer import-trigger hover:bg-cyan-500/10 transition md:col-span-1">
                     <div class="flex flex-col items-center justify-center p-4 text-center z-10">
                         <i class="fa-solid fa-file-import text-xl text-cyan-500 mb-1 group-hover:scale-110 transition"></i>
@@ -35,6 +43,7 @@ export const renderDashboardPage = () => {
                     </div>
                 </div>
                 
+                <!-- Tombol Export JSON -->
                 <div class="glass p-1 rounded-[24px] flex items-center justify-center relative overflow-hidden group cursor-pointer export-json-trigger hover:bg-blue-500/10 transition md:col-span-1">
                     <div class="flex flex-col items-center justify-center p-4 text-center z-10">
                         <i class="fa-solid fa-file-export text-xl text-blue-500 mb-1 group-hover:scale-110 transition"></i>
@@ -43,6 +52,7 @@ export const renderDashboardPage = () => {
                     </div>
                 </div>
 
+                <!-- Tombol Export PDF -->
                 <div class="glass p-1 rounded-[24px] flex items-center justify-center relative overflow-hidden group cursor-pointer export-pdf-trigger hover:bg-red-500/10 transition md:col-span-1">
                     <div class="flex flex-col items-center justify-center p-4 text-center z-10">
                         <i class="fa-solid fa-file-pdf text-xl text-red-500 mb-1 group-hover:scale-110 transition"></i>
@@ -53,9 +63,12 @@ export const renderDashboardPage = () => {
 
             </div>
 
+            <!-- Layout Utama: Kiri (Kontrol) & Kanan (Tabel) -->
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
                 
+                <!-- Panel Kiri: Sorting, Searching, Add Data -->
                 <div class="lg:col-span-4 space-y-6">
+                    <!-- Section Sorting -->
                     <div class="glass p-8 rounded-[30px] border border-emerald-500/10">
                         <h2 class="text-lg font-bold mb-6 flex items-center gap-3" style="color: var(--text-main);">
                             <i class="fa-solid fa-arrow-down-a-z text-blue-500 bg-blue-500/10 p-2 rounded-lg"></i> Sorting Lab
@@ -72,6 +85,7 @@ export const renderDashboardPage = () => {
                         </div>
                     </div>
 
+                    <!-- Section Searching -->
                     <div class="glass p-8 rounded-[30px] border border-emerald-500/10">
                         <h2 class="text-lg font-bold mb-6 flex items-center gap-3" style="color: var(--text-main);">
                             <i class="fa-solid fa-magnifying-glass text-emerald-500 bg-emerald-500/10 p-2 rounded-lg"></i> Searching Lab
@@ -93,6 +107,7 @@ export const renderDashboardPage = () => {
                         </div>
                     </div>
 
+                    <!-- Section Tambah Data -->
                     <div class="glass p-6 rounded-[30px] border border-emerald-500/10">
                         <h2 class="text-lg font-bold mb-6 flex items-center gap-3" style="color: var(--text-main);">
                             <i class="fa-solid fa-keyboard text-purple-500 bg-purple-500/10 p-2 rounded-lg"></i> Tambah Data
@@ -128,6 +143,7 @@ export const renderDashboardPage = () => {
                     </div>
                 </div>
 
+                <!-- Panel Kanan: Tabel Data -->
                 <div class="lg:col-span-8 glass rounded-[30px] overflow-hidden flex flex-col min-h-[800px] border border-emerald-500/10 shadow-2xl">
                     <div class="p-8 border-b border-emerald-900/20 bg-emerald-900/20 backdrop-blur-sm flex justify-between items-center sticky top-0 z-20">
                         <div><h2 class="font-bold text-2xl" style="color: var(--text-main);">Database Mahasiswa</h2><p class="text-xs text-emerald-400/60 mt-1 font-mono">Real-time Data View</p></div>

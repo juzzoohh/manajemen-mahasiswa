@@ -1,45 +1,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700;800&family=JetBrains+Mono:wght@400;700&display=swap');
 
 :root {
-    /* DARK MODE DEFAULT (Slate 950 base) */
+    /* --- WARNA DASAR (DARK MODE) --- */
     --bg-body: #020617;
     --text-main: #e2e8f0;
     --text-muted: #94a3b8;
     
-    --primary: #10b981; /* Emerald 500 */
-    --primary-hover: #059669; /* Emerald 600 */
+    /* Warna utama: Emerald Green, seger di mata */
+    --primary: #10b981; 
+    --primary-hover: #059669; 
     
+    /* Efek Kaca (Glassmorphism) */
     --glass-bg: rgba(2, 44, 34, 0.4);
     --glass-border: rgba(52, 211, 153, 0.1);
     
+    /* Input field transparan */
     --input-bg: rgba(2, 6, 23, 0.6);
     --input-border: rgba(52, 211, 153, 0.2);
     
-    /* Gradien Background */
+    /* Gradien Background biar gak bosenin */
     --grad-1: hsla(158, 80%, 10%, 1);
     --grad-2: hsla(175, 60%, 15%, 0.4);
     --grad-3: hsla(140, 50%, 20%, 0.3);
 
+    /* Scrollbar */
     --scroll-track: #020617;
     --scroll-thumb: #059669;
 }
 
 .light {
-    /* LIGHT MODE - Modern Minimalist Design with Green Theme */
-    --bg-body: #f6f8fa; /* Soft Gray-Blue background */
-    --text-main: #0d1117; /* Near Black with blue tint */
-    --text-muted: #57606a; /* Medium Gray */
+    /* --- LIGHT MODE --- */
+    /* Mode Terang: Bersih, Minimalis, tapi tetep nuansa Hijau */
+    --bg-body: #f6f8fa; 
+    --text-main: #0d1117; 
+    --text-muted: #57606a; 
     
-    --primary: #059669; /* Emerald 600 - Modern Green */
-    --primary-hover: #047857; /* Emerald 700 */
+    --primary: #059669; /* Emerald yang lebih gelap dikit biar kontras */
+    --primary-hover: #047857; 
     
-    --glass-bg: #ffffff; /* Pure White Cards */
-    --glass-border: rgba(208, 215, 222, 0.5); /* Subtle Gray Border */
+    --glass-bg: #ffffff; /* Kartu putih bersih */
+    --glass-border: rgba(208, 215, 222, 0.5); 
     
-    --input-bg: #ffffff; /* White Inputs */
-    --input-border: #d0d7de; /* Light Gray Border */
+    --input-bg: #ffffff; 
+    --input-border: #d0d7de; 
     
-    /* No gradients - Clean minimal background */
+    /* Di light mode ilangin gradient background biar clean */
     --grad-1: transparent;
     --grad-2: transparent;
     --grad-3: transparent;
@@ -52,7 +57,7 @@
     display: none !important;
 }
 
-/* Memastikan layout grid tetap jalan meski CSS belum load sempurna */
+/* Biar layout grid gak ancur pas awal load */
 .grid {
     display: grid;
 }
@@ -62,40 +67,37 @@ body {
     background-color: var(--bg-body);
     color: var(--text-main);
     
+    /* Background Radial Gradient yang keren itu */
     background-image: 
         radial-gradient(at 0% 0%, var(--grad-1) 0, transparent 50%), 
         radial-gradient(at 50% 100%, var(--grad-2) 0, transparent 50%), 
         radial-gradient(at 100% 0%, var(--grad-3) 0, transparent 50%);
     
-    background-attachment: fixed; /* Agar background tidak ikut scroll */
+    background-attachment: fixed; /* Background diem pas discroll */
     min-height: 100vh;
-    transition: background-color 0.3s, color 0.3s;
-    overflow-x: hidden; /* Mencegah scroll samping */
+    transition: background-color 0.3s, color 0.3s; /* Transisi alus pas ganti tema */
+    overflow-x: hidden; 
 }
 
-/* Font Mono untuk Angka/NIM */
+/* Font Mono khusus buat Angka/NIM biar lebar karakternya sama */
 .font-mono {
     font-family: 'JetBrains Mono', monospace;
 }
 
 .glass {
-    /* Efek Blur Kaca */
+    /* --- EFEK KACA ANDALAN --- */
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
     
-    /* Warna Dasar Transparan */
     background: var(--glass-bg); 
-    
-    /* Border Tipis */
     border: 1px solid var(--glass-border); 
     
-    /* Shadow Halus */
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
     
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* Enhanced shadows for Light Mode */
+/* Bayangan lebih tegas buat Light Mode */
 .light .glass {
     box-shadow: 
         0 1px 3px rgba(0, 0, 0, 0.05),
@@ -112,7 +114,7 @@ body {
 
 .input-modern:focus {
     border-color: var(--primary);
-    box-shadow: 0 0 0 4px rgba(16, 185, 129, 0.1); /* Glow effect */
+    box-shadow: 0 0 0 4px rgba(16, 185, 129, 0.1); /* Efek glow pas diklik */
     outline: none;
 }
 
@@ -121,27 +123,28 @@ option {
     color: var(--text-main);
 }
 
+/* Efek Hover yang bikin elemen kayak 'bernapas' */
 .hover-scale {
     transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
     cursor: pointer;
 }
 
 .hover-scale:hover {
-    transform: scale(1.02);
+    transform: scale(1.02); /* Gedein dikit */
 }
 
 .hover-scale:active {
-    transform: scale(0.98);
+    transform: scale(0.98); /* Pencet dikit */
 }
 
-/* Animasi Floating (Untuk Logo di Landing Page) */
+/* Animasi Floating (Logo ngambang) */
 @keyframes float { 
     0%, 100% { transform: translateY(0); } 
     50% { transform: translateY(-20px); } 
 }
 .animate-float { animation: float 6s ease-in-out infinite; }
 
-/* Animasi Pulse (Untuk Background Orbs) */
+/* Animasi Pulse (Background kedap-kedip pelan) */
 @keyframes pulse-slow {
     0%, 100% { opacity: 1; }
     50% { opacity: .7; }
@@ -162,42 +165,39 @@ dialog {
     left: 50%;
     transform: translate(-50%, -50%);
     margin: 0;
-    background: transparent; /* Biar glass effect dari class .glass yang menang */
+    background: transparent; /* Pake transparan karena class .glass udah ngurus backgroundnya */
     border: none;
     outline: none;
     overflow: visible;
 }
 
 dialog::backdrop {
-    background: rgba(0, 20, 10, 0.85); /* Latar belakang gelap hijau saat modal muncul */
+    background: rgba(0, 20, 10, 0.85); /* Gelapin background belakang modal */
     backdrop-filter: blur(5px);
     z-index: 9998 !important;
 }
 
 
-/* Lebar Scrollbar */
+/* --- CUSTOM SCROLLBAR --- */
 ::-webkit-scrollbar {
     width: 8px;
     height: 8px;
 }
 
-/* Track (Jalur) */
 ::-webkit-scrollbar-track {
     background: var(--scroll-track); 
 }
 
-/* Thumb (Batang Scroll) */
 ::-webkit-scrollbar-thumb {
     background: var(--scroll-thumb);
     border-radius: 4px;
 }
 
-/* Thumb saat di-hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: #10b981; /* Emerald 500 */
+    background: #10b981; 
 }
 
-/* Khusus Tabel agar scrollbarnya rapi */
+/* Scrollbar khusus tabel biar gak ganggu view */
 .custom-scrollbar::-webkit-scrollbar {
     height: 6px;
 }
@@ -206,95 +206,95 @@ dialog::backdrop {
     border-radius: 4px;
 }
 
-/* Light Mode Overrides for Dark Backgrounds */
+/* --- LIGHT MODE OVERRIDES (Penyesuaian warna khusus mode terang) --- */
 .light .bg-emerald-900\/20 {
-    background-color: rgba(226, 232, 240, 0.3) !important; /* Soft light gray */
+    background-color: rgba(226, 232, 240, 0.3) !important; 
 }
 
 .light .bg-emerald-900\/10 {
-    background-color: rgba(226, 232, 240, 0.2) !important; /* Very light gray */
+    background-color: rgba(226, 232, 240, 0.2) !important; 
 }
 
 .light .border-emerald-900\/20 {
-    border-color: rgba(203, 213, 225, 0.5) !important; /* Light border */
+    border-color: rgba(203, 213, 225, 0.5) !important; 
 }
 
 .light .bg-emerald-500\/10 {
-    background-color: rgba(16, 185, 129, 0.05) !important; /* Very light green */
+    background-color: rgba(16, 185, 129, 0.05) !important; 
 }
 
 .light .bg-emerald-500\/20 {
-    background-color: rgba(16, 185, 129, 0.1) !important; /* Light green */
+    background-color: rgba(16, 185, 129, 0.1) !important; 
 }
 
-/* Navbar & Footer Light Mode Overrides */
+/* Navbar & Footer Light Mode Adjustments */
 .light .bg-emerald-900\/50 {
-    background-color: rgba(16, 185, 129, 0.08) !important; /* Very light green for logo */
+    background-color: rgba(16, 185, 129, 0.08) !important; 
 }
 
 .light .bg-emerald-900\/30 {
-    background-color: rgba(16, 185, 129, 0.06) !important; /* Very light for logout button */
+    background-color: rgba(16, 185, 129, 0.06) !important; 
 }
 
 .light .bg-emerald-950\/30 {
-    background-color: rgba(241, 245, 249, 0.8) !important; /* Light gray for footer */
+    background-color: rgba(241, 245, 249, 0.8) !important; 
 }
 
 .light .border-emerald-400\/30 {
-    border-color: rgba(16, 185, 129, 0.2) !important; /* Light green border */
+    border-color: rgba(16, 185, 129, 0.2) !important; 
 }
 
 .light .border-emerald-500\/20 {
-    border-color: rgba(16, 185, 129, 0.15) !important; /* Light green border */
+    border-color: rgba(16, 185, 129, 0.15) !important; 
 }
 
 .light .border-emerald-500\/10 {
-    border-color: rgba(203, 213, 225, 0.4) !important; /* Light gray border */
+    border-color: rgba(203, 213, 225, 0.4) !important; 
 }
 
 .light .text-emerald-400 {
-    color: #059669 !important; /* Emerald 600 - Keep green! */
+    color: #059669 !important; 
 }
 
 .light .text-emerald-300\/60 {
-    color: #64748b !important; /* Medium gray for subtitle */
+    color: #64748b !important; 
 }
 
 .light .text-emerald-500 {
-    color: #10b981 !important; /* Emerald 500 - Vibrant green */
+    color: #10b981 !important; 
 }
 
 .light .text-slate-500 {
-    color: #64748b !important; /* Darker gray for better contrast */
+    color: #64748b !important; 
 }
 
 .light .text-slate-600 {
-    color: #475569 !important; /* Even darker for better readability */
+    color: #475569 !important; 
 }
 
 /* Toast Text Colors */
 .toast-text {
-    color: #e2e8f0; /* Slate 200 for Dark Mode */
+    color: #e2e8f0; 
 }
 
 .light .toast-text {
-    color: #0f172a !important; /* Near Black for Light Mode - High Contrast */
+    color: #0f172a !important; 
 }
 
-/* Button Text Contrast Overrides for Light Mode */
+/* Button Text Contrast Overrides */
 .light .text-cyan-50 {
-    color: #0891b2 !important; /* Cyan 600 */
+    color: #0891b2 !important; 
 }
 .light .text-blue-50 {
-    color: #2563eb !important; /* Blue 600 */
+    color: #2563eb !important; 
 }
 /* Subtitles */
 .light .text-cyan-400\/70 {
-    color: #0e7490 !important; /* Cyan 700 */
+    color: #0e7490 !important; 
 }
 .light .text-blue-400\/70 {
-    color: #1d4ed8 !important; /* Blue 700 */
+    color: #1d4ed8 !important; 
 }
 .light .text-red-400\/70 {
-   color: #b91c1c !important; /* Red 700 */
+    color: #b91c1c !important; 
 }

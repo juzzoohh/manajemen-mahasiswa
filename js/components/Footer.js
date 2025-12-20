@@ -1,3 +1,5 @@
+// --- HELPER COMPONENT: FOOTER ---
+// Bagian bawah website (copyright & sosmed)
 export const renderFooter = () => {
     // Ganti URL "#" dengan link profil asli Anda nanti
     return `
@@ -10,6 +12,7 @@ export const renderFooter = () => {
                 <span class="text-slate-600">Built with Vanilla JS Modular</span>
             </div>
 
+            <!-- Link Sosmed -->
             <div class="flex items-center gap-6">
                 
                 <a href="https://instagram.com/sanrozii" target="_blank" class="group flex items-center gap-2 text-slate-500 hover:text-pink-500 transition-all duration-300">

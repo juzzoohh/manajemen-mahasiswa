@@ -105,7 +105,7 @@ Anda harus menjalankannya menggunakan **Local Server**.
 1.  **Clone Repositori ini**
 
     ```bash
-    git clone [https://github.com/username-anda/portal-akademik-js.git](https://github.com/username-anda/academic-central-js.git)
+    git clone [https://github.com/username-anda/academic-central-js.git](https://github.com/username-anda/academic-central-js.git)
     ```
 
 2.  **Buka di VS Code**
@@ -146,7 +146,7 @@ Pull requests dipersilakan. Untuk perubahan besar, harap buka issue terlebih dah
 
 ## 📞 Kontak
 
-Dibuat oleh **[Juzzoohh]**
+Dibuat oleh **[Juzzoohh/IchsanFachrulrozi] (https://github.com/Juzzoohh)**
 
 [LinkeIn](https://www.google.com/search?q=https://linkedin.com/in/muhamad-ichsan-fachrulrozi-50216731b)
 [Instagram](https://www.google.com/search?q=https://instagram.com/sanrozii)

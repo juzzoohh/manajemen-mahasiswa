@@ -1,56 +1,64 @@
+// MODULE: UI MANAGER
+// Class khusus buat ngurusin tampilan: Render Tabel, Notifikasi (Toast), Modal Update, dll.
 export class UIManager {
     constructor(db) {
         this.db = db;
         this.tableBody = document.getElementById('table-body');
         this.timeDisplay = document.getElementById('stat-time');
         
-        // PAGINATION STATE
+        // STATE HALAMAN (PAGINATION)
         this.currentPage = 1;
         this.itemsPerPage = 10;
-        this.paramData = null; // Store current data context (filtered/sorted)
-
-        // Binding method agar 'this' tetap mengacu ke Class
+        this.paramData = null; // Nyimpen data yang lagi aktif (habis difilter/sort) biar pas pindah halaman datanya gak ilang
+        
+        // Binding method agar 'this' tetap mengacu ke Class pas dipanggil di event listener
         this.renderTable = this.renderTable.bind(this);
     }
 
+    // --- RENDER TABEL ---
+    // Fungsi ini yang bikin baris-baris tabel di HTML
     renderTable(data, execTime = null) {
-        this.paramData = data; // Keep reference to current dataset
+        this.paramData = data; // Simpen referensi data sekarang
         this.tableBody.innerHTML = '';
         
-        // Validasi Halaman (Reset ke 1 jika data berubah drastis)
+        // Validasi Halaman: Kalau data dikit, reset ke halaman 1
         const totalPages = Math.ceil(data.length / this.itemsPerPage);
         if (this.currentPage > totalPages) this.currentPage = 1;
         if (this.currentPage < 1) this.currentPage = 1;
 
-        // Update Stats Total Data
+        // Update Counter Total Data di UI
         const totalEl = document.getElementById('stat-total');
         if(totalEl) totalEl.innerText = this.db.data.length;
         
-        // Update Time Stats
+        // Update Time Stats (Waktu Eksekusi Algoritma)
         if (execTime !== null) {
+            // Warnain merah kalau lemot (> 100ms), ijo kalau cepet
             let color = execTime < 10 ? 'text-lime-500' : (execTime < 100 ? 'text-amber-500' : 'text-red-500');
             this.timeDisplay.innerHTML = `<span class="${color}">${execTime.toFixed(4)} ms</span>`;
         } else {
             this.timeDisplay.innerHTML = '<span class="text-slate-500">0.00 ms</span>';
         }
 
-        // Handle Empty State
+        // Kalau Data Kosong
         if (!data || data.length === 0) {
             this.tableBody.innerHTML = `<tr><td colspan="4" class="text-center py-10 opacity-50 font-mono text-xs" style="color: var(--text-muted);">Data tidak ditemukan / Database kosong</td></tr>`;
             this.renderPaginationControls(0);
             return;
         }
 
-        // --- PAGINATION LOGIC ---
+        // --- LOGIKA PAGINATION ---
+        // Potong data sesuai halaman yang dipilih
         const start = (this.currentPage - 1) * this.itemsPerPage;
         const end = start + this.itemsPerPage;
         const viewData = data.slice(start, end); 
         // ------------------------
         
+        // Loop data yang udah dipotong dan bikin baris tabelnya
         viewData.forEach(mhs => {
-            const row = document.createElement('tr');
+             const row = document.createElement('tr');
             row.className = 'hover:bg-emerald-500/5 transition group border-b border-emerald-500/5 last:border-none';
             
+            // Pewarnaan IPK: >3.5 Ijo, >3.0 Kuning, <3.0 Merah
             const ipkColor = mhs.ipk >= 3.5 ? 'text-emerald-400 font-bold' : mhs.ipk >= 3.0 ? 'text-amber-400 font-bold' : 'text-red-400 font-bold';
             
             row.innerHTML = `
@@ -70,21 +78,20 @@ export class UIManager {
                 </td>
             `;
             
-            // --- LOGIKA HAPUS (YANG DIPERBAIKI) ---
+            // --- EVENT HANDLER TOMBOL DELETE ---
             const btnDelete = row.querySelector('.btn-delete');
             btnDelete.addEventListener('click', async () => {
                 if(confirm(`Yakin ingin menghapus ${mhs.nama}?`)) {
                     
-                    // Efek UI: Ubah cursor jadi loading
+                    // Efek UI: Ubah cursor jadi loading dan button jadi spinner
                     document.body.style.cursor = 'wait';
-                    btnDelete.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i>'; // Spinner icon
+                    btnDelete.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i>'; 
                     
                     try {
-                        // KUNCI PERBAIKAN: Tambahkan 'await'
-                        // Kita tunggu db.delete selesai (termasuk delay palsunya)
+                        // Hapus dari database (await karena ada delay simulasi)
                         await this.db.delete(mhs.nim); 
                         
-                        // Setelah selesai hapus, baru refresh tampilan
+                        // Refresh tabel dng data baru
                         this.refreshDashboard();
                         this.showToast('Data berhasil dihapus', 'green');
                         
@@ -96,7 +103,7 @@ export class UIManager {
                 }
             });
             
-            // Logika Edit
+            // Event Handler Tombol Edit
             row.querySelector('.btn-edit').addEventListener('click', () => {
                 this.openEditModal(mhs);
             });
@@ -107,10 +114,11 @@ export class UIManager {
         this.renderPaginationControls(totalPages);
     }
 
+    // --- KONTROL PAGINATION (PREV/NEXT) ---
     renderPaginationControls(totalPages) {
         let container = document.getElementById('pagination-container');
         if (!container) {
-             // Create container if not exists (append after table)
+             // Kalau belum ada container pagination, bikin baru di bawah tabel
              const tableWrapper = document.querySelector('.overflow-x-auto');
              container = document.createElement('div');
              container.id = 'pagination-container';
@@ -118,6 +126,7 @@ export class UIManager {
              tableWrapper.parentNode.appendChild(container);
         }
 
+        // Kalau cuma 1 halaman, sembunyiin paginationnya
         if (totalPages <= 1) {
             container.innerHTML = '';
             container.classList.add('hidden');
@@ -142,13 +151,14 @@ export class UIManager {
         const btnPrev = container.querySelector('#btn-prev');
         const btnNext = container.querySelector('#btn-next');
 
-        btnPrev.disabled = this.currentPage === 1;
-        btnNext.disabled = this.currentPage === totalPages;
+        btnPrev.disabled = this.currentPage === 1; // Disable Prev kalau di halaman 1
+        btnNext.disabled = this.currentPage === totalPages; // Disable Next kalau di halaman terakhir
 
+        // Logic Klik Prev/Next
         btnPrev.onclick = () => {
             if(this.currentPage > 1) {
                 this.currentPage--;
-                this.renderTable(this.paramData); // Re-render with current data
+                this.renderTable(this.paramData); // Render ulang
             }
         };
 
@@ -160,13 +170,14 @@ export class UIManager {
         };
     }
 
+    // Helper buat refresh tampilan data terbaru
     refreshDashboard() {
-        // Ambil data terbaru dari memory dan render ulang
-        // Reset to page 1 for fresh view usually, or keep page? Let's keep page logic in renderTable
         this.renderTable(this.db.data);
     }
 
+    // --- MODAL EDIT ---
     openEditModal(mhs) {
+        // Isi form dengan data mahasiswa yang mau diedit
         document.getElementById('edit-old-nim').value = mhs.nim;
         document.getElementById('edit-nama').value = mhs.nama;
         document.getElementById('edit-nim').value = mhs.nim;
@@ -174,17 +185,19 @@ export class UIManager {
         document.getElementById('edit-ipk').value = mhs.ipk;
         
         const modal = document.getElementById('editModal');
-        modal.showModal();
+        modal.showModal(); // Fungsi native HTML Dialog element
         
-        // Animasi Modal Masuk
+        // Animasi Modal Masuk (GSAP)
         gsap.fromTo(modal, {opacity:0, scale:0.95}, {opacity:1, scale:1, duration:0.3, ease: "back.out(1.2)"});
     }
 
+    // --- TOAST NOTIFICATION ---
+    // Notifikasi melayang di pojok
     showToast(msg, color) {
         const t = document.getElementById('toast-container');
         const div = document.createElement('div');
         
-        // Styling Toast Glassmorphism
+        // Styling Toast sesuai warna (Green/Red/Blue)
         const borderColor = color === 'red' ? 'border-red-500' : (color === 'blue' ? 'border-blue-500' : 'border-emerald-500');
         const textColor = color === 'red' ? 'text-red-400' : (color === 'blue' ? 'text-blue-400' : 'text-emerald-400');
         const icon = color === 'red' ? 'fa-circle-xmark' : (color === 'blue' ? 'fa-circle-info' : 'fa-circle-check');
@@ -194,7 +207,6 @@ export class UIManager {
             <i class="fa-solid ${icon} ${textColor} text-xl"></i>
             <span class="font-bold text-sm toast-text">${msg}</span>
         `;
-        
         
         t.appendChild(div);
 
@@ -207,9 +219,12 @@ export class UIManager {
         }, 3000);
     }
 
+    // --- LOADING OVERLAY ---
+    // Layar hitam transparan + spinner pas lagi proses berat
     toggleLoading(show, msg = 'Memproses...') {
         let overlay = document.getElementById('loading-overlay');
         
+        // Kalau elemen overlay belum ada, bikin dulu
         if (!overlay) {
             overlay = document.createElement('div');
             overlay.id = 'loading-overlay';
@@ -227,13 +242,14 @@ export class UIManager {
         if (show) {
             if(textEl) textEl.innerText = msg;
             overlay.classList.remove('hidden');
-            // Little delay to allow display block to apply before opacity transition
+            // Animasi masuk
             requestAnimationFrame(() => {
                 overlay.classList.remove('opacity-0');
                 overlay.querySelector('div').classList.remove('scale-90');
                 overlay.querySelector('div').classList.add('scale-100');
             });
         } else {
+            // Animasi keluar
             overlay.classList.add('opacity-0');
             overlay.querySelector('div').classList.add('scale-90');
             overlay.querySelector('div').classList.remove('scale-100');
